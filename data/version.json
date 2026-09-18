@@ -1,7 +1,7 @@
 {
   "version": "2026-09",
-  "updatedAt": "2026-09-18T21:36:23+00:00",
-  "sha256": "edb322f4e118adf13354857f9c42d7caeed95a9ac61a2ebd7e40c7f9afa2be29",
+  "updatedAt": "2026-09-18T21:36:45+00:00",
+  "sha256": "23176a979f47c216f4a9e60218880ef1959c7872210072dc700d5d9f037e2fd0",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "carLines": [
     {
@@ -93,6 +93,11 @@
       "name": "타스만",
       "trims": 10,
       "options": 10
+    },
+    {
+      "name": "니로",
+      "trims": 3,
+      "options": 12
     }
   ]
 }

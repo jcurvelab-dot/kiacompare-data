@@ -36752,6 +36752,559 @@
           "includes": []
         }
       }
+    },
+    {
+      "id": "니로",
+      "name": "니로",
+      "month": "2026-09",
+      "source": "더 뉴 니로.xlsx",
+      "trims": [
+        {
+          "id": "SGJJ59GD6",
+          "name": "하이브리드 트렌디",
+          "code": "SGJJ59GD6",
+          "basePrice": 30270000,
+          "deltaFromMin": 0,
+          "includedOptions": []
+        },
+        {
+          "id": "SGJJ59HD6",
+          "name": "하이브리드 프레스티지",
+          "code": "SGJJ59HD6",
+          "basePrice": 33420000,
+          "deltaFromMin": 3150000,
+          "includedOptions": [
+            {
+              "id": "cnv",
+              "label": "컨비니언스",
+              "code": "CVN",
+              "note": "하이브리드 트렌디에서는 CVN 선택(+비용) → 이 트림 기본가에 포함",
+              "includes": []
+            }
+          ]
+        },
+        {
+          "id": "SGJJ59JD6",
+          "name": "하이브리드 시그니처",
+          "code": "SGJJ59JD6",
+          "basePrice": 36150000,
+          "deltaFromMin": 5880000,
+          "includedOptions": [
+            {
+              "id": "cnv",
+              "label": "컨비니언스",
+              "code": "CVN",
+              "note": "하이브리드 트렌디에서는 CVN 선택(+비용) → 이 트림 기본가에 포함",
+              "includes": []
+            },
+            {
+              "id": "clt",
+              "label": "12.3인치 클러스터",
+              "code": "CLT",
+              "note": "하이브리드 트렌디에서는 CLT 선택(+비용) → 이 트림 기본가에 포함",
+              "includes": [
+                "트림별 차이: 하이브리드는 CLT +115만, 하이브리드는 CLT +40만"
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "sty",
+          "label": "스타일",
+          "sublabel": "STY",
+          "headerPrice": 970000,
+          "codesByTrim": {
+            "SGJJ59HD6": "STY",
+            "SGJJ59JD6": "STY"
+          },
+          "pricesByTrim": {
+            "SGJJ59HD6": 970000,
+            "SGJJ59JD6": 970000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "cpt",
+          "label": "컴포트",
+          "sublabel": "CPT",
+          "headerPrice": null,
+          "codesByTrim": {
+            "SGJJ59HD6": "CPT",
+            "SGJJ59JD6": "CPT"
+          },
+          "pricesByTrim": {
+            "SGJJ59HD6": 750000,
+            "SGJJ59JD6": 550000
+          },
+          "trimDiff": "하이브리드는 CPT +75만, 하이브리드는 CPT +55만",
+          "includes": [
+            "트림별 차이: 하이브리드는 CPT +75만, 하이브리드는 CPT +55만"
+          ]
+        },
+        {
+          "id": "sct",
+          "label": "스마트커넥트",
+          "sublabel": "SCT",
+          "headerPrice": 850000,
+          "codesByTrim": {
+            "SGJJ59HD6": "SCT",
+            "SGJJ59JD6": "SCT"
+          },
+          "pricesByTrim": {
+            "SGJJ59HD6": 850000,
+            "SGJJ59JD6": 850000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "b2p",
+          "label": "빌트인캠2 플러스",
+          "sublabel": "B2P",
+          "headerPrice": 450000,
+          "codesByTrim": {
+            "SGJJ59GD6": "B2P",
+            "SGJJ59HD6": "B2P",
+            "SGJJ59JD6": "B2P"
+          },
+          "pricesByTrim": {
+            "SGJJ59JD6": 450000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "hud",
+          "label": "HUD",
+          "sublabel": "HUD",
+          "headerPrice": 590000,
+          "codesByTrim": {
+            "SGJJ59HD6": "HUD",
+            "SGJJ59JD6": "HUD"
+          },
+          "pricesByTrim": {
+            "SGJJ59JD6": 590000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "cnv",
+          "label": "컨비니언스",
+          "sublabel": "CVN",
+          "headerPrice": 650000,
+          "codesByTrim": {
+            "SGJJ59GD6": "CVN"
+          },
+          "pricesByTrim": {
+            "SGJJ59GD6": 650000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "clt",
+          "label": "12.3인치 클러스터",
+          "sublabel": "CLT",
+          "headerPrice": null,
+          "codesByTrim": {
+            "SGJJ59GD6": "CLT",
+            "SGJJ59HD6": "CLT"
+          },
+          "pricesByTrim": {
+            "SGJJ59GD6": 1150000,
+            "SGJJ59HD6": 400000
+          },
+          "trimDiff": "하이브리드는 CLT +115만, 하이브리드는 CLT +40만",
+          "includes": [
+            "트림별 차이: 하이브리드는 CLT +115만, 하이브리드는 CLT +40만"
+          ]
+        },
+        {
+          "id": "r18",
+          "label": "18인치휠",
+          "sublabel": "R18",
+          "headerPrice": 490000,
+          "codesByTrim": {
+            "SGJJ59GD6": "R18",
+            "SGJJ59HD6": "R18",
+            "SGJJ59JD6": "R18"
+          },
+          "pricesByTrim": {
+            "SGJJ59GD6": 490000,
+            "SGJJ59HD6": 490000,
+            "SGJJ59JD6": 490000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "dwp1",
+          "label": "드라이브와이즈Ⅰ",
+          "sublabel": "DWP1",
+          "headerPrice": 420000,
+          "codesByTrim": {
+            "SGJJ59GD6": "DWP1",
+            "SGJJ59HD6": "DWP1",
+            "SGJJ59JD6": "DWP1"
+          },
+          "pricesByTrim": {
+            "SGJJ59GD6": 420000,
+            "SGJJ59HD6": 420000,
+            "SGJJ59JD6": 420000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "dwp2",
+          "label": "드라이브와이즈Ⅱ",
+          "sublabel": "DWP2",
+          "headerPrice": 990000,
+          "codesByTrim": {
+            "SGJJ59HD6": "DWP2",
+            "SGJJ59JD6": "DWP2"
+          },
+          "pricesByTrim": {
+            "SGJJ59JD6": 990000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "srfl",
+          "label": "선루프+LED실내등",
+          "sublabel": "SRFL",
+          "headerPrice": 450000,
+          "codesByTrim": {
+            "SGJJ59HD6": "SRFL",
+            "SGJJ59JD6": "SRFL"
+          },
+          "pricesByTrim": {
+            "SGJJ59HD6": 450000,
+            "SGJJ59JD6": 450000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "hkn",
+          "label": "하만카돈사운드",
+          "sublabel": "HKN",
+          "headerPrice": 590000,
+          "codesByTrim": {
+            "SGJJ59JD6": "HKN"
+          },
+          "pricesByTrim": {
+            "SGJJ59JD6": 590000
+          },
+          "trimDiff": null,
+          "includes": []
+        }
+      ],
+      "cells": {
+        "SGJJ59GD6|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "SGJJ59GD6|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "SGJJ59GD6|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "SGJJ59GD6|b2p": {
+          "state": "선택",
+          "price": null,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59GD6|hud": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "SGJJ59GD6|cnv": {
+          "state": "선택",
+          "price": 650000,
+          "code": "CVN",
+          "name": "컨비니언스",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59GD6|clt": {
+          "state": "선택",
+          "price": 1150000,
+          "code": "CLT",
+          "name": "12.3인치 클러스터",
+          "note": "하이브리드는 CLT +115만, 하이브리드는 CLT +40만",
+          "includes": [
+            "트림별 차이: 하이브리드는 CLT +115만, 하이브리드는 CLT +40만"
+          ]
+        },
+        "SGJJ59GD6|r18": {
+          "state": "선택",
+          "price": 490000,
+          "code": "R18",
+          "name": "18인치휠",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59GD6|dwp1": {
+          "state": "선택",
+          "price": 420000,
+          "code": "DWP1",
+          "name": "드라이브와이즈Ⅰ",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59GD6|dwp2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈Ⅱ",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "SGJJ59GD6|srfl": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "선루프+LED실내등",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "SGJJ59GD6|hkn": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "하만카돈사운드",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "SGJJ59HD6|sty": {
+          "state": "선택",
+          "price": 970000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59HD6|cpt": {
+          "state": "선택",
+          "price": 750000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "하이브리드는 CPT +75만, 하이브리드는 CPT +55만",
+          "includes": [
+            "트림별 차이: 하이브리드는 CPT +75만, 하이브리드는 CPT +55만"
+          ]
+        },
+        "SGJJ59HD6|sct": {
+          "state": "선택",
+          "price": 850000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59HD6|b2p": {
+          "state": "선택",
+          "price": null,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59HD6|hud": {
+          "state": "선택",
+          "price": null,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59HD6|cnv": {
+          "state": "포함",
+          "price": null,
+          "code": "CVN",
+          "name": "컨비니언스",
+          "note": "하이브리드 트렌디에서는 CVN 선택(+비용) → 이 트림 기본가에 포함",
+          "includes": []
+        },
+        "SGJJ59HD6|clt": {
+          "state": "선택",
+          "price": 400000,
+          "code": "CLT",
+          "name": "12.3인치 클러스터",
+          "note": "하이브리드는 CLT +115만, 하이브리드는 CLT +40만",
+          "includes": [
+            "트림별 차이: 하이브리드는 CLT +115만, 하이브리드는 CLT +40만"
+          ]
+        },
+        "SGJJ59HD6|r18": {
+          "state": "선택",
+          "price": 490000,
+          "code": "R18",
+          "name": "18인치휠",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59HD6|dwp1": {
+          "state": "선택",
+          "price": 420000,
+          "code": "DWP1",
+          "name": "드라이브와이즈Ⅰ",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59HD6|dwp2": {
+          "state": "선택",
+          "price": null,
+          "code": "DWP2",
+          "name": "드라이브와이즈Ⅱ",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59HD6|srfl": {
+          "state": "선택",
+          "price": 450000,
+          "code": "SRFL",
+          "name": "선루프+LED실내등",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59HD6|hkn": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "하만카돈사운드",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "SGJJ59JD6|sty": {
+          "state": "선택",
+          "price": 970000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59JD6|cpt": {
+          "state": "선택",
+          "price": 550000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "하이브리드는 CPT +75만, 하이브리드는 CPT +55만",
+          "includes": [
+            "트림별 차이: 하이브리드는 CPT +75만, 하이브리드는 CPT +55만"
+          ]
+        },
+        "SGJJ59JD6|sct": {
+          "state": "선택",
+          "price": 850000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59JD6|b2p": {
+          "state": "선택",
+          "price": 450000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59JD6|hud": {
+          "state": "선택",
+          "price": 590000,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59JD6|cnv": {
+          "state": "포함",
+          "price": null,
+          "code": "CVN",
+          "name": "컨비니언스",
+          "note": "하이브리드 트렌디에서는 CVN 선택(+비용) → 이 트림 기본가에 포함",
+          "includes": []
+        },
+        "SGJJ59JD6|clt": {
+          "state": "포함",
+          "price": null,
+          "code": "CLT",
+          "name": "12.3인치 클러스터",
+          "note": "하이브리드 트렌디에서는 CLT 선택(+비용) → 이 트림 기본가에 포함",
+          "includes": [
+            "트림별 차이: 하이브리드는 CLT +115만, 하이브리드는 CLT +40만"
+          ]
+        },
+        "SGJJ59JD6|r18": {
+          "state": "선택",
+          "price": 490000,
+          "code": "R18",
+          "name": "18인치휠",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59JD6|dwp1": {
+          "state": "선택",
+          "price": 420000,
+          "code": "DWP1",
+          "name": "드라이브와이즈Ⅰ",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59JD6|dwp2": {
+          "state": "선택",
+          "price": 990000,
+          "code": "DWP2",
+          "name": "드라이브와이즈Ⅱ",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59JD6|srfl": {
+          "state": "선택",
+          "price": 450000,
+          "code": "SRFL",
+          "name": "선루프+LED실내등",
+          "note": null,
+          "includes": []
+        },
+        "SGJJ59JD6|hkn": {
+          "state": "선택",
+          "price": 590000,
+          "code": "HKN",
+          "name": "하만카돈사운드",
+          "note": null,
+          "includes": []
+        }
+      }
     }
   ]
 }
