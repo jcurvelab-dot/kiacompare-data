@@ -1,13 +1,68 @@
 {
   "version": "2026-09",
-  "updatedAt": "2026-09-18T21:28:09+00:00",
-  "sha256": "f1900e1b21460d8ae3c9e2378f763341e5b1d676c9a6a3838b5964d1a7ccae92",
+  "updatedAt": "2026-09-18T21:36:23+00:00",
+  "sha256": "edb322f4e118adf13354857f9c42d7caeed95a9ac61a2ebd7e40c7f9afa2be29",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "carLines": [
+    {
+      "name": "EV3",
+      "trims": 4,
+      "options": 12
+    },
+    {
+      "name": "EV4",
+      "trims": 8,
+      "options": 13
+    },
     {
       "name": "EV5",
       "trims": 10,
       "options": 10
+    },
+    {
+      "name": "EV9",
+      "trims": 17,
+      "options": 10
+    },
+    {
+      "name": "셀토스",
+      "trims": 11,
+      "options": 13
+    },
+    {
+      "name": "봉고1.2톤",
+      "trims": 8,
+      "options": 1
+    },
+    {
+      "name": "봉고1톤",
+      "trims": 30,
+      "options": 7
+    },
+    {
+      "name": "EV6",
+      "trims": 12,
+      "options": 13
+    },
+    {
+      "name": "K5",
+      "trims": 18,
+      "options": 14
+    },
+    {
+      "name": "K8",
+      "trims": 19,
+      "options": 18
+    },
+    {
+      "name": "PV5(상용)",
+      "trims": 4,
+      "options": 5
+    },
+    {
+      "name": "PV5(RV)",
+      "trims": 9,
+      "options": 13
     },
     {
       "name": "레이",
@@ -15,9 +70,29 @@
       "options": 7
     },
     {
-      "name": "K8",
-      "trims": 19,
-      "options": 18
+      "name": "모닝",
+      "trims": 6,
+      "options": 10
+    },
+    {
+      "name": "스포티지",
+      "trims": 22,
+      "options": 10
+    },
+    {
+      "name": "쏘렌토",
+      "trims": 60,
+      "options": 8
+    },
+    {
+      "name": "카니발",
+      "trims": 20,
+      "options": 10
+    },
+    {
+      "name": "타스만",
+      "trims": 10,
+      "options": 10
     }
   ]
 }
