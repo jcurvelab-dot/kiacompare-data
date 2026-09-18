@@ -1,0 +1,5006 @@
+{
+  "version": 1,
+  "updated": "2026-09",
+  "carLines": [
+    {
+      "id": "ev5",
+      "name": "EV5",
+      "month": "2026-09",
+      "source": "26my EV5.xlsx",
+      "trims": [
+        {
+          "id": "OVJJ5VE31",
+          "name": "에어 스탠다드",
+          "code": "OVJJ5VE31",
+          "basePrice": 43710000,
+          "deltaFromMin": 0
+        },
+        {
+          "id": "OVJJ5VA31",
+          "name": "에어 롱레인지",
+          "code": "OVJJ5VA31",
+          "basePrice": 48130000,
+          "deltaFromMin": 4420000
+        },
+        {
+          "id": "OVJJ5VAA1",
+          "name": "에어 롱레인지 AWD",
+          "code": "OVJJ5VAA1",
+          "basePrice": 50500000,
+          "deltaFromMin": 6790000
+        },
+        {
+          "id": "OVJJ5VF31",
+          "name": "어스 스탠다드",
+          "code": "OVJJ5VF31",
+          "basePrice": 47660000,
+          "deltaFromMin": 3950000
+        },
+        {
+          "id": "OVJJ5VB31",
+          "name": "어스 롱레인지",
+          "code": "OVJJ5VB31",
+          "basePrice": 52070000,
+          "deltaFromMin": 8360000
+        },
+        {
+          "id": "OVJJ5VBA1",
+          "name": "어스 롱레인지 AWD",
+          "code": "OVJJ5VBA1",
+          "basePrice": 54440000,
+          "deltaFromMin": 10730000
+        },
+        {
+          "id": "OVJJ5VG31",
+          "name": "GT-Line 스탠다드",
+          "code": "OVJJ5VG31",
+          "basePrice": 48810000,
+          "deltaFromMin": 5100000
+        },
+        {
+          "id": "OVJJ5VC31",
+          "name": "GT-Line 롱레인지",
+          "code": "OVJJ5VC31",
+          "basePrice": 53230000,
+          "deltaFromMin": 9520000
+        },
+        {
+          "id": "OVJJ5VCA1",
+          "name": "GT-Line 롱레인지 AWD",
+          "code": "OVJJ5VCA1",
+          "basePrice": 55600000,
+          "deltaFromMin": 11890000
+        },
+        {
+          "id": "OVJJ5VDA1",
+          "name": "GT 롱레인지 AWD",
+          "code": "OVJJ5VDA1",
+          "basePrice": 59540000,
+          "deltaFromMin": 15830000
+        }
+      ],
+      "options": [
+        {
+          "id": "sty",
+          "label": "스타일",
+          "sublabel": "STY",
+          "headerPrice": 890000,
+          "codesByTrim": {
+            "OVJJ5VE31": "STY",
+            "OVJJ5VA31": "STY",
+            "OVJJ5VAA1": "STY"
+          },
+          "pricesByTrim": {
+            "OVJJ5VE31": 890000,
+            "OVJJ5VA31": 890000,
+            "OVJJ5VAA1": 890000
+          }
+        },
+        {
+          "id": "dwp",
+          "label": "드라이브와이즈",
+          "sublabel": "DWP",
+          "headerPrice": 1340000,
+          "codesByTrim": {
+            "OVJJ5VE31": "DWP",
+            "OVJJ5VA31": "DWP",
+            "OVJJ5VAA1": "DWP",
+            "OVJJ5VF31": "DWP",
+            "OVJJ5VB31": "DWP",
+            "OVJJ5VBA1": "DWP",
+            "OVJJ5VG31": "DWP",
+            "OVJJ5VC31": "DWP",
+            "OVJJ5VCA1": "DWP"
+          },
+          "pricesByTrim": {
+            "OVJJ5VE31": 1340000,
+            "OVJJ5VA31": 1340000,
+            "OVJJ5VAA1": 1340000,
+            "OVJJ5VF31": 1340000,
+            "OVJJ5VB31": 1340000,
+            "OVJJ5VBA1": 1340000,
+            "OVJJ5VG31": 1340000,
+            "OVJJ5VC31": 1340000,
+            "OVJJ5VCA1": 1340000
+          }
+        },
+        {
+          "id": "cpt",
+          "label": "컴포트",
+          "sublabel": "CPT/CPT2",
+          "headerPrice": null,
+          "codesByTrim": {
+            "OVJJ5VE31": "CPT",
+            "OVJJ5VA31": "CPT",
+            "OVJJ5VAA1": "CPT",
+            "OVJJ5VF31": "CPT2",
+            "OVJJ5VB31": "CPT2",
+            "OVJJ5VBA1": "CPT2",
+            "OVJJ5VG31": "CPT2",
+            "OVJJ5VC31": "CPT2",
+            "OVJJ5VCA1": "CPT2"
+          },
+          "pricesByTrim": {
+            "OVJJ5VE31": 1380000,
+            "OVJJ5VA31": 1380000,
+            "OVJJ5VAA1": 1380000,
+            "OVJJ5VF31": 690000,
+            "OVJJ5VB31": 690000,
+            "OVJJ5VBA1": 690000,
+            "OVJJ5VG31": 690000,
+            "OVJJ5VC31": 690000,
+            "OVJJ5VCA1": 690000
+          }
+        },
+        {
+          "id": "mnt",
+          "label": "모니터링",
+          "sublabel": "MNT",
+          "headerPrice": 1380000,
+          "codesByTrim": {
+            "OVJJ5VE31": "MNT",
+            "OVJJ5VA31": "MNT",
+            "OVJJ5VAA1": "MNT",
+            "OVJJ5VF31": "MNT",
+            "OVJJ5VB31": "MNT",
+            "OVJJ5VBA1": "MNT",
+            "OVJJ5VG31": "MNT",
+            "OVJJ5VC31": "MNT",
+            "OVJJ5VCA1": "MNT",
+            "OVJJ5VDA1": "MNT"
+          },
+          "pricesByTrim": {
+            "OVJJ5VE31": 1380000,
+            "OVJJ5VA31": 1380000,
+            "OVJJ5VAA1": 1380000,
+            "OVJJ5VF31": 1380000,
+            "OVJJ5VB31": 1380000,
+            "OVJJ5VBA1": 1380000,
+            "OVJJ5VG31": 1380000,
+            "OVJJ5VC31": 1380000,
+            "OVJJ5VCA1": 1380000,
+            "OVJJ5VDA1": 1380000
+          }
+        },
+        {
+          "id": "srf",
+          "label": "파노라마선루프",
+          "sublabel": "SRF",
+          "headerPrice": null,
+          "codesByTrim": {
+            "OVJJ5VE31": "SRF",
+            "OVJJ5VA31": "SRF",
+            "OVJJ5VAA1": "SRF",
+            "OVJJ5VF31": "SRF",
+            "OVJJ5VB31": "SRF",
+            "OVJJ5VBA1": "SRF",
+            "OVJJ5VG31": "SRF",
+            "OVJJ5VC31": "SRF",
+            "OVJJ5VCA1": "SRF",
+            "OVJJ5VDA1": "SRF"
+          },
+          "pricesByTrim": {
+            "OVJJ5VE31": 1190000,
+            "OVJJ5VA31": 1190000,
+            "OVJJ5VAA1": 1190000,
+            "OVJJ5VF31": 1090000,
+            "OVJJ5VB31": 1090000,
+            "OVJJ5VBA1": 1090000,
+            "OVJJ5VG31": 1090000,
+            "OVJJ5VC31": 1090000,
+            "OVJJ5VCA1": 1090000,
+            "OVJJ5VDA1": 1090000
+          }
+        },
+        {
+          "id": "sct",
+          "label": "스마트커넥트",
+          "sublabel": "SCT",
+          "headerPrice": null,
+          "codesByTrim": {
+            "OVJJ5VE31": "SCT",
+            "OVJJ5VA31": "SCT",
+            "OVJJ5VAA1": "SCT",
+            "OVJJ5VF31": "SCT",
+            "OVJJ5VB31": "SCT",
+            "OVJJ5VBA1": "SCT",
+            "OVJJ5VG31": "SCT",
+            "OVJJ5VC31": "SCT",
+            "OVJJ5VCA1": "SCT",
+            "OVJJ5VDA1": "SCT"
+          },
+          "pricesByTrim": {
+            "OVJJ5VE31": 1340000,
+            "OVJJ5VA31": 1340000,
+            "OVJJ5VAA1": 1340000,
+            "OVJJ5VF31": 740000,
+            "OVJJ5VB31": 740000,
+            "OVJJ5VBA1": 740000,
+            "OVJJ5VG31": 740000,
+            "OVJJ5VC31": 740000,
+            "OVJJ5VCA1": 740000,
+            "OVJJ5VDA1": 740000
+          }
+        },
+        {
+          "id": "b2p",
+          "label": "빌트인캠2 플러스",
+          "sublabel": "B2P",
+          "headerPrice": null,
+          "codesByTrim": {
+            "OVJJ5VE31": "B2P",
+            "OVJJ5VA31": "B2P",
+            "OVJJ5VAA1": "B2P",
+            "OVJJ5VF31": "B2P",
+            "OVJJ5VB31": "B2P",
+            "OVJJ5VBA1": "B2P",
+            "OVJJ5VG31": "B2P",
+            "OVJJ5VC31": "B2P",
+            "OVJJ5VCA1": "B2P",
+            "OVJJ5VDA1": "B2P"
+          },
+          "pricesByTrim": {
+            "OVJJ5VE31": 590000,
+            "OVJJ5VA31": 590000,
+            "OVJJ5VAA1": 590000,
+            "OVJJ5VF31": 450000,
+            "OVJJ5VB31": 450000,
+            "OVJJ5VBA1": 450000,
+            "OVJJ5VG31": 450000,
+            "OVJJ5VC31": 450000,
+            "OVJJ5VCA1": 450000,
+            "OVJJ5VDA1": 450000
+          }
+        },
+        {
+          "id": "prs",
+          "label": "프리미엄사운드",
+          "sublabel": "PRS",
+          "headerPrice": 640000,
+          "codesByTrim": {
+            "OVJJ5VF31": "PRS",
+            "OVJJ5VB31": "PRS",
+            "OVJJ5VBA1": "PRS",
+            "OVJJ5VG31": "PRS",
+            "OVJJ5VC31": "PRS",
+            "OVJJ5VCA1": "PRS"
+          },
+          "pricesByTrim": {
+            "OVJJ5VF31": 640000,
+            "OVJJ5VB31": 640000,
+            "OVJJ5VBA1": 640000,
+            "OVJJ5VG31": 640000,
+            "OVJJ5VC31": 640000,
+            "OVJJ5VCA1": 640000
+          }
+        },
+        {
+          "id": "r19",
+          "label": "19인치휠",
+          "sublabel": "R19",
+          "headerPrice": 300000,
+          "codesByTrim": {
+            "OVJJ5VE31": "R19",
+            "OVJJ5VA31": "R19",
+            "OVJJ5VAA1": "R19",
+            "OVJJ5VF31": "R19",
+            "OVJJ5VB31": "R19",
+            "OVJJ5VBA1": "R19"
+          },
+          "pricesByTrim": {
+            "OVJJ5VE31": 300000,
+            "OVJJ5VA31": 300000,
+            "OVJJ5VAA1": 300000,
+            "OVJJ5VF31": 300000,
+            "OVJJ5VB31": 300000,
+            "OVJJ5VBA1": 300000
+          }
+        },
+        {
+          "id": "amp",
+          "label": "애프터마켓용 컬렉션",
+          "sublabel": "AMP",
+          "headerPrice": 150000,
+          "codesByTrim": {
+            "OVJJ5VA31": "AMP",
+            "OVJJ5VB31": "AMP"
+          },
+          "pricesByTrim": {
+            "OVJJ5VA31": 150000,
+            "OVJJ5VB31": 150000
+          }
+        }
+      ],
+      "cells": {
+        "OVJJ5VE31|sty": {
+          "state": "선택",
+          "price": 890000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "OVJJ5VE31|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VE31|cpt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "CPT",
+          "name": "컴포트1",
+          "note": null
+        },
+        "OVJJ5VE31|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VE31|srf": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VE31|sct": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VE31|b2p": {
+          "state": "선택",
+          "price": 590000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VE31|prs": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄사운드",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "OVJJ5VE31|r19": {
+          "state": "선택",
+          "price": 300000,
+          "code": "R19",
+          "name": "19인치휠",
+          "note": null
+        },
+        "OVJJ5VE31|amp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "애프터마켓용 컬렉션",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "OVJJ5VF31|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "에어 스탠다드에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VF31|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VF31|cpt": {
+          "state": "선택",
+          "price": 690000,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "OVJJ5VF31|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VF31|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VF31|sct": {
+          "state": "선택",
+          "price": 740000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VF31|b2p": {
+          "state": "선택",
+          "price": 450000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VF31|prs": {
+          "state": "선택",
+          "price": 640000,
+          "code": "PRS",
+          "name": "프리미엄사운드",
+          "note": null
+        },
+        "OVJJ5VF31|r19": {
+          "state": "선택",
+          "price": 300000,
+          "code": "R19",
+          "name": "19인치휠",
+          "note": null
+        },
+        "OVJJ5VF31|amp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "애프터마켓용 컬렉션",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "OVJJ5VA31|sty": {
+          "state": "선택",
+          "price": 890000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "OVJJ5VA31|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VA31|cpt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "CPT",
+          "name": "컴포트1",
+          "note": null
+        },
+        "OVJJ5VA31|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VA31|srf": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VA31|sct": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VA31|b2p": {
+          "state": "선택",
+          "price": 590000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VA31|prs": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "프리미엄사운드",
+          "note": "어스 스탠다드에서는 PRS 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VA31|r19": {
+          "state": "선택",
+          "price": 300000,
+          "code": "R19",
+          "name": "19인치휠",
+          "note": null
+        },
+        "OVJJ5VA31|amp": {
+          "state": "선택",
+          "price": 150000,
+          "code": "AMP",
+          "name": "애프터마켓용 컬렉션",
+          "note": null
+        },
+        "OVJJ5VG31|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "에어 스탠다드에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VG31|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VG31|cpt": {
+          "state": "선택",
+          "price": 690000,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "OVJJ5VG31|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VG31|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VG31|sct": {
+          "state": "선택",
+          "price": 740000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VG31|b2p": {
+          "state": "선택",
+          "price": 450000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VG31|prs": {
+          "state": "선택",
+          "price": 640000,
+          "code": "PRS",
+          "name": "프리미엄사운드",
+          "note": null
+        },
+        "OVJJ5VG31|r19": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "19인치휠",
+          "note": "에어 스탠다드에서는 R19 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VG31|amp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "애프터마켓용 컬렉션",
+          "note": "에어 롱레인지에서는 AMP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VAA1|sty": {
+          "state": "선택",
+          "price": 890000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "OVJJ5VAA1|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VAA1|cpt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "CPT",
+          "name": "컴포트1",
+          "note": null
+        },
+        "OVJJ5VAA1|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VAA1|srf": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VAA1|sct": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VAA1|b2p": {
+          "state": "선택",
+          "price": 590000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VAA1|prs": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "프리미엄사운드",
+          "note": "어스 스탠다드에서는 PRS 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VAA1|r19": {
+          "state": "선택",
+          "price": 300000,
+          "code": "R19",
+          "name": "19인치휠",
+          "note": null
+        },
+        "OVJJ5VAA1|amp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "애프터마켓용 컬렉션",
+          "note": "에어 롱레인지에서는 AMP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VB31|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "에어 스탠다드에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VB31|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VB31|cpt": {
+          "state": "선택",
+          "price": 690000,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "OVJJ5VB31|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VB31|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VB31|sct": {
+          "state": "선택",
+          "price": 740000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VB31|b2p": {
+          "state": "선택",
+          "price": 450000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VB31|prs": {
+          "state": "선택",
+          "price": 640000,
+          "code": "PRS",
+          "name": "프리미엄사운드",
+          "note": null
+        },
+        "OVJJ5VB31|r19": {
+          "state": "선택",
+          "price": 300000,
+          "code": "R19",
+          "name": "19인치휠",
+          "note": null
+        },
+        "OVJJ5VB31|amp": {
+          "state": "선택",
+          "price": 150000,
+          "code": "AMP",
+          "name": "애프터마켓용 컬렉션",
+          "note": null
+        },
+        "OVJJ5VC31|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "에어 스탠다드에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VC31|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VC31|cpt": {
+          "state": "선택",
+          "price": 690000,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "OVJJ5VC31|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VC31|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VC31|sct": {
+          "state": "선택",
+          "price": 740000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VC31|b2p": {
+          "state": "선택",
+          "price": 450000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VC31|prs": {
+          "state": "선택",
+          "price": 640000,
+          "code": "PRS",
+          "name": "프리미엄사운드",
+          "note": null
+        },
+        "OVJJ5VC31|r19": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "19인치휠",
+          "note": "에어 스탠다드에서는 R19 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VC31|amp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "애프터마켓용 컬렉션",
+          "note": "에어 롱레인지에서는 AMP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VBA1|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "에어 스탠다드에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VBA1|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VBA1|cpt": {
+          "state": "선택",
+          "price": 690000,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "OVJJ5VBA1|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VBA1|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VBA1|sct": {
+          "state": "선택",
+          "price": 740000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VBA1|b2p": {
+          "state": "선택",
+          "price": 450000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VBA1|prs": {
+          "state": "선택",
+          "price": 640000,
+          "code": "PRS",
+          "name": "프리미엄사운드",
+          "note": null
+        },
+        "OVJJ5VBA1|r19": {
+          "state": "선택",
+          "price": 300000,
+          "code": "R19",
+          "name": "19인치휠",
+          "note": null
+        },
+        "OVJJ5VBA1|amp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "애프터마켓용 컬렉션",
+          "note": "에어 롱레인지에서는 AMP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VCA1|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "에어 스탠다드에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VCA1|dwp": {
+          "state": "선택",
+          "price": 1340000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "OVJJ5VCA1|cpt": {
+          "state": "선택",
+          "price": 690000,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "OVJJ5VCA1|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VCA1|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VCA1|sct": {
+          "state": "선택",
+          "price": 740000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VCA1|b2p": {
+          "state": "선택",
+          "price": 450000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VCA1|prs": {
+          "state": "선택",
+          "price": 640000,
+          "code": "PRS",
+          "name": "프리미엄사운드",
+          "note": null
+        },
+        "OVJJ5VCA1|r19": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "19인치휠",
+          "note": "에어 스탠다드에서는 R19 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VCA1|amp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "애프터마켓용 컬렉션",
+          "note": "에어 롱레인지에서는 AMP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VDA1|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "에어 스탠다드에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VDA1|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "에어 스탠다드에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VDA1|cpt": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "에어 스탠다드에서는 CPT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VDA1|mnt": {
+          "state": "선택",
+          "price": 1380000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null
+        },
+        "OVJJ5VDA1|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "파노라마선루프",
+          "note": null
+        },
+        "OVJJ5VDA1|sct": {
+          "state": "선택",
+          "price": 740000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "OVJJ5VDA1|b2p": {
+          "state": "선택",
+          "price": 450000,
+          "code": "B2P",
+          "name": "빌트인캠2 플러스",
+          "note": null
+        },
+        "OVJJ5VDA1|prs": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "프리미엄사운드",
+          "note": "어스 스탠다드에서는 PRS 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VDA1|r19": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "19인치휠",
+          "note": "에어 스탠다드에서는 R19 선택 옵션 → 이 트림 기본 포함"
+        },
+        "OVJJ5VDA1|amp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "애프터마켓용 컬렉션",
+          "note": "에어 롱레인지에서는 AMP 선택 옵션 → 이 트림 기본 포함"
+        }
+      }
+    },
+    {
+      "id": "ray",
+      "name": "레이",
+      "month": "2026-09",
+      "source": "27my 레이.xlsx",
+      "trims": [
+        {
+          "id": "TMJC5AF3I",
+          "name": "트렌디 (가솔린 1.0)",
+          "code": "TMJC5AF3I",
+          "basePrice": 15550000,
+          "deltaFromMin": 750000
+        },
+        {
+          "id": "TMJC5AC3I",
+          "name": "프레스티지 (가솔린 1.0)",
+          "code": "TMJC5AC3I",
+          "basePrice": 18150000,
+          "deltaFromMin": 3350000
+        },
+        {
+          "id": "TMJC5AH3I",
+          "name": "시그니처 (가솔린 1.0)",
+          "code": "TMJC5AH3I",
+          "basePrice": 19550000,
+          "deltaFromMin": 4750000
+        },
+        {
+          "id": "TMJC5AR3I",
+          "name": "X-Line (가솔린 1.0)",
+          "code": "TMJC5AR3I",
+          "basePrice": 20600000,
+          "deltaFromMin": 5800000
+        },
+        {
+          "id": "TMJV5AY3I",
+          "name": "밴-트렌디 (가솔린 1.0)",
+          "code": "TMJV5AY3I",
+          "basePrice": 14900000,
+          "deltaFromMin": 100000
+        },
+        {
+          "id": "TMJV1AY3I",
+          "name": "밴-트렌디 1인승 (가솔린 1.0)",
+          "code": "TMJV1AY3I",
+          "basePrice": 14800000,
+          "deltaFromMin": 0
+        },
+        {
+          "id": "TMJV5AK3I",
+          "name": "밴-프레스티지 (가솔린 1.0)",
+          "code": "TMJV5AK3I",
+          "basePrice": 15550000,
+          "deltaFromMin": 750000
+        },
+        {
+          "id": "TMJV1AK3I",
+          "name": "밴-프레스티지 1인승 (가솔린 1.0)",
+          "code": "TMJV1AK3I",
+          "basePrice": 15400000,
+          "deltaFromMin": 600000
+        },
+        {
+          "id": "TMJV5AL3I",
+          "name": "밴-프레스티지 스페셜 (가솔린 1.0)",
+          "code": "TMJV5AL3I",
+          "basePrice": 16100000,
+          "deltaFromMin": 1300000
+        },
+        {
+          "id": "TMJV1AL3I",
+          "name": "밴-프레스티지 스페셜 1인승 (가솔린 1.0)",
+          "code": "TMJV1AL3I",
+          "basePrice": 15950000,
+          "deltaFromMin": 1150000
+        },
+        {
+          "id": "TMJC5VN3I",
+          "name": "라이트 (전기차 1.0)",
+          "code": "TMJC5VN3I",
+          "basePrice": 28520000,
+          "deltaFromMin": 13720000
+        },
+        {
+          "id": "TMJC5VO3I",
+          "name": "에어 (전기차 1.0)",
+          "code": "TMJC5VO3I",
+          "basePrice": 30620000,
+          "deltaFromMin": 15820000
+        },
+        {
+          "id": "TMJV5VP3I",
+          "name": "밴_라이트 (전기차 1.0)",
+          "code": "TMJV5VP3I",
+          "basePrice": 28170000,
+          "deltaFromMin": 13370000
+        },
+        {
+          "id": "TMJV1VP3I",
+          "name": "밴_라이트 1인승 (전기차 1.0)",
+          "code": "TMJV1VP3I",
+          "basePrice": 28070000,
+          "deltaFromMin": 13270000
+        },
+        {
+          "id": "TMJV5VQ3I",
+          "name": "밴_에어 (전기차 1.0)",
+          "code": "TMJV5VQ3I",
+          "basePrice": 28770000,
+          "deltaFromMin": 13970000
+        },
+        {
+          "id": "TMJV1VQ3I",
+          "name": "밴_에어 1인승 (전기차 1.0)",
+          "code": "TMJV1VQ3I",
+          "basePrice": 28620000,
+          "deltaFromMin": 13820000
+        }
+      ],
+      "options": [
+        {
+          "id": "sty",
+          "label": "스타일",
+          "sublabel": "STY",
+          "headerPrice": null,
+          "codesByTrim": {
+            "TMJC5AF3I": "STY",
+            "TMJC5AC3I": "STY",
+            "TMJC5AH3I": "STY",
+            "TMJV5AL3I": "STY",
+            "TMJV1AL3I": "STY",
+            "TMJC5VN3I": "STY",
+            "TMJV5VQ3I": "STY",
+            "TMJV1VQ3I": "STY"
+          },
+          "pricesByTrim": {
+            "TMJC5AF3I": 500000,
+            "TMJC5AC3I": 500000,
+            "TMJC5AH3I": 500000,
+            "TMJC5VN3I": 600000,
+            "TMJV5VQ3I": 600000,
+            "TMJV1VQ3I": 600000
+          }
+        },
+        {
+          "id": "dwp",
+          "label": "드라이브와이즈",
+          "sublabel": "DWP",
+          "headerPrice": 300000,
+          "codesByTrim": {
+            "TMJC5AF3I": "DWP",
+            "TMJC5AC3I": "DWP",
+            "TMJV5AY3I": "DWP",
+            "TMJV1AY3I": "DWP",
+            "TMJV5AK3I": "DWP",
+            "TMJV1AK3I": "DWP",
+            "TMJV5AL3I": "DWP",
+            "TMJV1AL3I": "DWP",
+            "TMJC5VN3I": "DWP",
+            "TMJV5VP3I": "DWP",
+            "TMJV1VP3I": "DWP",
+            "TMJV5VQ3I": "DWP",
+            "TMJV1VQ3I": "DWP"
+          },
+          "pricesByTrim": {
+            "TMJC5AF3I": 300000,
+            "TMJC5AC3I": 300000,
+            "TMJC5VN3I": 300000,
+            "TMJV5VP3I": 300000,
+            "TMJV1VP3I": 300000,
+            "TMJV5VQ3I": 300000,
+            "TMJV1VQ3I": 300000
+          }
+        },
+        {
+          "id": "cpt",
+          "label": "컴포트",
+          "sublabel": "CPT/CPT1/CPT2",
+          "headerPrice": null,
+          "codesByTrim": {
+            "TMJC5AF3I": "CPT1",
+            "TMJC5AC3I": "CPT2",
+            "TMJV5AK3I": "CPT",
+            "TMJV1AK3I": "CPT",
+            "TMJV5AL3I": "CPT",
+            "TMJV1AL3I": "CPT",
+            "TMJC5VN3I": "CPT2",
+            "TMJV5VP3I": "CPT1",
+            "TMJV1VP3I": "CPT1",
+            "TMJV5VQ3I": "CPT2"
+          },
+          "pricesByTrim": {
+            "TMJC5AF3I": 600000,
+            "TMJC5AC3I": 300000,
+            "TMJV5AK3I": 400000,
+            "TMJV1AK3I": 150000,
+            "TMJV5AL3I": 400000,
+            "TMJV1AL3I": 150000,
+            "TMJV5VP3I": 400000,
+            "TMJV1VP3I": 350000,
+            "TMJV5VQ3I": 250000
+          }
+        },
+        {
+          "id": "15r",
+          "label": "15인치 휠",
+          "sublabel": "15R",
+          "headerPrice": null,
+          "codesByTrim": {
+            "TMJC5AF3I": "15R",
+            "TMJC5AC3I": "15R",
+            "TMJV5AY3I": "15R",
+            "TMJV1AY3I": "15R",
+            "TMJV5AK3I": "15R",
+            "TMJV1AK3I": "15R",
+            "TMJV5AL3I": "15R",
+            "TMJV1AL3I": "15R"
+          },
+          "pricesByTrim": {
+            "TMJC5AF3I": 500000,
+            "TMJC5AC3I": 400000
+          }
+        },
+        {
+          "id": "dpa",
+          "label": "디스플레이오디오",
+          "sublabel": "DPA",
+          "headerPrice": 500000,
+          "codesByTrim": {
+            "TMJC5AF3I": "DPA"
+          },
+          "pricesByTrim": {
+            "TMJC5AF3I": 500000
+          }
+        },
+        {
+          "id": "nav",
+          "label": "내비게이션",
+          "sublabel": "NAV",
+          "headerPrice": null,
+          "codesByTrim": {
+            "TMJC5AF3I": "NAV",
+            "TMJC5AC3I": "NAV",
+            "TMJC5AH3I": "NAV",
+            "TMJC5AR3I": "NAV",
+            "TMJV5AY3I": "NAV",
+            "TMJV1AY3I": "NAV",
+            "TMJV5AK3I": "NAV",
+            "TMJV1AK3I": "NAV",
+            "TMJV5AL3I": "NAV",
+            "TMJV1AL3I": "NAV"
+          },
+          "pricesByTrim": {
+            "TMJC5AF3I": 1450000,
+            "TMJC5AC3I": 500000,
+            "TMJC5AH3I": 500000,
+            "TMJC5AR3I": 500000
+          }
+        },
+        {
+          "id": "pis1",
+          "label": "버튼시동팩",
+          "sublabel": "PIS1",
+          "headerPrice": 300000,
+          "codesByTrim": {
+            "TMJV5AY3I": "PIS1",
+            "TMJV1AY3I": "PIS1",
+            "TMJV5AK3I": "PIS1",
+            "TMJV1AK3I": "PIS1",
+            "TMJV5AL3I": "PIS1",
+            "TMJV1AL3I": "PIS1"
+          },
+          "pricesByTrim": {
+            "TMJV5AY3I": 300000,
+            "TMJV1AY3I": 300000,
+            "TMJV5AK3I": 300000,
+            "TMJV1AK3I": 300000,
+            "TMJV5AL3I": 300000,
+            "TMJV1AL3I": 300000
+          }
+        }
+      ],
+      "cells": {
+        "TMJV1AY3I|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1AY3I|dwp": {
+          "state": "선택",
+          "price": null,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV1AY3I|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1AY3I|15r": {
+          "state": "선택",
+          "price": null,
+          "code": "15R",
+          "name": "15인치 휠",
+          "note": null
+        },
+        "TMJV1AY3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1AY3I|nav": {
+          "state": "선택",
+          "price": null,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJV1AY3I|pis1": {
+          "state": "선택",
+          "price": 300000,
+          "code": "PIS1",
+          "name": "버튼시동팩",
+          "note": null
+        },
+        "TMJV5AY3I|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5AY3I|dwp": {
+          "state": "선택",
+          "price": null,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV5AY3I|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5AY3I|15r": {
+          "state": "선택",
+          "price": null,
+          "code": "15R",
+          "name": "15인치 휠",
+          "note": null
+        },
+        "TMJV5AY3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5AY3I|nav": {
+          "state": "선택",
+          "price": null,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJV5AY3I|pis1": {
+          "state": "선택",
+          "price": 300000,
+          "code": "PIS1",
+          "name": "버튼시동팩",
+          "note": null
+        },
+        "TMJV1AK3I|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1AK3I|dwp": {
+          "state": "선택",
+          "price": null,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV1AK3I|cpt": {
+          "state": "선택",
+          "price": 150000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": null
+        },
+        "TMJV1AK3I|15r": {
+          "state": "선택",
+          "price": null,
+          "code": "15R",
+          "name": "15인치 휠",
+          "note": null
+        },
+        "TMJV1AK3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1AK3I|nav": {
+          "state": "선택",
+          "price": null,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJV1AK3I|pis1": {
+          "state": "선택",
+          "price": 300000,
+          "code": "PIS1",
+          "name": "버튼시동팩",
+          "note": null
+        },
+        "TMJV5AK3I|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5AK3I|dwp": {
+          "state": "선택",
+          "price": null,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV5AK3I|cpt": {
+          "state": "선택",
+          "price": 400000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": null
+        },
+        "TMJV5AK3I|15r": {
+          "state": "선택",
+          "price": null,
+          "code": "15R",
+          "name": "15인치 휠",
+          "note": null
+        },
+        "TMJV5AK3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5AK3I|nav": {
+          "state": "선택",
+          "price": null,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJV5AK3I|pis1": {
+          "state": "선택",
+          "price": 300000,
+          "code": "PIS1",
+          "name": "버튼시동팩",
+          "note": null
+        },
+        "TMJC5AF3I|sty": {
+          "state": "선택",
+          "price": 500000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "TMJC5AF3I|dwp": {
+          "state": "선택",
+          "price": 300000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJC5AF3I|cpt": {
+          "state": "선택",
+          "price": 600000,
+          "code": "CPT1",
+          "name": "컴포트1",
+          "note": null
+        },
+        "TMJC5AF3I|15r": {
+          "state": "선택",
+          "price": 500000,
+          "code": "15R",
+          "name": "15인치 휠",
+          "note": null
+        },
+        "TMJC5AF3I|dpa": {
+          "state": "선택",
+          "price": 500000,
+          "code": "DPA",
+          "name": "디스플레이오디오",
+          "note": null
+        },
+        "TMJC5AF3I|nav": {
+          "state": "선택",
+          "price": 1450000,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJC5AF3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1AL3I|sty": {
+          "state": "선택",
+          "price": null,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "TMJV1AL3I|dwp": {
+          "state": "선택",
+          "price": null,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV1AL3I|cpt": {
+          "state": "선택",
+          "price": 150000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": null
+        },
+        "TMJV1AL3I|15r": {
+          "state": "선택",
+          "price": null,
+          "code": "15R",
+          "name": "15인치 휠",
+          "note": null
+        },
+        "TMJV1AL3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1AL3I|nav": {
+          "state": "선택",
+          "price": null,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJV1AL3I|pis1": {
+          "state": "선택",
+          "price": 300000,
+          "code": "PIS1",
+          "name": "버튼시동팩",
+          "note": null
+        },
+        "TMJV5AL3I|sty": {
+          "state": "선택",
+          "price": null,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "TMJV5AL3I|dwp": {
+          "state": "선택",
+          "price": null,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV5AL3I|cpt": {
+          "state": "선택",
+          "price": 400000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": null
+        },
+        "TMJV5AL3I|15r": {
+          "state": "선택",
+          "price": null,
+          "code": "15R",
+          "name": "15인치 휠",
+          "note": null
+        },
+        "TMJV5AL3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5AL3I|nav": {
+          "state": "선택",
+          "price": null,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJV5AL3I|pis1": {
+          "state": "선택",
+          "price": 300000,
+          "code": "PIS1",
+          "name": "버튼시동팩",
+          "note": null
+        },
+        "TMJC5AC3I|sty": {
+          "state": "선택",
+          "price": 500000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "TMJC5AC3I|dwp": {
+          "state": "선택",
+          "price": 300000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJC5AC3I|cpt": {
+          "state": "선택",
+          "price": 300000,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "TMJC5AC3I|15r": {
+          "state": "선택",
+          "price": 400000,
+          "code": "15R",
+          "name": "15인치 휠",
+          "note": null
+        },
+        "TMJC5AC3I|dpa": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "트렌디 (가솔린 1.0)에서는 DPA 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AC3I|nav": {
+          "state": "선택",
+          "price": 500000,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJC5AC3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5AH3I|sty": {
+          "state": "선택",
+          "price": 500000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "TMJC5AH3I|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "트렌디 (가솔린 1.0)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AH3I|cpt": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "트렌디 (가솔린 1.0)에서는 CPT1 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AH3I|15r": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "15인치 휠",
+          "note": "트렌디 (가솔린 1.0)에서는 15R 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AH3I|dpa": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "트렌디 (가솔린 1.0)에서는 DPA 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AH3I|nav": {
+          "state": "선택",
+          "price": 500000,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJC5AH3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5AR3I|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "트렌디 (가솔린 1.0)에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AR3I|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "트렌디 (가솔린 1.0)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AR3I|cpt": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "트렌디 (가솔린 1.0)에서는 CPT1 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AR3I|15r": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "15인치 휠",
+          "note": "트렌디 (가솔린 1.0)에서는 15R 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AR3I|dpa": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "트렌디 (가솔린 1.0)에서는 DPA 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5AR3I|nav": {
+          "state": "선택",
+          "price": 500000,
+          "code": "NAV",
+          "name": "내비게이션",
+          "note": null
+        },
+        "TMJC5AR3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VP3I|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VP3I|dwp": {
+          "state": "선택",
+          "price": 300000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV1VP3I|cpt": {
+          "state": "선택",
+          "price": 350000,
+          "code": "CPT1",
+          "name": "컴포트1",
+          "note": null
+        },
+        "TMJV1VP3I|15r": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "15인치 휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VP3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VP3I|nav": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "내비게이션",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VP3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VP3I|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VP3I|dwp": {
+          "state": "선택",
+          "price": 300000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV5VP3I|cpt": {
+          "state": "선택",
+          "price": 400000,
+          "code": "CPT1",
+          "name": "컴포트1",
+          "note": null
+        },
+        "TMJV5VP3I|15r": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "15인치 휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VP3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VP3I|nav": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "내비게이션",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VP3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5VN3I|sty": {
+          "state": "선택",
+          "price": 600000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "TMJC5VN3I|dwp": {
+          "state": "선택",
+          "price": 300000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJC5VN3I|cpt": {
+          "state": "선택",
+          "price": null,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "TMJC5VN3I|15r": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "15인치 휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5VN3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5VN3I|nav": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "내비게이션",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5VN3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VQ3I|sty": {
+          "state": "선택",
+          "price": 600000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "TMJV1VQ3I|dwp": {
+          "state": "선택",
+          "price": 300000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV1VQ3I|cpt": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "밴_라이트 1인승 (전기차 1.0)에서는 CPT1 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJV1VQ3I|15r": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "15인치 휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VQ3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VQ3I|nav": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "내비게이션",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV1VQ3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VQ3I|sty": {
+          "state": "선택",
+          "price": 600000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "TMJV5VQ3I|dwp": {
+          "state": "선택",
+          "price": 300000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "TMJV5VQ3I|cpt": {
+          "state": "선택",
+          "price": 250000,
+          "code": "CPT2",
+          "name": "컴포트2",
+          "note": null
+        },
+        "TMJV5VQ3I|15r": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "15인치 휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VQ3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VQ3I|nav": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "내비게이션",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJV5VQ3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5VO3I|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "라이트 (전기차 1.0)에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5VO3I|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "라이트 (전기차 1.0)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5VO3I|cpt": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "라이트 (전기차 1.0)에서는 CPT2 선택 옵션 → 이 트림 기본 포함"
+        },
+        "TMJC5VO3I|15r": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "15인치 휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5VO3I|dpa": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "디스플레이오디오",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5VO3I|nav": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "내비게이션",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "TMJC5VO3I|pis1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "버튼시동팩",
+          "note": "이 트림에서는 제공되지 않음"
+        }
+      }
+    },
+    {
+      "id": "k8",
+      "name": "K8",
+      "month": "2026-09",
+      "source": "27my K8.xlsx",
+      "trims": [
+        {
+          "id": "GLJS4AA36",
+          "name": "GSL (자가용 2.5)",
+          "code": "GLJS4AA36",
+          "basePrice": 37310000,
+          "deltaFromMin": 2020000
+        },
+        {
+          "id": "GLJS4AJ36",
+          "name": "GSL (자가용 2.5)",
+          "code": "GLJS4AJ36",
+          "basePrice": 38850000,
+          "deltaFromMin": 3560000
+        },
+        {
+          "id": "GLJS4AB36",
+          "name": "GSL (자가용 2.5)",
+          "code": "GLJS4AB36",
+          "basePrice": 41430000,
+          "deltaFromMin": 6140000
+        },
+        {
+          "id": "GLJS4AC36",
+          "name": "GSL (자가용 2.5)",
+          "code": "GLJS4AC36",
+          "basePrice": 45020000,
+          "deltaFromMin": 9730000
+        },
+        {
+          "id": "GLJS4BA36",
+          "name": "GSL (자가용 3.5)",
+          "code": "GLJS4BA36",
+          "basePrice": 40430000,
+          "deltaFromMin": 5140000
+        },
+        {
+          "id": "GLJS4BJ36",
+          "name": "GSL (자가용 3.5)",
+          "code": "GLJS4BJ36",
+          "basePrice": 41720000,
+          "deltaFromMin": 6430000
+        },
+        {
+          "id": "GLJS4BB36",
+          "name": "GSL (자가용 3.5)",
+          "code": "GLJS4BB36",
+          "basePrice": 44300000,
+          "deltaFromMin": 9010000
+        },
+        {
+          "id": "GLJS4BBA6",
+          "name": "GSL (자가용 3.5) AWD",
+          "code": "GLJS4BBA6",
+          "basePrice": 46480000,
+          "deltaFromMin": 11190000
+        },
+        {
+          "id": "GLJS4BC36",
+          "name": "GSL (자가용 3.5)",
+          "code": "GLJS4BC36",
+          "basePrice": 47890000,
+          "deltaFromMin": 12600000
+        },
+        {
+          "id": "GLJS4BCA6",
+          "name": "GSL (자가용 3.5) AWD",
+          "code": "GLJS4BCA6",
+          "basePrice": 50070000,
+          "deltaFromMin": 14780000
+        },
+        {
+          "id": "GLJS49A36",
+          "name": "HEV (자가용 1.6)",
+          "code": "GLJS49A36",
+          "basePrice": 43670000,
+          "deltaFromMin": 8380000
+        },
+        {
+          "id": "GLJS49J36",
+          "name": "HEV (자가용 1.6)",
+          "code": "GLJS49J36",
+          "basePrice": 45200000,
+          "deltaFromMin": 9910000
+        },
+        {
+          "id": "GLJS49B36",
+          "name": "HEV (자가용 1.6)",
+          "code": "GLJS49B36",
+          "basePrice": 47780000,
+          "deltaFromMin": 12490000
+        },
+        {
+          "id": "GLJS49C36",
+          "name": "HEV (자가용 1.6)",
+          "code": "GLJS49C36",
+          "basePrice": 51380000,
+          "deltaFromMin": 16090000
+        },
+        {
+          "id": "GLPS46G36",
+          "name": "LPi (일반LPi 3.5)",
+          "code": "GLPS46G36",
+          "basePrice": 37770000,
+          "deltaFromMin": 2480000
+        },
+        {
+          "id": "GLPS46B36",
+          "name": "LPi (일반LPi 3.5)",
+          "code": "GLPS46B36",
+          "basePrice": 41610000,
+          "deltaFromMin": 6320000
+        },
+        {
+          "id": "GLRS46G36",
+          "name": "LPi (렌터카 3.5)",
+          "code": "GLRS46G36",
+          "basePrice": 35910000,
+          "deltaFromMin": 620000
+        },
+        {
+          "id": "GLRS46B36",
+          "name": "LPi (렌터카 3.5)",
+          "code": "GLRS46B36",
+          "basePrice": 39550000,
+          "deltaFromMin": 4260000
+        },
+        {
+          "id": "GLTS46B36",
+          "name": "LPi (택시 3.5)",
+          "code": "GLTS46B36",
+          "basePrice": 35290000,
+          "deltaFromMin": 0
+        }
+      ],
+      "options": [
+        {
+          "id": "sty",
+          "label": "스타일",
+          "sublabel": "STY",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLJS4AA36": "STY",
+            "GLJS4AJ36": "STY",
+            "GLJS4AB36": "STY",
+            "GLJS4BA36": "STY",
+            "GLJS4BJ36": "STY",
+            "GLJS4BB36": "STY",
+            "GLJS4BBA6": "STY",
+            "GLJS49A36": "STY",
+            "GLJS49J36": "STY",
+            "GLJS49B36": "STY",
+            "GLPS46B36": "STY",
+            "GLRS46B36": "STY"
+          },
+          "pricesByTrim": {
+            "GLJS4AA36": 1190000,
+            "GLJS4AJ36": 1780000,
+            "GLJS4AB36": 1980000,
+            "GLJS4BA36": 1980000,
+            "GLJS4BJ36": 1780000,
+            "GLJS4BB36": 1980000,
+            "GLJS4BBA6": 1980000,
+            "GLJS49A36": 1190000,
+            "GLJS49J36": 1780000,
+            "GLJS49B36": 1980000,
+            "GLPS46B36": 1680000,
+            "GLRS46B36": 1600000
+          }
+        },
+        {
+          "id": "dwp",
+          "label": "드라이브와이즈",
+          "sublabel": "DWP",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLJS4AA36": "DWP",
+            "GLJS4AJ36": "DWP",
+            "GLJS4BA36": "DWP",
+            "GLJS4BJ36": "DWP",
+            "GLJS49A36": "DWP",
+            "GLJS49J36": "DWP",
+            "GLPS46G36": "DWP",
+            "GLPS46B36": "DWP",
+            "GLRS46G36": "DWP",
+            "GLRS46B36": "DWP",
+            "GLTS46B36": "DWP"
+          },
+          "pricesByTrim": {
+            "GLJS4AA36": 1090000,
+            "GLJS4AJ36": 640000,
+            "GLJS4BA36": 1090000,
+            "GLJS4BJ36": 640000,
+            "GLJS49A36": 1090000,
+            "GLJS49J36": 640000,
+            "GLPS46G36": 1090000,
+            "GLPS46B36": 1090000,
+            "GLRS46G36": 1030000,
+            "GLRS46B36": 1030000,
+            "GLTS46B36": 940000
+          }
+        },
+        {
+          "id": "cpt",
+          "label": "컴포트",
+          "sublabel": "CPT",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLPS46G36": "CPT",
+            "GLRS46G36": "CPT"
+          },
+          "pricesByTrim": {
+            "GLPS46G36": 1040000,
+            "GLRS46G36": 1220000
+          }
+        },
+        {
+          "id": "srf",
+          "label": "파노라마선루프",
+          "sublabel": "SRF",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLJS4AA36": "SRF",
+            "GLJS4AJ36": "SRF",
+            "GLJS4AB36": "SRF",
+            "GLJS4AC36": "SRF",
+            "GLJS4BA36": "SRF",
+            "GLJS4BJ36": "SRF",
+            "GLJS4BB36": "SRF",
+            "GLJS4BBA6": "SRF",
+            "GLJS4BC36": "SRF",
+            "GLJS4BCA6": "SRF",
+            "GLJS49A36": "SRF",
+            "GLJS49J36": "SRF",
+            "GLJS49B36": "SRF",
+            "GLJS49C36": "SRF",
+            "GLPS46G36": "SRF",
+            "GLPS46B36": "SRF",
+            "GLRS46G36": "SRF",
+            "GLRS46B36": "SRF"
+          },
+          "pricesByTrim": {
+            "GLJS4AA36": 1090000,
+            "GLJS4AJ36": 1090000,
+            "GLJS4AB36": 1090000,
+            "GLJS4AC36": 1090000,
+            "GLJS4BA36": 1090000,
+            "GLJS4BJ36": 1090000,
+            "GLJS4BB36": 1090000,
+            "GLJS4BBA6": 1090000,
+            "GLJS4BC36": 1090000,
+            "GLJS4BCA6": 1090000,
+            "GLJS49A36": 1090000,
+            "GLJS49J36": 1090000,
+            "GLJS49B36": 1090000,
+            "GLJS49C36": 1090000,
+            "GLPS46G36": 1090000,
+            "GLPS46B36": 1090000,
+            "GLRS46G36": 1030000,
+            "GLRS46B36": 1030000
+          }
+        },
+        {
+          "id": "sct",
+          "label": "스마트커넥트",
+          "sublabel": "SCT",
+          "headerPrice": 540000,
+          "codesByTrim": {
+            "GLJS4AJ36": "SCT",
+            "GLJS4AB36": "SCT",
+            "GLJS4BJ36": "SCT",
+            "GLJS4BB36": "SCT",
+            "GLJS4BBA6": "SCT",
+            "GLJS49J36": "SCT",
+            "GLJS49B36": "SCT"
+          },
+          "pricesByTrim": {
+            "GLJS4AJ36": 540000,
+            "GLJS4AB36": 540000,
+            "GLJS4BJ36": 540000,
+            "GLJS4BB36": 540000,
+            "GLJS4BBA6": 540000,
+            "GLJS49J36": 540000,
+            "GLJS49B36": 540000
+          }
+        },
+        {
+          "id": "hud",
+          "label": "HUD",
+          "sublabel": "HUD",
+          "headerPrice": 840000,
+          "codesByTrim": {
+            "GLJS4AJ36": "HUD",
+            "GLJS4AB36": "HUD",
+            "GLJS4BJ36": "HUD",
+            "GLJS4BB36": "HUD",
+            "GLJS4BBA6": "HUD",
+            "GLJS49J36": "HUD",
+            "GLJS49B36": "HUD"
+          },
+          "pricesByTrim": {
+            "GLJS4AJ36": 840000,
+            "GLJS4AB36": 840000,
+            "GLJS4BJ36": 840000,
+            "GLJS4BB36": 840000,
+            "GLJS4BBA6": 840000,
+            "GLJS49J36": 840000,
+            "GLJS49B36": 840000
+          }
+        },
+        {
+          "id": "r18",
+          "label": "18인치휠",
+          "sublabel": "R18",
+          "headerPrice": 280000,
+          "codesByTrim": {
+            "GLTS46B36": "R18"
+          },
+          "pricesByTrim": {
+            "GLTS46B36": 280000
+          }
+        },
+        {
+          "id": "r18e",
+          "label": "18인치휠+ETCS",
+          "sublabel": "R18E",
+          "headerPrice": 590000,
+          "codesByTrim": {
+            "GLPS46G36": "R18E"
+          },
+          "pricesByTrim": {
+            "GLPS46G36": 590000
+          }
+        },
+        {
+          "id": "hudc",
+          "label": "HUD+스마트 커넥트",
+          "sublabel": "HUDC",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLPS46B36": "HUDC",
+            "GLRS46B36": "HUDC"
+          },
+          "pricesByTrim": {
+            "GLPS46B36": 1780000,
+            "GLRS46B36": 1690000
+          }
+        },
+        {
+          "id": "cvnc",
+          "label": "뒷좌석컨비니언스",
+          "sublabel": "CVNC",
+          "headerPrice": 600000,
+          "codesByTrim": {
+            "GLTS46B36": "CVNC"
+          },
+          "pricesByTrim": {
+            "GLTS46B36": 600000
+          }
+        },
+        {
+          "id": "mda",
+          "label": "메리디안사운드",
+          "sublabel": "MDA",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLJS4AB36": "MDA",
+            "GLJS4AC36": "MDA",
+            "GLJS4BB36": "MDA",
+            "GLJS4BBA6": "MDA",
+            "GLJS4BC36": "MDA",
+            "GLJS4BCA6": "MDA",
+            "GLJS49B36": "MDA",
+            "GLJS49C36": "MDA",
+            "GLPS46B36": "MDA",
+            "GLRS46B36": "MDA"
+          },
+          "pricesByTrim": {
+            "GLJS4AB36": 1090000,
+            "GLJS4AC36": 1090000,
+            "GLJS4BB36": 1090000,
+            "GLJS4BBA6": 1090000,
+            "GLJS4BC36": 1090000,
+            "GLJS4BCA6": 1090000,
+            "GLJS49B36": 1090000,
+            "GLJS49C36": 1090000,
+            "GLPS46B36": 1090000,
+            "GLRS46B36": 1030000
+          }
+        },
+        {
+          "id": "ecs1",
+          "label": "전자제어서스펜션+19인치휠",
+          "sublabel": "ECS1",
+          "headerPrice": 1090000,
+          "codesByTrim": {
+            "GLJS4AC36": "ECS1",
+            "GLJS4BC36": "ECS1",
+            "GLJS4BCA6": "ECS1",
+            "GLJS49C36": "ECS1"
+          },
+          "pricesByTrim": {
+            "GLJS4AC36": 1090000,
+            "GLJS4BC36": 1090000,
+            "GLJS4BCA6": 1090000,
+            "GLJS49C36": 1090000
+          }
+        },
+        {
+          "id": "ecs2",
+          "label": "전자제어서스펜션+20인치휠",
+          "sublabel": "ECS2",
+          "headerPrice": 1290000,
+          "codesByTrim": {
+            "GLJS4AC36": "ECS2",
+            "GLJS4BC36": "ECS2",
+            "GLJS4BCA6": "ECS2"
+          },
+          "pricesByTrim": {
+            "GLJS4AC36": 1290000,
+            "GLJS4BC36": 1290000,
+            "GLJS4BCA6": 1290000
+          }
+        },
+        {
+          "id": "svm",
+          "label": "컨비니언스",
+          "sublabel": "SVM",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLPS46B36": "SVM",
+            "GLRS46B36": "SVM"
+          },
+          "pricesByTrim": {
+            "GLPS46B36": 1780000,
+            "GLRS46B36": 1690000
+          }
+        },
+        {
+          "id": "v03",
+          "label": "특판(SRF,MDA,R19,PRM)",
+          "sublabel": "V03",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLJS49C36": "V03"
+          },
+          "pricesByTrim": {}
+        },
+        {
+          "id": "v02",
+          "label": "특판(SRF,MDA,R20,PRM)",
+          "sublabel": "V02",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLJS4BCA6": "V02"
+          },
+          "pricesByTrim": {}
+        },
+        {
+          "id": "ptr",
+          "label": "파워 트렁크",
+          "sublabel": "PTR",
+          "headerPrice": 280000,
+          "codesByTrim": {
+            "GLTS46B36": "PTR"
+          },
+          "pricesByTrim": {
+            "GLTS46B36": 280000
+          }
+        },
+        {
+          "id": "prm",
+          "label": "프리미엄",
+          "sublabel": "PRM",
+          "headerPrice": null,
+          "codesByTrim": {
+            "GLJS4AB36": "PRM",
+            "GLJS4AC36": "PRM",
+            "GLJS4BB36": "PRM",
+            "GLJS4BBA6": "PRM",
+            "GLJS4BC36": "PRM",
+            "GLJS4BCA6": "PRM",
+            "GLJS49B36": "PRM",
+            "GLJS49C36": "PRM"
+          },
+          "pricesByTrim": {
+            "GLJS4AB36": 1090000,
+            "GLJS4AC36": 1090000,
+            "GLJS4BB36": 1090000,
+            "GLJS4BBA6": 1090000,
+            "GLJS4BC36": 1090000,
+            "GLJS4BCA6": 1090000,
+            "GLJS49B36": 690000,
+            "GLJS49C36": 690000
+          }
+        }
+      ],
+      "cells": {
+        "GLTS46B36|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|dwp": {
+          "state": "선택",
+          "price": 940000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLTS46B36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|srf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파노라마선루프",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|hud": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|r18": {
+          "state": "선택",
+          "price": 280000,
+          "code": "R18",
+          "name": "18인치휠",
+          "note": null
+        },
+        "GLTS46B36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|cvnc": {
+          "state": "선택",
+          "price": 600000,
+          "code": "CVNC",
+          "name": "뒷좌석컨비니언스",
+          "note": null
+        },
+        "GLTS46B36|mda": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLTS46B36|ptr": {
+          "state": "선택",
+          "price": 280000,
+          "code": "PTR",
+          "name": "파워 트렁크",
+          "note": null
+        },
+        "GLTS46B36|prm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|dwp": {
+          "state": "선택",
+          "price": 1030000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLRS46G36|cpt": {
+          "state": "선택",
+          "price": 1220000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": null
+        },
+        "GLRS46G36|srf": {
+          "state": "선택",
+          "price": 1030000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLRS46G36|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|hud": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|mda": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46G36|prm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|sty": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS4AA36|dwp": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLJS4AA36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4AA36|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|hud": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|mda": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AA36|prm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|sty": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|dwp": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLPS46G36|cpt": {
+          "state": "선택",
+          "price": 1040000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": null
+        },
+        "GLPS46G36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLPS46G36|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|hud": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|r18e": {
+          "state": "선택",
+          "price": 590000,
+          "code": "R18E",
+          "name": "18인치휠+ETCS",
+          "note": null
+        },
+        "GLPS46G36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|mda": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46G36|prm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|sty": {
+          "state": "선택",
+          "price": 1780000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS4AJ36|dwp": {
+          "state": "선택",
+          "price": 640000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLJS4AJ36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4AJ36|sct": {
+          "state": "선택",
+          "price": 540000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "GLJS4AJ36|hud": {
+          "state": "선택",
+          "price": 840000,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null
+        },
+        "GLJS4AJ36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|mda": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AJ36|prm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|sty": {
+          "state": "선택",
+          "price": 1600000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLRS46B36|dwp": {
+          "state": "선택",
+          "price": 1030000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLRS46B36|cpt": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "LPi (렌터카 3.5)에서는 CPT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLRS46B36|srf": {
+          "state": "선택",
+          "price": 1030000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLRS46B36|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|hud": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|hudc": {
+          "state": "선택",
+          "price": 1690000,
+          "code": "HUDC",
+          "name": "HUD+스마트 커넥트",
+          "note": null
+        },
+        "GLRS46B36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|mda": {
+          "state": "선택",
+          "price": 1030000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLRS46B36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|svm": {
+          "state": "선택",
+          "price": 1690000,
+          "code": "SVM",
+          "name": "컨비니언스",
+          "note": null
+        },
+        "GLRS46B36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLRS46B36|prm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|sty": {
+          "state": "선택",
+          "price": 1980000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS4BA36|dwp": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLJS4BA36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4BA36|sct": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "GSL (자가용 2.5)에서는 SCT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BA36|hud": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "GSL (자가용 2.5)에서는 HUD 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BA36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|mda": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BA36|prm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|sty": {
+          "state": "선택",
+          "price": 1980000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS4AB36|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "GSL (자가용 2.5)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4AB36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4AB36|sct": {
+          "state": "선택",
+          "price": 540000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "GLJS4AB36|hud": {
+          "state": "선택",
+          "price": 840000,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null
+        },
+        "GLJS4AB36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLJS4AB36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AB36|prm": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "PRM",
+          "name": "프리미엄",
+          "note": null
+        },
+        "GLPS46B36|sty": {
+          "state": "선택",
+          "price": 1680000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLPS46B36|dwp": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLPS46B36|cpt": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "LPi (일반LPi 3.5)에서는 CPT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLPS46B36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLPS46B36|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|hud": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|r18e": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "LPi (일반LPi 3.5)에서는 R18E 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLPS46B36|hudc": {
+          "state": "선택",
+          "price": 1780000,
+          "code": "HUDC",
+          "name": "HUD+스마트 커넥트",
+          "note": null
+        },
+        "GLPS46B36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLPS46B36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|svm": {
+          "state": "선택",
+          "price": 1780000,
+          "code": "SVM",
+          "name": "컨비니언스",
+          "note": null
+        },
+        "GLPS46B36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLPS46B36|prm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|sty": {
+          "state": "선택",
+          "price": 1780000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS4BJ36|dwp": {
+          "state": "선택",
+          "price": 640000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLJS4BJ36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4BJ36|sct": {
+          "state": "선택",
+          "price": 540000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "GLJS4BJ36|hud": {
+          "state": "선택",
+          "price": 840000,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null
+        },
+        "GLJS4BJ36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|mda": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "GSL (자가용 2.5)에서는 MDA 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BJ36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BJ36|prm": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "GSL (자가용 2.5)에서는 PRM 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49A36|sty": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS49A36|dwp": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLJS49A36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS49A36|sct": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "GSL (자가용 2.5)에서는 SCT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49A36|hud": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "GSL (자가용 2.5)에서는 HUD 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49A36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|mda": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "GSL (자가용 2.5)에서는 MDA 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49A36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49A36|prm": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "GSL (자가용 2.5)에서는 PRM 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BB36|sty": {
+          "state": "선택",
+          "price": 1980000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS4BB36|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "GSL (자가용 2.5)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BB36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4BB36|sct": {
+          "state": "선택",
+          "price": 540000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "GLJS4BB36|hud": {
+          "state": "선택",
+          "price": 840000,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null
+        },
+        "GLJS4BB36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLJS4BB36|ecs1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|ecs2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BB36|prm": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "PRM",
+          "name": "프리미엄",
+          "note": null
+        },
+        "GLJS4AC36|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "GSL (자가용 2.5)에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4AC36|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "GSL (자가용 2.5)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4AC36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4AC36|sct": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "GSL (자가용 2.5)에서는 SCT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4AC36|hud": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "GSL (자가용 2.5)에서는 HUD 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4AC36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLJS4AC36|ecs1": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "ECS1",
+          "name": "전자제어서스펜션+19인치휠",
+          "note": null
+        },
+        "GLJS4AC36|ecs2": {
+          "state": "선택",
+          "price": 1290000,
+          "code": "ECS2",
+          "name": "전자제어서스펜션+20인치휠",
+          "note": null
+        },
+        "GLJS4AC36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4AC36|prm": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "PRM",
+          "name": "프리미엄",
+          "note": null
+        },
+        "GLJS49J36|sty": {
+          "state": "선택",
+          "price": 1780000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS49J36|dwp": {
+          "state": "선택",
+          "price": 640000,
+          "code": "DWP",
+          "name": "드라이브와이즈",
+          "note": null
+        },
+        "GLJS49J36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS49J36|sct": {
+          "state": "선택",
+          "price": 540000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "GLJS49J36|hud": {
+          "state": "선택",
+          "price": 840000,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null
+        },
+        "GLJS49J36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|mda": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "메리디안사운드",
+          "note": "GSL (자가용 2.5)에서는 MDA 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49J36|ecs1": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "GSL (자가용 2.5)에서는 ECS1 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49J36|ecs2": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "GSL (자가용 2.5)에서는 ECS2 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49J36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49J36|prm": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "프리미엄",
+          "note": "GSL (자가용 2.5)에서는 PRM 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BBA6|sty": {
+          "state": "선택",
+          "price": 1980000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS4BBA6|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "GSL (자가용 2.5)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BBA6|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4BBA6|sct": {
+          "state": "선택",
+          "price": 540000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "GLJS4BBA6|hud": {
+          "state": "선택",
+          "price": 840000,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null
+        },
+        "GLJS4BBA6|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLJS4BBA6|ecs1": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "GSL (자가용 2.5)에서는 ECS1 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BBA6|ecs2": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "GSL (자가용 2.5)에서는 ECS2 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BBA6|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BBA6|prm": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "PRM",
+          "name": "프리미엄",
+          "note": null
+        },
+        "GLJS49B36|sty": {
+          "state": "선택",
+          "price": 1980000,
+          "code": "STY",
+          "name": "스타일",
+          "note": null
+        },
+        "GLJS49B36|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "GSL (자가용 2.5)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49B36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS49B36|sct": {
+          "state": "선택",
+          "price": 540000,
+          "code": "SCT",
+          "name": "스마트커넥트",
+          "note": null
+        },
+        "GLJS49B36|hud": {
+          "state": "선택",
+          "price": 840000,
+          "code": "HUD",
+          "name": "HUD",
+          "note": null
+        },
+        "GLJS49B36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLJS49B36|ecs1": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+19인치휠",
+          "note": "GSL (자가용 2.5)에서는 ECS1 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49B36|ecs2": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "GSL (자가용 2.5)에서는 ECS2 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49B36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49B36|prm": {
+          "state": "선택",
+          "price": 690000,
+          "code": "PRM",
+          "name": "프리미엄",
+          "note": null
+        },
+        "GLJS4BC36|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "GSL (자가용 2.5)에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BC36|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "GSL (자가용 2.5)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BC36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4BC36|sct": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "GSL (자가용 2.5)에서는 SCT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BC36|hud": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "GSL (자가용 2.5)에서는 HUD 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BC36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLJS4BC36|ecs1": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "ECS1",
+          "name": "전자제어서스펜션+19인치휠",
+          "note": null
+        },
+        "GLJS4BC36|ecs2": {
+          "state": "선택",
+          "price": 1290000,
+          "code": "ECS2",
+          "name": "전자제어서스펜션+20인치휠",
+          "note": null
+        },
+        "GLJS4BC36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|v02": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BC36|prm": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "PRM",
+          "name": "프리미엄",
+          "note": null
+        },
+        "GLJS4BCA6|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "GSL (자가용 2.5)에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BCA6|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "GSL (자가용 2.5)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BCA6|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BCA6|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS4BCA6|sct": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "GSL (자가용 2.5)에서는 SCT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BCA6|hud": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "GSL (자가용 2.5)에서는 HUD 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS4BCA6|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BCA6|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BCA6|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BCA6|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BCA6|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLJS4BCA6|ecs1": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "ECS1",
+          "name": "전자제어서스펜션+19인치휠",
+          "note": null
+        },
+        "GLJS4BCA6|ecs2": {
+          "state": "선택",
+          "price": 1290000,
+          "code": "ECS2",
+          "name": "전자제어서스펜션+20인치휠",
+          "note": null
+        },
+        "GLJS4BCA6|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BCA6|v03": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BCA6|v02": {
+          "state": "선택",
+          "price": null,
+          "code": "V02",
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": null
+        },
+        "GLJS4BCA6|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS4BCA6|prm": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "PRM",
+          "name": "프리미엄",
+          "note": null
+        },
+        "GLJS49C36|sty": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스타일",
+          "note": "GSL (자가용 2.5)에서는 STY 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49C36|dwp": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "GSL (자가용 2.5)에서는 DWP 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49C36|cpt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컴포트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49C36|srf": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "SRF",
+          "name": "선루프",
+          "note": null
+        },
+        "GLJS49C36|sct": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "GSL (자가용 2.5)에서는 SCT 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49C36|hud": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "HUD",
+          "note": "GSL (자가용 2.5)에서는 HUD 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49C36|r18": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49C36|r18e": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "18인치휠+ETCS",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49C36|hudc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+스마트 커넥트",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49C36|cvnc": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "뒷좌석컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49C36|mda": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "MDA",
+          "name": "메리디안사운드",
+          "note": null
+        },
+        "GLJS49C36|ecs1": {
+          "state": "선택",
+          "price": 1090000,
+          "code": "ECS1",
+          "name": "전자제어서스펜션+19인치휠",
+          "note": null
+        },
+        "GLJS49C36|ecs2": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "전자제어서스펜션+20인치휠",
+          "note": "GSL (자가용 2.5)에서는 ECS2 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49C36|svm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49C36|v03": {
+          "state": "선택",
+          "price": null,
+          "code": "V03",
+          "name": "특판(SRF,MDA,R19,PRM)",
+          "note": null
+        },
+        "GLJS49C36|v02": {
+          "state": "포함",
+          "price": null,
+          "code": null,
+          "name": "특판(SRF,MDA,R20,PRM)",
+          "note": "GSL (자가용 3.5) AWD에서는 V02 선택 옵션 → 이 트림 기본 포함"
+        },
+        "GLJS49C36|ptr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워 트렁크",
+          "note": "이 트림에서는 제공되지 않음"
+        },
+        "GLJS49C36|prm": {
+          "state": "선택",
+          "price": 690000,
+          "code": "PRM",
+          "name": "프리미엄",
+          "note": null
+        }
+      }
+    }
+  ]
+}
