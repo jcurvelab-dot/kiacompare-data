@@ -1,8 +1,15 @@
 {
   "version": "2026-09",
-  "updatedAt": "2026-09-18T21:36:45+00:00",
-  "sha256": "23176a979f47c216f4a9e60218880ef1959c7872210072dc700d5d9f037e2fd0",
+  "updatedAt": "2026-09-18T22:26:01+00:00",
+  "sha256": "7180ae3e93cf6f8f06aa7f053567634a2d4cd735337ce10a0f3aaea4d5b39f6e",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
+  "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
+  "pdfFeatures": {
+    "sha256": "e64b0d16a2887745aaacb0075caf6d6527bbcb70132769c0639316e1f7cadeb3",
+    "bytes": 670194,
+    "cars": 19,
+    "url": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json"
+  },
   "carLines": [
     {
       "name": "EV3",
