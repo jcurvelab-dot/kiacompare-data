@@ -28,7 +28,7 @@
         },
         {
           "id": "SVJJ5VBA3",
-          "name": "에어 롱레인지 · 4WD AWD",
+          "name": "에어 롱레인지 · 4WD",
           "code": "SVJJ5VBA3",
           "basePrice": 48720000,
           "deltaFromMin": 6690000,
@@ -157,7 +157,7 @@
         },
         {
           "id": "SVJJ5VDA3",
-          "name": "어스 롱레인지 · 4WD AWD",
+          "name": "어스 롱레인지 · 4WD",
           "code": "SVJJ5VDA3",
           "basePrice": 52870000,
           "deltaFromMin": 10840000,
@@ -355,7 +355,7 @@
         },
         {
           "id": "SVJJ5VFA3",
-          "name": "GT-Line 롱레인지 · 4WD AWD",
+          "name": "GT-Line 롱레인지 · 4WD",
           "code": "SVJJ5VFA3",
           "basePrice": 53770000,
           "deltaFromMin": 11740000,
@@ -424,7 +424,7 @@
         },
         {
           "id": "SVJJ5VJA3",
-          "name": "GT · 4WD AWD",
+          "name": "GT · 4WD",
           "code": "SVJJ5VJA3",
           "basePrice": 56540000,
           "deltaFromMin": 14510000,
@@ -2258,7 +2258,7 @@
         },
         {
           "id": "CTJS4VBA2",
-          "name": "에어 · AWD",
+          "name": "에어 · 4WD",
           "code": "CTJS4VBA2",
           "basePrice": 49210000,
           "deltaFromMin": 6690000,
@@ -2377,7 +2377,7 @@
         },
         {
           "id": "CTJS4VDA2",
-          "name": "어스 · AWD",
+          "name": "어스 · 4WD",
           "code": "CTJS4VDA2",
           "basePrice": 54040000,
           "deltaFromMin": 11520000,
@@ -2567,7 +2567,7 @@
         },
         {
           "id": "CTJS4VFA2",
-          "name": "GT-LINE 롱레인지 · AWD",
+          "name": "GT-LINE 롱레인지 · 4WD",
           "code": "CTJS4VFA2",
           "basePrice": 55200000,
           "deltaFromMin": 12680000,
@@ -2631,7 +2631,7 @@
         },
         {
           "id": "CTJS4VJA2",
-          "name": "GT · AWD",
+          "name": "GT · 4WD",
           "code": "CTJS4VJA2",
           "basePrice": 58040000,
           "deltaFromMin": 15520000,
@@ -4542,7 +4542,7 @@
         },
         {
           "id": "OVJJ5VAA1",
-          "name": "에어 롱레인지 · 전기차 AWD",
+          "name": "에어 롱레인지 · 전기차 4WD",
           "code": "OVJJ5VAA1",
           "basePrice": 50500000,
           "deltaFromMin": 6790000,
@@ -4621,7 +4621,7 @@
         },
         {
           "id": "OVJJ5VBA1",
-          "name": "어스 롱레인지 · 전기차 AWD",
+          "name": "어스 롱레인지 · 전기차 4WD",
           "code": "OVJJ5VBA1",
           "basePrice": 54440000,
           "deltaFromMin": 10730000,
@@ -4744,7 +4744,7 @@
         },
         {
           "id": "OVJJ5VCA1",
-          "name": "GT-Line 롱레인지 · 전기차 AWD",
+          "name": "GT-Line 롱레인지 · 전기차 4WD",
           "code": "OVJJ5VCA1",
           "basePrice": 55600000,
           "deltaFromMin": 11890000,
@@ -4788,7 +4788,7 @@
         },
         {
           "id": "OVJJ5VDA1",
-          "name": "GT · 전기차 AWD",
+          "name": "GT · 전기차 4WD",
           "code": "OVJJ5VDA1",
           "basePrice": 59540000,
           "deltaFromMin": 15830000,
@@ -6859,7 +6859,7 @@
         },
         {
           "id": "MVJJ6VHA5",
-          "name": "라이트 롱레인지 · 4WD 6인승 AWD",
+          "name": "라이트 롱레인지 · 4WD 6인승",
           "code": "MVJJ6VHA5",
           "basePrice": 73540000,
           "deltaFromMin": 8350000,
@@ -6868,7 +6868,7 @@
         },
         {
           "id": "MVJJ7VHA5",
-          "name": "라이트 롱레인지 · 4WD 7인승 AWD",
+          "name": "라이트 롱레인지 · 4WD 7인승",
           "code": "MVJJ7VHA5",
           "basePrice": 73540000,
           "deltaFromMin": 8350000,
@@ -6877,7 +6877,7 @@
         },
         {
           "id": "MVJJ6VAA5",
-          "name": "에어 롱레인지 · 4WD 6인승 AWD",
+          "name": "에어 롱레인지 · 4WD 6인승",
           "code": "MVJJ6VAA5",
           "basePrice": 75800000,
           "deltaFromMin": 10610000,
@@ -6898,7 +6898,7 @@
         },
         {
           "id": "MVJJ7VAA5",
-          "name": "에어 롱레인지 · 4WD 7인승 AWD",
+          "name": "에어 롱레인지 · 4WD 7인승",
           "code": "MVJJ7VAA5",
           "basePrice": 75800000,
           "deltaFromMin": 10610000,
@@ -6919,7 +6919,7 @@
         },
         {
           "id": "MVJJ6VBA5",
-          "name": "어스 롱레인지 · 4WD 6인승 AWD",
+          "name": "어스 롱레인지 · 4WD 6인승",
           "code": "MVJJ6VBA5",
           "basePrice": 80890000,
           "deltaFromMin": 15700000,
@@ -6962,7 +6962,7 @@
         },
         {
           "id": "MVJJ7VBA5",
-          "name": "어스 롱레인지 · 4WD 7인승 AWD",
+          "name": "어스 롱레인지 · 4WD 7인승",
           "code": "MVJJ7VBA5",
           "basePrice": 80890000,
           "deltaFromMin": 15700000,
@@ -7005,7 +7005,7 @@
         },
         {
           "id": "MVJJ6VCA5",
-          "name": "GT-Line 롱레인지 · 4WD 6인승 AWD",
+          "name": "GT-Line 롱레인지 · 4WD 6인승",
           "code": "MVJJ6VCA5",
           "basePrice": 83290000,
           "deltaFromMin": 18100000,
@@ -7048,7 +7048,7 @@
         },
         {
           "id": "MVJJ7VCA5",
-          "name": "GT-Line 롱레인지 · 4WD 7인승 AWD",
+          "name": "GT-Line 롱레인지 · 4WD 7인승",
           "code": "MVJJ7VCA5",
           "basePrice": 83290000,
           "deltaFromMin": 18100000,
@@ -7091,7 +7091,7 @@
         },
         {
           "id": "MVJJ6VFA5",
-          "name": "GT · 4WD 6인승 AWD",
+          "name": "GT · 4WD 6인승",
           "code": "MVJJ6VFA5",
           "basePrice": 89030000,
           "deltaFromMin": 23840000,
@@ -10539,7 +10539,7 @@
         },
         {
           "id": "STJJ5AAG1",
-          "name": "트렌디 · 가솔린 4WD AWD",
+          "name": "트렌디 · 가솔린 4WD",
           "code": "STJJ5AAG1",
           "basePrice": 27100000,
           "deltaFromMin": 1980000,
@@ -10570,7 +10570,7 @@
         },
         {
           "id": "STJJ5ABG1",
-          "name": "프레스티지 · 가솔린 4WD AWD",
+          "name": "프레스티지 · 가솔린 4WD",
           "code": "STJJ5ABG1",
           "basePrice": 30780000,
           "deltaFromMin": 5660000,
@@ -10626,7 +10626,7 @@
         },
         {
           "id": "STJJ5ACG1",
-          "name": "시그니처 · 가솔린 4WD AWD",
+          "name": "시그니처 · 가솔린 4WD",
           "code": "STJJ5ACG1",
           "basePrice": 33430000,
           "deltaFromMin": 8310000,
@@ -10669,7 +10669,7 @@
         },
         {
           "id": "STJJ5ADG1",
-          "name": "X-Line · 가솔린 4WD AWD",
+          "name": "X-Line · 가솔린 4WD",
           "code": "STJJ5ADG1",
           "basePrice": 34610000,
           "deltaFromMin": 9490000,
@@ -13740,7 +13740,7 @@
         },
         {
           "id": "B1ASS7KMN",
-          "name": "카고 LPi 4WD 장축 표준캡 GL AWD",
+          "name": "카고 LPi 4WD 장축 표준캡 GL",
           "code": "B1ASS7KMN",
           "basePrice": 23400000,
           "deltaFromMin": 3320000,
@@ -13756,7 +13756,7 @@
         },
         {
           "id": "B1ASS7LMN",
-          "name": "카고 LPi 4WD 장축 표준캡 GLS AWD",
+          "name": "카고 LPi 4WD 장축 표준캡 GLS",
           "code": "B1ASS7LMN",
           "basePrice": 24500000,
           "deltaFromMin": 4420000,
@@ -13786,7 +13786,7 @@
         },
         {
           "id": "B1ASK7KMN",
-          "name": "카고 LPi 4WD 장축 킹캡 GL AWD",
+          "name": "카고 LPi 4WD 장축 킹캡 GL",
           "code": "B1ASK7KMN",
           "basePrice": 23500000,
           "deltaFromMin": 3420000,
@@ -13809,7 +13809,7 @@
         },
         {
           "id": "B1ASK7LMN",
-          "name": "카고 LPi 4WD 장축 킹캡 GLS AWD",
+          "name": "카고 LPi 4WD 장축 킹캡 GLS",
           "code": "B1ASK7LMN",
           "basePrice": 24600000,
           "deltaFromMin": 4520000,
@@ -13839,7 +13839,7 @@
         },
         {
           "id": "B1ASD7KMN",
-          "name": "카고 LPi 4WD 장축 더블캡 GL AWD",
+          "name": "카고 LPi 4WD 장축 더블캡 GL",
           "code": "B1ASD7KMN",
           "basePrice": 24800000,
           "deltaFromMin": 4720000,
@@ -13862,7 +13862,7 @@
         },
         {
           "id": "B1ASD7LMN",
-          "name": "카고 LPi 4WD 장축 더블캡 GLS AWD",
+          "name": "카고 LPi 4WD 장축 더블캡 GLS",
           "code": "B1ASD7LMN",
           "basePrice": 25950000,
           "deltaFromMin": 5870000,
@@ -16328,7 +16328,7 @@
         },
         {
           "id": "CVJJ5VIA7",
-          "name": "라이트 · 4WD AWD",
+          "name": "라이트 · 4WD",
           "code": "CVJJ5VIA7",
           "basePrice": 52550000,
           "deltaFromMin": 6680000,
@@ -16337,7 +16337,7 @@
         },
         {
           "id": "CVJJ5VDA7",
-          "name": "에어 · 4WD AWD",
+          "name": "에어 · 4WD",
           "code": "CVJJ5VDA7",
           "basePrice": 57800000,
           "deltaFromMin": 11930000,
@@ -16361,7 +16361,7 @@
         },
         {
           "id": "CVJJ5VEA7",
-          "name": "어스 · 4WD AWD",
+          "name": "어스 · 4WD",
           "code": "CVJJ5VEA7",
           "basePrice": 62010000,
           "deltaFromMin": 16140000,
@@ -16409,7 +16409,7 @@
         },
         {
           "id": "CVJJ5VFA7",
-          "name": "GT-Line · 4WD AWD",
+          "name": "GT-Line · 4WD",
           "code": "CVJJ5VFA7",
           "basePrice": 62640000,
           "deltaFromMin": 16770000,
@@ -16457,7 +16457,7 @@
         },
         {
           "id": "CVJJ5VGA7",
-          "name": "GT · 4WD AWD",
+          "name": "GT · 4WD",
           "code": "CVJJ5VGA7",
           "basePrice": 73210000,
           "deltaFromMin": 27340000,
@@ -22260,7 +22260,7 @@
         },
         {
           "id": "GLJS4BBA6",
-          "name": "노블레스 · 자가용 3.5 GSL 4WD AWD",
+          "name": "노블레스 · 자가용 3.5 GSL 4WD",
           "code": "GLJS4BBA6",
           "basePrice": 46480000,
           "deltaFromMin": 11190000,
@@ -22327,7 +22327,7 @@
         },
         {
           "id": "GLJS4BCA6",
-          "name": "시그니처 · 자가용 3.5 GSL 4WD AWD",
+          "name": "시그니처 · 자가용 3.5 GSL 4WD",
           "code": "GLJS4BCA6",
           "basePrice": 50070000,
           "deltaFromMin": 14780000,
@@ -22428,7 +22428,7 @@
         },
         {
           "id": "GLJS4BIA6",
-          "name": "시그니처 블랙 · 자가용 3.5 GSL 4WD AWD",
+          "name": "시그니처 블랙 · 자가용 3.5 GSL 4WD",
           "code": "GLJS4BIA6",
           "basePrice": 51650000,
           "deltaFromMin": 16360000,
@@ -22601,7 +22601,7 @@
               "id": "v02",
               "label": "특판(SRF,MDA,R20,PRM)",
               "code": "V02",
-              "note": "시그니처 · 자가용 3.5 GSL 4WD AWD에서는 V02 선택(+비용) → 이 트림 기본가에 포함",
+              "note": "시그니처 · 자가용 3.5 GSL 4WD에서는 V02 선택(+비용) → 이 트림 기본가에 포함",
               "includes": []
             }
           ],
@@ -26828,7 +26828,7 @@
           "price": null,
           "code": "V02",
           "name": "특판(SRF,MDA,R20,PRM)",
-          "note": "시그니처 · 자가용 3.5 GSL 4WD AWD에서는 V02 선택(+비용) → 이 트림 기본가에 포함",
+          "note": "시그니처 · 자가용 3.5 GSL 4WD에서는 V02 선택(+비용) → 이 트림 기본가에 포함",
           "includes": []
         },
         "GLJS49C36|ptr": {
@@ -32796,7 +32796,7 @@
         },
         {
           "id": "NQJJ5ABA7",
-          "name": "프레스티지 · 가솔린 1.6T 4WD AWD",
+          "name": "프레스티지 · 가솔린 1.6T 4WD",
           "code": "NQJJ5ABA7",
           "basePrice": 31670000,
           "deltaFromMin": 2230000,
@@ -32805,7 +32805,7 @@
         },
         {
           "id": "NQJJ5ACA7",
-          "name": "노블레스 · 가솔린 1.6T 4WD AWD",
+          "name": "노블레스 · 가솔린 1.6T 4WD",
           "code": "NQJJ5ACA7",
           "basePrice": 35450000,
           "deltaFromMin": 6010000,
@@ -32828,7 +32828,7 @@
         },
         {
           "id": "NQJJ5AEA7",
-          "name": "시그니처 · 가솔린 1.6T 4WD AWD",
+          "name": "시그니처 · 가솔린 1.6T 4WD",
           "code": "NQJJ5AEA7",
           "basePrice": 37800000,
           "deltaFromMin": 8360000,
@@ -32873,7 +32873,7 @@
         },
         {
           "id": "NQJJ5AHA7",
-          "name": "시그니처 X라인 · 가솔린 1.6T 4WD AWD",
+          "name": "시그니처 X라인 · 가솔린 1.6T 4WD",
           "code": "NQJJ5AHA7",
           "basePrice": 38450000,
           "deltaFromMin": 9010000,
@@ -32977,7 +32977,7 @@
         },
         {
           "id": "NQJJ59BA7",
-          "name": "프레스티지 · HEV 1.6 4WD AWD",
+          "name": "프레스티지 · HEV 1.6 4WD",
           "code": "NQJJ59BA7",
           "basePrice": 37590000,
           "deltaFromMin": 8150000,
@@ -32986,7 +32986,7 @@
         },
         {
           "id": "NQJJ59CA7",
-          "name": "노블레스 · HEV 1.6 4WD AWD",
+          "name": "노블레스 · HEV 1.6 4WD",
           "code": "NQJJ59CA7",
           "basePrice": 41260000,
           "deltaFromMin": 11820000,
@@ -33009,7 +33009,7 @@
         },
         {
           "id": "NQJJ59EA7",
-          "name": "시그니처 · HEV 1.6 4WD AWD",
+          "name": "시그니처 · HEV 1.6 4WD",
           "code": "NQJJ59EA7",
           "basePrice": 43610000,
           "deltaFromMin": 14170000,
@@ -33054,7 +33054,7 @@
         },
         {
           "id": "NQJJ59HA7",
-          "name": "시그니처 X라인 · HEV 1.6 4WD AWD",
+          "name": "시그니처 X라인 · HEV 1.6 4WD",
           "code": "NQJJ59HA7",
           "basePrice": 44260000,
           "deltaFromMin": 14820000,
@@ -36445,7 +36445,7 @@
         },
         {
           "id": "MQJJ5ACG8",
-          "name": "프레스티지 · 가솔린 2.5T 5인승 4WD AWD",
+          "name": "프레스티지 · 가솔린 2.5T 5인승 4WD",
           "code": "MQJJ5ACG8",
           "basePrice": 38730000,
           "deltaFromMin": 2320000,
@@ -36463,7 +36463,7 @@
         },
         {
           "id": "MQJJ5ADG8",
-          "name": "노블레스 · 가솔린 2.5T 5인승 4WD AWD",
+          "name": "노블레스 · 가솔린 2.5T 5인승 4WD",
           "code": "MQJJ5ADG8",
           "basePrice": 41980000,
           "deltaFromMin": 5570000,
@@ -36491,7 +36491,7 @@
         },
         {
           "id": "MQJJ5AEG8",
-          "name": "시그니처 · 가솔린 2.5T 5인승 4WD AWD",
+          "name": "시그니처 · 가솔린 2.5T 5인승 4WD",
           "code": "MQJJ5AEG8",
           "basePrice": 44790000,
           "deltaFromMin": 8380000,
@@ -36519,7 +36519,7 @@
         },
         {
           "id": "MQJJ5AGG8",
-          "name": "X-Line · 가솔린 2.5T 5인승 4WD AWD",
+          "name": "X-Line · 가솔린 2.5T 5인승 4WD",
           "code": "MQJJ5AGG8",
           "basePrice": 45730000,
           "deltaFromMin": 9320000,
@@ -36537,7 +36537,7 @@
         },
         {
           "id": "MQJJ5AKG8",
-          "name": "블랙에디션 · 가솔린 2.5T 5인승 4WD AWD",
+          "name": "블랙에디션 · 가솔린 2.5T 5인승 4WD",
           "code": "MQJJ5AKG8",
           "basePrice": 46730000,
           "deltaFromMin": 10320000,
@@ -36555,7 +36555,7 @@
         },
         {
           "id": "MQJJ6ACG8",
-          "name": "프레스티지 · 가솔린 2.5T 6인승 4WD AWD",
+          "name": "프레스티지 · 가솔린 2.5T 6인승 4WD",
           "code": "MQJJ6ACG8",
           "basePrice": 39570000,
           "deltaFromMin": 3160000,
@@ -36573,7 +36573,7 @@
         },
         {
           "id": "MQJJ6ADG8",
-          "name": "노블레스 · 가솔린 2.5T 6인승 4WD AWD",
+          "name": "노블레스 · 가솔린 2.5T 6인승 4WD",
           "code": "MQJJ6ADG8",
           "basePrice": 42820000,
           "deltaFromMin": 6410000,
@@ -36601,7 +36601,7 @@
         },
         {
           "id": "MQJJ6AEG8",
-          "name": "시그니처 · 가솔린 2.5T 6인승 4WD AWD",
+          "name": "시그니처 · 가솔린 2.5T 6인승 4WD",
           "code": "MQJJ6AEG8",
           "basePrice": 45630000,
           "deltaFromMin": 9220000,
@@ -36629,7 +36629,7 @@
         },
         {
           "id": "MQJJ6AGG8",
-          "name": "X-Line · 가솔린 2.5T 6인승 4WD AWD",
+          "name": "X-Line · 가솔린 2.5T 6인승 4WD",
           "code": "MQJJ6AGG8",
           "basePrice": 46570000,
           "deltaFromMin": 10160000,
@@ -36647,7 +36647,7 @@
         },
         {
           "id": "MQJJ6AKG8",
-          "name": "블랙에디션 · 가솔린 2.5T 6인승 4WD AWD",
+          "name": "블랙에디션 · 가솔린 2.5T 6인승 4WD",
           "code": "MQJJ6AKG8",
           "basePrice": 47570000,
           "deltaFromMin": 11160000,
@@ -36665,7 +36665,7 @@
         },
         {
           "id": "MQJJ7ACG8",
-          "name": "프레스티지 · 가솔린 2.5T 7인승 4WD AWD",
+          "name": "프레스티지 · 가솔린 2.5T 7인승 4WD",
           "code": "MQJJ7ACG8",
           "basePrice": 39420000,
           "deltaFromMin": 3010000,
@@ -36683,7 +36683,7 @@
         },
         {
           "id": "MQJJ7ADG8",
-          "name": "노블레스 · 가솔린 2.5T 7인승 4WD AWD",
+          "name": "노블레스 · 가솔린 2.5T 7인승 4WD",
           "code": "MQJJ7ADG8",
           "basePrice": 42670000,
           "deltaFromMin": 6260000,
@@ -36711,7 +36711,7 @@
         },
         {
           "id": "MQJJ7AEG8",
-          "name": "시그니처 · 가솔린 2.5T 7인승 4WD AWD",
+          "name": "시그니처 · 가솔린 2.5T 7인승 4WD",
           "code": "MQJJ7AEG8",
           "basePrice": 45480000,
           "deltaFromMin": 9070000,
@@ -36739,7 +36739,7 @@
         },
         {
           "id": "MQJJ7AGG8",
-          "name": "X-Line · 가솔린 2.5T 7인승 4WD AWD",
+          "name": "X-Line · 가솔린 2.5T 7인승 4WD",
           "code": "MQJJ7AGG8",
           "basePrice": 46420000,
           "deltaFromMin": 10010000,
@@ -36757,7 +36757,7 @@
         },
         {
           "id": "MQJJ7AKG8",
-          "name": "블랙에디션 · 가솔린 2.5T 7인승 4WD AWD",
+          "name": "블랙에디션 · 가솔린 2.5T 7인승 4WD",
           "code": "MQJJ7AKG8",
           "basePrice": 47420000,
           "deltaFromMin": 11010000,
@@ -36775,7 +36775,7 @@
         },
         {
           "id": "MQJJ59CA8",
-          "name": "프레스티지 · HEV 1.6 5인승 4WD AWD",
+          "name": "프레스티지 · HEV 1.6 5인승 4WD",
           "code": "MQJJ59CA8",
           "basePrice": 42950000,
           "deltaFromMin": 6540000,
@@ -36793,7 +36793,7 @@
         },
         {
           "id": "MQJJ59DA8",
-          "name": "노블레스 · HEV 1.6 5인승 4WD AWD",
+          "name": "노블레스 · HEV 1.6 5인승 4WD",
           "code": "MQJJ59DA8",
           "basePrice": 46310000,
           "deltaFromMin": 9900000,
@@ -36821,7 +36821,7 @@
         },
         {
           "id": "MQJJ59EA8",
-          "name": "시그니처 · HEV 1.6 5인승 4WD AWD",
+          "name": "시그니처 · HEV 1.6 5인승 4WD",
           "code": "MQJJ59EA8",
           "basePrice": 49080000,
           "deltaFromMin": 12670000,
@@ -36849,7 +36849,7 @@
         },
         {
           "id": "MQJJ59GA8",
-          "name": "X-Line · HEV 1.6 5인승 4WD AWD",
+          "name": "X-Line · HEV 1.6 5인승 4WD",
           "code": "MQJJ59GA8",
           "basePrice": 50020000,
           "deltaFromMin": 13610000,
@@ -36867,7 +36867,7 @@
         },
         {
           "id": "MQJJ59KA8",
-          "name": "블랙에디션 · HEV 1.6 5인승 4WD AWD",
+          "name": "블랙에디션 · HEV 1.6 5인승 4WD",
           "code": "MQJJ59KA8",
           "basePrice": 51270000,
           "deltaFromMin": 14860000,
@@ -36885,7 +36885,7 @@
         },
         {
           "id": "MQJJ69CA8",
-          "name": "프레스티지 · HEV 1.6 6인승 4WD AWD",
+          "name": "프레스티지 · HEV 1.6 6인승 4WD",
           "code": "MQJJ69CA8",
           "basePrice": 43790000,
           "deltaFromMin": 7380000,
@@ -36903,7 +36903,7 @@
         },
         {
           "id": "MQJJ69DA8",
-          "name": "노블레스 · HEV 1.6 6인승 4WD AWD",
+          "name": "노블레스 · HEV 1.6 6인승 4WD",
           "code": "MQJJ69DA8",
           "basePrice": 47150000,
           "deltaFromMin": 10740000,
@@ -36931,7 +36931,7 @@
         },
         {
           "id": "MQJJ69EA8",
-          "name": "시그니처 · HEV 1.6 6인승 4WD AWD",
+          "name": "시그니처 · HEV 1.6 6인승 4WD",
           "code": "MQJJ69EA8",
           "basePrice": 49920000,
           "deltaFromMin": 13510000,
@@ -36959,7 +36959,7 @@
         },
         {
           "id": "MQJJ69GA8",
-          "name": "X-Line · HEV 1.6 6인승 4WD AWD",
+          "name": "X-Line · HEV 1.6 6인승 4WD",
           "code": "MQJJ69GA8",
           "basePrice": 50860000,
           "deltaFromMin": 14450000,
@@ -36977,7 +36977,7 @@
         },
         {
           "id": "MQJJ69KA8",
-          "name": "블랙에디션 · HEV 1.6 6인승 4WD AWD",
+          "name": "블랙에디션 · HEV 1.6 6인승 4WD",
           "code": "MQJJ69KA8",
           "basePrice": 52110000,
           "deltaFromMin": 15700000,
@@ -36995,7 +36995,7 @@
         },
         {
           "id": "MQJJ79CA8",
-          "name": "프레스티지 · HEV 1.6 7인승 4WD AWD",
+          "name": "프레스티지 · HEV 1.6 7인승 4WD",
           "code": "MQJJ79CA8",
           "basePrice": 43640000,
           "deltaFromMin": 7230000,
@@ -37013,7 +37013,7 @@
         },
         {
           "id": "MQJJ79DA8",
-          "name": "노블레스 · HEV 1.6 7인승 4WD AWD",
+          "name": "노블레스 · HEV 1.6 7인승 4WD",
           "code": "MQJJ79DA8",
           "basePrice": 47000000,
           "deltaFromMin": 10590000,
@@ -37041,7 +37041,7 @@
         },
         {
           "id": "MQJJ79EA8",
-          "name": "시그니처 · HEV 1.6 7인승 4WD AWD",
+          "name": "시그니처 · HEV 1.6 7인승 4WD",
           "code": "MQJJ79EA8",
           "basePrice": 49770000,
           "deltaFromMin": 13360000,
@@ -37069,7 +37069,7 @@
         },
         {
           "id": "MQJJ79GA8",
-          "name": "X-Line · HEV 1.6 7인승 4WD AWD",
+          "name": "X-Line · HEV 1.6 7인승 4WD",
           "code": "MQJJ79GA8",
           "basePrice": 50710000,
           "deltaFromMin": 14300000,
@@ -37087,7 +37087,7 @@
         },
         {
           "id": "MQJJ79KA8",
-          "name": "블랙에디션 · HEV 1.6 7인승 4WD AWD",
+          "name": "블랙에디션 · HEV 1.6 7인승 4WD",
           "code": "MQJJ79KA8",
           "basePrice": 51960000,
           "deltaFromMin": 15550000,
@@ -46485,7 +46485,7 @@
       "trims": [
         {
           "id": "PKKD5AAA2",
-          "name": "가솔린 2.5T 4WD 다이내믹 AWD",
+          "name": "가솔린 2.5T 4WD 다이내믹",
           "code": "PKKD5AAA2",
           "basePrice": 37650000,
           "deltaFromMin": 3660000,
@@ -46501,7 +46501,7 @@
         },
         {
           "id": "PKOS2AAA2",
-          "name": "가솔린 2.5T 4WD 다이내믹 AWD",
+          "name": "가솔린 2.5T 4WD 다이내믹",
           "code": "PKOS2AAA2",
           "basePrice": 36640000,
           "deltaFromMin": 2650000,
@@ -46520,7 +46520,7 @@
         },
         {
           "id": "PKKD5ABA2",
-          "name": "가솔린 2.5T 4WD 어드벤처 AWD",
+          "name": "가솔린 2.5T 4WD 어드벤처",
           "code": "PKKD5ABA2",
           "basePrice": 43850000,
           "deltaFromMin": 9860000,
@@ -46561,7 +46561,7 @@
         },
         {
           "id": "PKKD5ACA2",
-          "name": "가솔린 2.5T 4WD 익스트림 AWD",
+          "name": "가솔린 2.5T 4WD 익스트림",
           "code": "PKKD5ACA2",
           "basePrice": 47700000,
           "deltaFromMin": 13710000,
@@ -46614,7 +46614,7 @@
         },
         {
           "id": "PKKD5ADA2",
-          "name": "가솔린 2.5T 4WD X-PRO AWD",
+          "name": "가솔린 2.5T 4WD X-PRO",
           "code": "PKKD5ADA2",
           "basePrice": 52550000,
           "deltaFromMin": 18560000,
@@ -46678,7 +46678,7 @@
         },
         {
           "id": "PKKD5AEA2",
-          "name": "베스트셀렉션 · 가솔린 2.5T 4WD AWD",
+          "name": "베스트셀렉션 · 가솔린 2.5T 4WD",
           "code": "PKKD5AEA2",
           "basePrice": 43500000,
           "deltaFromMin": 9510000,

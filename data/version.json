@@ -1,7 +1,7 @@
 {
   "version": "2026-09",
-  "updatedAt": "2026-09-20T18:49:00+09:00",
-  "sha256": "ee7bce49c5580bdded355b20dcf5d016ca6775d1dd22396ecfdd84b63ae85275",
+  "updatedAt": "2026-09-20T18:51:00+09:00",
+  "sha256": "e36b5d69c01af6e20f241635735b2a133b5ffbc613440add4b9cccab2248ccbf",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
   "pdfFeatures": {
