@@ -1,7 +1,7 @@
 {
   "version": "2026-09",
-  "updatedAt": "2026-09-20T18:51:00+09:00",
-  "sha256": "e36b5d69c01af6e20f241635735b2a133b5ffbc613440add4b9cccab2248ccbf",
+  "updatedAt": "2026-09-20T19:00:38+09:00",
+  "sha256": "e182ec0b85e549efbc937d95ccbb245a78a3b8d780056282b76156c4c0b444f6",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
   "pdfFeatures": {
@@ -63,13 +63,13 @@
     },
     {
       "name": "PV5(상용)",
-      "trims": 4,
-      "options": 5
+      "trims": 7,
+      "options": 11
     },
     {
       "name": "PV5(RV)",
-      "trims": 9,
-      "options": 13
+      "trims": 10,
+      "options": 14
     },
     {
       "name": "레이",

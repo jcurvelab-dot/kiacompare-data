@@ -27338,11 +27338,35 @@
       "source": "27my PV5 카고.xlsx",
       "trims": [
         {
+          "id": "W2CD2VA32",
+          "name": "카고 2인승 롱-스탠다드 2WD",
+          "code": "W2CD2VA32",
+          "basePrice": 42500000,
+          "deltaFromMin": 1500000,
+          "includedOptions": []
+        },
+        {
+          "id": "W2CD2VB32",
+          "name": "카고 2인승 롱-롱레인지 2WD",
+          "code": "W2CD2VB32",
+          "basePrice": 45200000,
+          "deltaFromMin": 4200000,
+          "includedOptions": []
+        },
+        {
+          "id": "W2CD2VC32",
+          "name": "카고 2인승 컴팩트-스탠다드 2WD",
+          "code": "W2CD2VC32",
+          "basePrice": 41000000,
+          "deltaFromMin": 0,
+          "includedOptions": []
+        },
+        {
           "id": "W2SB2VE32",
           "name": "오픈베드 2인승 베이직-스탠다드 2WD",
           "code": "W2SB2VE32",
           "basePrice": 43950000,
-          "deltaFromMin": 0,
+          "deltaFromMin": 2950000,
           "includedOptions": []
         },
         {
@@ -27350,7 +27374,7 @@
           "name": "오픈베드 2인승 베이직-롱레인지 2WD",
           "code": "W2SB2VF32",
           "basePrice": 46650000,
-          "deltaFromMin": 2700000,
+          "deltaFromMin": 5650000,
           "includedOptions": []
         },
         {
@@ -27358,7 +27382,7 @@
           "name": "오픈베드 2인승 플러스-스탠다드 2WD",
           "code": "W2SB2VG32",
           "basePrice": 47450000,
-          "deltaFromMin": 3500000,
+          "deltaFromMin": 6450000,
           "includedOptions": [
             {
               "id": "dwp",
@@ -27410,7 +27434,7 @@
           "name": "오픈베드 2인승 플러스-롱레인지 2WD",
           "code": "W2SB2VH32",
           "basePrice": 50150000,
-          "deltaFromMin": 6200000,
+          "deltaFromMin": 9150000,
           "includedOptions": [
             {
               "id": "dwp",
@@ -27465,10 +27489,16 @@
           "sublabel": "DWP",
           "headerPrice": 520000,
           "codesByTrim": {
+            "W2CD2VA32": "DWP",
+            "W2CD2VB32": "DWP",
+            "W2CD2VC32": "DWP",
             "W2SB2VE32": "DWP",
             "W2SB2VF32": "DWP"
           },
           "pricesByTrim": {
+            "W2CD2VA32": 520000,
+            "W2CD2VB32": 520000,
+            "W2CD2VC32": 520000,
             "W2SB2VE32": 520000,
             "W2SB2VF32": 520000
           },
@@ -27481,19 +27511,47 @@
           ]
         },
         {
+          "id": "mnt",
+          "label": "모니터링",
+          "sublabel": "MNT",
+          "headerPrice": 710000,
+          "codesByTrim": {
+            "W2CD2VA32": "MNT",
+            "W2CD2VB32": "MNT",
+            "W2CD2VC32": "MNT"
+          },
+          "pricesByTrim": {
+            "W2CD2VA32": 710000,
+            "W2CD2VB32": 710000,
+            "W2CD2VC32": 710000
+          },
+          "trimDiff": null,
+          "includes": [
+            "서라운드 뷰 모니터",
+            "후측방 모니터",
+            "측방 주차 거리 경고"
+          ]
+        },
+        {
           "id": "sct",
           "label": "스마트커넥트",
           "sublabel": "SCT",
-          "headerPrice": 450000,
+          "headerPrice": null,
           "codesByTrim": {
+            "W2CD2VA32": "SCT",
+            "W2CD2VB32": "SCT",
+            "W2CD2VC32": "SCT",
             "W2SB2VE32": "SCT",
             "W2SB2VF32": "SCT"
           },
           "pricesByTrim": {
+            "W2CD2VA32": 520000,
+            "W2CD2VB32": 520000,
+            "W2CD2VC32": 520000,
             "W2SB2VE32": 450000,
             "W2SB2VF32": 450000
           },
-          "trimDiff": null,
+          "trimDiff": "카고는 SCT +52만, 오픈베드는 SCT +45만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -27516,17 +27574,89 @@
           "includes": []
         },
         {
+          "id": "ltr",
+          "label": "L-TRACK PKG",
+          "sublabel": "LTR",
+          "headerPrice": 430000,
+          "codesByTrim": {
+            "W2CD2VA32": "LTR",
+            "W2CD2VB32": "LTR"
+          },
+          "pricesByTrim": {
+            "W2CD2VA32": 430000,
+            "W2CD2VB32": 430000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
           "id": "uty",
           "label": "유틸리티",
           "sublabel": "UTY",
           "headerPrice": 380000,
           "codesByTrim": {
+            "W2CD2VA32": "UTY",
+            "W2CD2VB32": "UTY",
+            "W2CD2VC32": "UTY",
             "W2SB2VE32": "UTY",
             "W2SB2VF32": "UTY"
           },
           "pricesByTrim": {
+            "W2CD2VA32": 380000,
+            "W2CD2VB32": 380000,
+            "W2CD2VC32": 380000,
             "W2SB2VE32": 380000,
             "W2SB2VF32": 380000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "crf",
+          "label": "카고룸 바닥",
+          "sublabel": "CRF",
+          "headerPrice": 570000,
+          "codesByTrim": {
+            "W2CD2VA32": "CRF",
+            "W2CD2VB32": "CRF",
+            "W2CD2VC32": "CRF"
+          },
+          "pricesByTrim": {
+            "W2CD2VA32": 570000,
+            "W2CD2VB32": 570000,
+            "W2CD2VC32": 570000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "crl",
+          "label": "카고룸 평탄화 플로어",
+          "sublabel": "CRL",
+          "headerPrice": 1040000,
+          "codesByTrim": {
+            "W2CD2VA32": "CRL",
+            "W2CD2VB32": "CRL"
+          },
+          "pricesByTrim": {
+            "W2CD2VA32": 1040000,
+            "W2CD2VB32": 1040000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "sbh",
+          "label": "특화 격벽",
+          "sublabel": "SBH",
+          "headerPrice": 500000,
+          "codesByTrim": {
+            "W2CD2VA32": "SBH",
+            "W2CD2VB32": "SBH"
+          },
+          "pricesByTrim": {
+            "W2CD2VA32": 500000,
+            "W2CD2VB32": 500000
           },
           "trimDiff": null,
           "includes": []
@@ -27543,9 +27673,225 @@
           "pricesByTrim": {},
           "trimDiff": null,
           "includes": []
+        },
+        {
+          "id": "wcs",
+          "label": "휠하우징 커버 스토리지",
+          "sublabel": "WCS",
+          "headerPrice": 330000,
+          "codesByTrim": {
+            "W2CD2VA32": "WCS",
+            "W2CD2VB32": "WCS"
+          },
+          "pricesByTrim": {
+            "W2CD2VA32": 330000,
+            "W2CD2VB32": 330000
+          },
+          "trimDiff": null,
+          "includes": []
         }
       ],
       "cells": {
+        "W2CD2VC32|dwp": {
+          "state": "선택",
+          "price": 520000,
+          "code": "DWP",
+          "name": "드라이브 와이즈",
+          "note": null,
+          "includes": [
+            "후측방 충돌 경고",
+            "후측방 충돌방지 보조(전진 출차)",
+            "후방교차 충돌방지 보조",
+            "안전 하차 경고"
+          ]
+        },
+        "W2CD2VC32|mnt": {
+          "state": "선택",
+          "price": 710000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null,
+          "includes": [
+            "서라운드 뷰 모니터",
+            "후측방 모니터",
+            "측방 주차 거리 경고"
+          ]
+        },
+        "W2CD2VC32|sct": {
+          "state": "선택",
+          "price": 520000,
+          "code": "SCT",
+          "name": "스마트 커넥트",
+          "note": "카고는 SCT +52만, 오픈베드는 SCT +45만",
+          "includes": [
+            "기아 디지털 키 2",
+            "스마트폰 무선충전 시스템"
+          ]
+        },
+        "W2CD2VC32|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VC32|ltr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "L-TRACK PKG",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VC32|uty": {
+          "state": "선택",
+          "price": 380000,
+          "code": "UTY",
+          "name": "유틸리티",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VC32|crf": {
+          "state": "선택",
+          "price": 570000,
+          "code": "CRF",
+          "name": "카고룸 바닥",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VC32|crl": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 평탄화 플로어",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VC32|sbh": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특화 격벽",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VC32|fld": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "평바닥적재함",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VC32|wcs": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "휠하우징 커버 스토리지",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VA32|dwp": {
+          "state": "선택",
+          "price": 520000,
+          "code": "DWP",
+          "name": "드라이브 와이즈",
+          "note": null,
+          "includes": [
+            "후측방 충돌 경고",
+            "후측방 충돌방지 보조(전진 출차)",
+            "후방교차 충돌방지 보조",
+            "안전 하차 경고"
+          ]
+        },
+        "W2CD2VA32|mnt": {
+          "state": "선택",
+          "price": 710000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null,
+          "includes": [
+            "서라운드 뷰 모니터",
+            "후측방 모니터",
+            "측방 주차 거리 경고"
+          ]
+        },
+        "W2CD2VA32|sct": {
+          "state": "선택",
+          "price": 520000,
+          "code": "SCT",
+          "name": "스마트 커넥트",
+          "note": "카고는 SCT +52만, 오픈베드는 SCT +45만",
+          "includes": [
+            "기아 디지털 키 2",
+            "스마트폰 무선충전 시스템"
+          ]
+        },
+        "W2CD2VA32|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VA32|ltr": {
+          "state": "선택",
+          "price": 430000,
+          "code": "LTR",
+          "name": "L-TRACK PKG",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VA32|uty": {
+          "state": "선택",
+          "price": 380000,
+          "code": "UTY",
+          "name": "유틸리티",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VA32|crf": {
+          "state": "선택",
+          "price": 570000,
+          "code": "CRF",
+          "name": "카고룸 바닥",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VA32|crl": {
+          "state": "선택",
+          "price": 1040000,
+          "code": "CRL",
+          "name": "카고룸 평탄화 플로어",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VA32|sbh": {
+          "state": "선택",
+          "price": 500000,
+          "code": "SBH",
+          "name": "특화 격벽",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VA32|fld": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "평바닥적재함",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VA32|wcs": {
+          "state": "선택",
+          "price": 330000,
+          "code": "WCS",
+          "name": "휠하우징 커버 스토리지",
+          "note": null,
+          "includes": []
+        },
         "W2SB2VE32|dwp": {
           "state": "선택",
           "price": 520000,
@@ -27559,12 +27905,20 @@
             "안전 하차 경고"
           ]
         },
+        "W2SB2VE32|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VE32|sct": {
           "state": "선택",
           "price": 450000,
           "code": "SCT",
           "name": "스마트 커넥트",
-          "note": null,
+          "note": "카고는 SCT +52만, 오픈베드는 SCT +45만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -27578,6 +27932,14 @@
           "note": null,
           "includes": []
         },
+        "W2SB2VE32|ltr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "L-TRACK PKG",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VE32|uty": {
           "state": "선택",
           "price": 380000,
@@ -27586,11 +27948,143 @@
           "note": null,
           "includes": []
         },
+        "W2SB2VE32|crf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 바닥",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2SB2VE32|crl": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 평탄화 플로어",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2SB2VE32|sbh": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특화 격벽",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VE32|fld": {
           "state": "선택",
           "price": null,
           "code": "FLD",
           "name": "평바닥적재함",
+          "note": null,
+          "includes": []
+        },
+        "W2SB2VE32|wcs": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "휠하우징 커버 스토리지",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VB32|dwp": {
+          "state": "선택",
+          "price": 520000,
+          "code": "DWP",
+          "name": "드라이브 와이즈",
+          "note": null,
+          "includes": [
+            "후측방 충돌 경고",
+            "후측방 충돌방지 보조(전진 출차)",
+            "후방교차 충돌방지 보조",
+            "안전 하차 경고"
+          ]
+        },
+        "W2CD2VB32|mnt": {
+          "state": "선택",
+          "price": 710000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": null,
+          "includes": [
+            "서라운드 뷰 모니터",
+            "후측방 모니터",
+            "측방 주차 거리 경고"
+          ]
+        },
+        "W2CD2VB32|sct": {
+          "state": "선택",
+          "price": 520000,
+          "code": "SCT",
+          "name": "스마트 커넥트",
+          "note": "카고는 SCT +52만, 오픈베드는 SCT +45만",
+          "includes": [
+            "기아 디지털 키 2",
+            "스마트폰 무선충전 시스템"
+          ]
+        },
+        "W2CD2VB32|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VB32|ltr": {
+          "state": "선택",
+          "price": 430000,
+          "code": "LTR",
+          "name": "L-TRACK PKG",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VB32|uty": {
+          "state": "선택",
+          "price": 380000,
+          "code": "UTY",
+          "name": "유틸리티",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VB32|crf": {
+          "state": "선택",
+          "price": 570000,
+          "code": "CRF",
+          "name": "카고룸 바닥",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VB32|crl": {
+          "state": "선택",
+          "price": 1040000,
+          "code": "CRL",
+          "name": "카고룸 평탄화 플로어",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VB32|sbh": {
+          "state": "선택",
+          "price": 500000,
+          "code": "SBH",
+          "name": "특화 격벽",
+          "note": null,
+          "includes": []
+        },
+        "W2CD2VB32|fld": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "평바닥적재함",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2CD2VB32|wcs": {
+          "state": "선택",
+          "price": 330000,
+          "code": "WCS",
+          "name": "휠하우징 커버 스토리지",
           "note": null,
           "includes": []
         },
@@ -27607,12 +28101,20 @@
             "안전 하차 경고"
           ]
         },
+        "W2SB2VF32|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VF32|sct": {
           "state": "선택",
           "price": 450000,
           "code": "SCT",
           "name": "스마트 커넥트",
-          "note": null,
+          "note": "카고는 SCT +52만, 오픈베드는 SCT +45만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -27626,6 +28128,14 @@
           "note": null,
           "includes": []
         },
+        "W2SB2VF32|ltr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "L-TRACK PKG",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VF32|uty": {
           "state": "선택",
           "price": 380000,
@@ -27634,12 +28144,44 @@
           "note": null,
           "includes": []
         },
+        "W2SB2VF32|crf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 바닥",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2SB2VF32|crl": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 평탄화 플로어",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2SB2VF32|sbh": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특화 격벽",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VF32|fld": {
           "state": "선택",
           "price": null,
           "code": "FLD",
           "name": "평바닥적재함",
           "note": null,
+          "includes": []
+        },
+        "W2SB2VF32|wcs": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "휠하우징 커버 스토리지",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "W2SB2VG32|dwp": {
@@ -27654,6 +28196,14 @@
             "후방교차 충돌방지 보조",
             "안전 하차 경고"
           ]
+        },
+        "W2SB2VG32|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
         },
         "W2SB2VG32|sct": {
           "state": "포함",
@@ -27674,6 +28224,14 @@
           "note": "오픈베드 2인승 베이직-스탠다드 2WD에서는 CVN 선택(+비용) → 이 트림 기본가에 포함",
           "includes": []
         },
+        "W2SB2VG32|ltr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "L-TRACK PKG",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VG32|uty": {
           "state": "포함",
           "price": null,
@@ -27682,12 +28240,44 @@
           "note": "오픈베드 2인승 베이직-스탠다드 2WD에서는 UTY 선택(+비용) → 이 트림 기본가에 포함",
           "includes": []
         },
+        "W2SB2VG32|crf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 바닥",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2SB2VG32|crl": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 평탄화 플로어",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2SB2VG32|sbh": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특화 격벽",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VG32|fld": {
           "state": "포함",
           "price": null,
           "code": "FLD",
           "name": "평바닥적재함",
           "note": "오픈베드 2인승 베이직-스탠다드 2WD에서는 FLD 선택(+비용) → 이 트림 기본가에 포함",
+          "includes": []
+        },
+        "W2SB2VG32|wcs": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "휠하우징 커버 스토리지",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "W2SB2VH32|dwp": {
@@ -27702,6 +28292,14 @@
             "후방교차 충돌방지 보조",
             "안전 하차 경고"
           ]
+        },
+        "W2SB2VH32|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
         },
         "W2SB2VH32|sct": {
           "state": "포함",
@@ -27722,6 +28320,14 @@
           "note": "오픈베드 2인승 베이직-스탠다드 2WD에서는 CVN 선택(+비용) → 이 트림 기본가에 포함",
           "includes": []
         },
+        "W2SB2VH32|ltr": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "L-TRACK PKG",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VH32|uty": {
           "state": "포함",
           "price": null,
@@ -27730,12 +28336,44 @@
           "note": "오픈베드 2인승 베이직-스탠다드 2WD에서는 UTY 선택(+비용) → 이 트림 기본가에 포함",
           "includes": []
         },
+        "W2SB2VH32|crf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 바닥",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2SB2VH32|crl": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "카고룸 평탄화 플로어",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W2SB2VH32|sbh": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "특화 격벽",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W2SB2VH32|fld": {
           "state": "포함",
           "price": null,
           "code": "FLD",
           "name": "평바닥적재함",
           "note": "오픈베드 2인승 베이직-스탠다드 2WD에서는 FLD 선택(+비용) → 이 트림 기본가에 포함",
+          "includes": []
+        },
+        "W2SB2VH32|wcs": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "휠하우징 커버 스토리지",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         }
       }
@@ -27905,6 +28543,14 @@
           ]
         },
         {
+          "id": "W1DA2VC32",
+          "name": "도너 2인승 플러스 2WD",
+          "code": "W1DA2VC32",
+          "basePrice": 47800000,
+          "deltaFromMin": 1900000,
+          "includedOptions": []
+        },
+        {
           "id": "W1RA4VB32",
           "name": "프라임 4인승 베이직 2WD",
           "code": "W1RA4VB32",
@@ -27984,6 +28630,7 @@
             "W1PACVC32": "DWP",
             "W1TAAVA32": "DWP",
             "W1TABVA32": "DWP",
+            "W1DA2VC32": "DWP",
             "W1RA4VB32": "DWP"
           },
           "pricesByTrim": {
@@ -27994,9 +28641,10 @@
             "W1PACVC32": 550000,
             "W1TAAVA32": 520000,
             "W1TABVA32": 520000,
+            "W1DA2VC32": 520000,
             "W1RA4VB32": 550000
           },
-          "trimDiff": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "trimDiff": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -28017,6 +28665,7 @@
             "W1PACVC32": "MNT",
             "W1TAAVA32": "MNT",
             "W1TABVA32": "MNT",
+            "W1DA2VC32": "MNT",
             "W1RA4VB32": "MNT"
           },
           "pricesByTrim": {
@@ -28027,9 +28676,10 @@
             "W1PACVC32": 800000,
             "W1TAAVA32": 760000,
             "W1TABVA32": 760000,
+            "W1DA2VC32": 760000,
             "W1RA4VB32": 800000
           },
-          "trimDiff": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "trimDiff": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -28041,12 +28691,13 @@
           "id": "sct",
           "label": "스마트커넥트",
           "sublabel": "SCT",
-          "headerPrice": 550000,
+          "headerPrice": null,
           "codesByTrim": {
             "W1PAAVB32": "SCT",
             "W1PAAVC32": "SCT",
             "W1PACVB32": "SCT",
             "W1PACVC32": "SCT",
+            "W1DA2VC32": "SCT",
             "W1RA4VB32": "SCT"
           },
           "pricesByTrim": {
@@ -28054,9 +28705,10 @@
             "W1PAAVC32": 550000,
             "W1PACVB32": 550000,
             "W1PACVC32": 550000,
+            "W1DA2VC32": 520000,
             "W1RA4VB32": 550000
           },
-          "trimDiff": null,
+          "trimDiff": "패신저·프라임는 SCT +55만, 도너는 SCT +52만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -28078,6 +28730,20 @@
             "W1PACVB32": 1000000
           },
           "trimDiff": "패신저는 CVN +125만, 패신저는 CVN +100만",
+          "includes": []
+        },
+        {
+          "id": "6sp",
+          "label": "6스피커",
+          "sublabel": "6SP",
+          "headerPrice": 200000,
+          "codesByTrim": {
+            "W1DA2VC32": "6SP"
+          },
+          "pricesByTrim": {
+            "W1DA2VC32": 200000
+          },
+          "trimDiff": null,
           "includes": []
         },
         {
@@ -28134,6 +28800,7 @@
             "W1PACVB32": "UTY",
             "W1TAAVA32": "UTY",
             "W1TABVA32": "UTY",
+            "W1DA2VC32": "UTY",
             "W1RA4VB32": "UTY"
           },
           "pricesByTrim": {
@@ -28142,9 +28809,10 @@
             "W1PACVB32": 400000,
             "W1TAAVA32": 380000,
             "W1TABVA32": 380000,
+            "W1DA2VC32": 380000,
             "W1RA4VB32": 400000
           },
-          "trimDiff": "패신저·프라임는 UTY +40만, 택시는 UTY +38만",
+          "trimDiff": "패신저·프라임는 UTY +40만, 택시·도너는 UTY +38만",
           "includes": []
         },
         {
@@ -28185,6 +28853,7 @@
             "W1PAAVC32": "PDR",
             "W1PACVB32": "PDR",
             "W1PACVC32": "PDR",
+            "W1DA2VC32": "PDR",
             "W1RA4VB32": "PDR"
           },
           "pricesByTrim": {
@@ -28192,9 +28861,10 @@
             "W1PAAVC32": 800000,
             "W1PACVB32": 1200000,
             "W1PACVC32": 800000,
+            "W1DA2VC32": 760000,
             "W1RA4VB32": 1200000
           },
-          "trimDiff": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만",
+          "trimDiff": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만, 도너는 PDR +76만",
           "includes": []
         },
         {
@@ -28236,7 +28906,7 @@
           "price": 520000,
           "code": "DWP",
           "name": "드라이브 와이즈",
-          "note": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -28249,7 +28919,7 @@
           "price": 760000,
           "code": "MNT",
           "name": "모니터링",
-          "note": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -28270,6 +28940,14 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1TAAVA32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -28302,7 +28980,7 @@
           "price": 380000,
           "code": "UTY",
           "name": "유틸리티",
-          "note": "패신저·프라임는 UTY +40만, 택시는 UTY +38만",
+          "note": "패신저·프라임는 UTY +40만, 택시·도너는 UTY +38만",
           "includes": []
         },
         "W1TAAVA32|cvn1": {
@@ -28350,7 +29028,7 @@
           "price": 520000,
           "code": "DWP",
           "name": "드라이브 와이즈",
-          "note": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -28363,7 +29041,7 @@
           "price": 760000,
           "code": "MNT",
           "name": "모니터링",
-          "note": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -28384,6 +29062,14 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1TABVA32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -28416,7 +29102,7 @@
           "price": 380000,
           "code": "UTY",
           "name": "유틸리티",
-          "note": "패신저·프라임는 UTY +40만, 택시는 UTY +38만",
+          "note": "패신저·프라임는 UTY +40만, 택시·도너는 UTY +38만",
           "includes": []
         },
         "W1TABVA32|cvn1": {
@@ -28459,12 +29145,137 @@
           "note": null,
           "includes": []
         },
+        "W1DA2VC32|dwp": {
+          "state": "선택",
+          "price": 520000,
+          "code": "DWP",
+          "name": "드라이브 와이즈",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
+          "includes": [
+            "후측방 충돌 경고",
+            "후측방 충돌방지 보조(전진 출차)",
+            "후방교차 충돌방지 보조",
+            "안전 하차 경고"
+          ]
+        },
+        "W1DA2VC32|mnt": {
+          "state": "선택",
+          "price": 760000,
+          "code": "MNT",
+          "name": "모니터링",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
+          "includes": [
+            "서라운드 뷰 모니터",
+            "후측방 모니터",
+            "후방 주차 충돌방지 보조",
+            "측방 주차 거리 경고"
+          ]
+        },
+        "W1DA2VC32|sct": {
+          "state": "선택",
+          "price": 520000,
+          "code": "SCT",
+          "name": "스마트 커넥트",
+          "note": "패신저·프라임는 SCT +55만, 도너는 SCT +52만",
+          "includes": [
+            "기아 디지털 키 2",
+            "스마트폰 무선충전 시스템"
+          ]
+        },
+        "W1DA2VC32|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1DA2VC32|6sp": {
+          "state": "선택",
+          "price": 200000,
+          "code": "6SP",
+          "name": "6스피커",
+          "note": null,
+          "includes": []
+        },
+        "W1DA2VC32|sst": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "사이드스텝",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1DA2VC32|odp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "아웃도어팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1DA2VC32|adp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "올인원 디스플레이2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1DA2VC32|uty": {
+          "state": "선택",
+          "price": 380000,
+          "code": "UTY",
+          "name": "유틸리티",
+          "note": "패신저·프라임는 UTY +40만, 택시·도너는 UTY +38만",
+          "includes": []
+        },
+        "W1DA2VC32|cvn1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스Ⅰ",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1DA2VC32|cvn2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스Ⅱ",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1DA2VC32|pdr": {
+          "state": "선택",
+          "price": 760000,
+          "code": "PDR",
+          "name": "파워도어",
+          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만, 도너는 PDR +76만",
+          "includes": []
+        },
+        "W1DA2VC32|pdr1": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워도어Ⅰ",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1DA2VC32|pdr2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "파워도어Ⅱ",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "W1PABVB32|dwp": {
           "state": "선택",
           "price": 550000,
           "code": "DWP",
           "name": "드라이브 와이즈",
-          "note": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -28477,7 +29288,7 @@
           "price": 800000,
           "code": "MNT",
           "name": "모니터링",
-          "note": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -28499,6 +29310,14 @@
           "code": "CVN",
           "name": "컨비니언스",
           "note": "패신저는 CVN +125만, 패신저는 CVN +100만",
+          "includes": []
+        },
+        "W1PABVB32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "W1PABVB32|sst": {
@@ -28530,7 +29349,7 @@
           "price": 400000,
           "code": "UTY",
           "name": "유틸리티",
-          "note": "패신저·프라임는 UTY +40만, 택시는 UTY +38만",
+          "note": "패신저·프라임는 UTY +40만, 택시·도너는 UTY +38만",
           "includes": []
         },
         "W1PABVB32|cvn1": {
@@ -28578,7 +29397,7 @@
           "price": 550000,
           "code": "DWP",
           "name": "드라이브 와이즈",
-          "note": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -28591,7 +29410,7 @@
           "price": 800000,
           "code": "MNT",
           "name": "모니터링",
-          "note": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -28604,7 +29423,7 @@
           "price": 550000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": null,
+          "note": "패신저·프라임는 SCT +55만, 도너는 SCT +52만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -28616,6 +29435,14 @@
           "code": "CVN",
           "name": "컨비니언스",
           "note": "패신저는 CVN +125만, 패신저는 CVN +100만",
+          "includes": []
+        },
+        "W1PAAVB32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "W1PAAVB32|sst": {
@@ -28647,7 +29474,7 @@
           "price": 400000,
           "code": "UTY",
           "name": "유틸리티",
-          "note": "패신저·프라임는 UTY +40만, 택시는 UTY +38만",
+          "note": "패신저·프라임는 UTY +40만, 택시·도너는 UTY +38만",
           "includes": []
         },
         "W1PAAVB32|cvn1": {
@@ -28671,7 +29498,7 @@
           "price": 1200000,
           "code": "PDR",
           "name": "파워도어",
-          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만",
+          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만, 도너는 PDR +76만",
           "includes": []
         },
         "W1PAAVB32|pdr1": {
@@ -28695,7 +29522,7 @@
           "price": 550000,
           "code": "DWP",
           "name": "드라이브 와이즈",
-          "note": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -28708,7 +29535,7 @@
           "price": 800000,
           "code": "MNT",
           "name": "모니터링",
-          "note": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -28721,7 +29548,7 @@
           "price": 550000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": null,
+          "note": "패신저·프라임는 SCT +55만, 도너는 SCT +52만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -28733,6 +29560,14 @@
           "code": "CVN",
           "name": "컨비니언스",
           "note": "패신저는 CVN +125만, 패신저는 CVN +100만",
+          "includes": []
+        },
+        "W1PACVB32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "W1PACVB32|sst": {
@@ -28764,7 +29599,7 @@
           "price": 400000,
           "code": "UTY",
           "name": "유틸리티",
-          "note": "패신저·프라임는 UTY +40만, 택시는 UTY +38만",
+          "note": "패신저·프라임는 UTY +40만, 택시·도너는 UTY +38만",
           "includes": []
         },
         "W1PACVB32|cvn1": {
@@ -28788,7 +29623,7 @@
           "price": 1200000,
           "code": "PDR",
           "name": "파워도어",
-          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만",
+          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만, 도너는 PDR +76만",
           "includes": []
         },
         "W1PACVB32|pdr1": {
@@ -28812,7 +29647,7 @@
           "price": 550000,
           "code": "DWP",
           "name": "드라이브 와이즈",
-          "note": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -28825,7 +29660,7 @@
           "price": 800000,
           "code": "MNT",
           "name": "모니터링",
-          "note": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -28838,7 +29673,7 @@
           "price": 550000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": null,
+          "note": "패신저·프라임는 SCT +55만, 도너는 SCT +52만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -28850,6 +29685,14 @@
           "code": "CVN",
           "name": "컨비니언스",
           "note": "패신저 1-2-2 베이직 2WD에서는 CVN 선택(+비용) → 이 트림 기본가에 포함",
+          "includes": []
+        },
+        "W1PAAVC32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "W1PAAVC32|sst": {
@@ -28905,7 +29748,7 @@
           "price": 800000,
           "code": "PDR",
           "name": "파워도어",
-          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만",
+          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만, 도너는 PDR +76만",
           "includes": []
         },
         "W1PAAVC32|pdr1": {
@@ -28929,7 +29772,7 @@
           "price": 550000,
           "code": "DWP",
           "name": "드라이브 와이즈",
-          "note": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -28942,7 +29785,7 @@
           "price": 800000,
           "code": "MNT",
           "name": "모니터링",
-          "note": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -28955,7 +29798,7 @@
           "price": 550000,
           "code": "SCT",
           "name": "스마트 커넥트",
-          "note": null,
+          "note": "패신저·프라임는 SCT +55만, 도너는 SCT +52만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -28966,6 +29809,14 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1RA4VB32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -28998,7 +29849,7 @@
           "price": 400000,
           "code": "UTY",
           "name": "유틸리티",
-          "note": "패신저·프라임는 UTY +40만, 택시는 UTY +38만",
+          "note": "패신저·프라임는 UTY +40만, 택시·도너는 UTY +38만",
           "includes": []
         },
         "W1RA4VB32|cvn1": {
@@ -29022,7 +29873,7 @@
           "price": 1200000,
           "code": "PDR",
           "name": "파워도어",
-          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만",
+          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만, 도너는 PDR +76만",
           "includes": []
         },
         "W1RA4VB32|pdr1": {
@@ -29046,7 +29897,7 @@
           "price": 550000,
           "code": "DWP",
           "name": "드라이브 와이즈",
-          "note": "패신저·프라임는 DWP +55만, 택시는 DWP +52만",
+          "note": "패신저·프라임는 DWP +55만, 택시·도너는 DWP +52만",
           "includes": [
             "후측방 충돌 경고",
             "후측방 충돌방지 보조(전진 출차)",
@@ -29059,7 +29910,7 @@
           "price": 800000,
           "code": "MNT",
           "name": "모니터링",
-          "note": "패신저·프라임는 MNT +80만, 택시는 MNT +76만",
+          "note": "패신저·프라임는 MNT +80만, 택시·도너는 MNT +76만",
           "includes": [
             "서라운드 뷰 모니터",
             "후측방 모니터",
@@ -29072,7 +29923,7 @@
           "price": 550000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": null,
+          "note": "패신저·프라임는 SCT +55만, 도너는 SCT +52만",
           "includes": [
             "기아 디지털 키 2",
             "스마트폰 무선충전 시스템"
@@ -29084,6 +29935,14 @@
           "code": "CVN",
           "name": "컨비니언스",
           "note": "패신저 1-2-2 베이직 2WD에서는 CVN 선택(+비용) → 이 트림 기본가에 포함",
+          "includes": []
+        },
+        "W1PACVC32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "W1PACVC32|sst": {
@@ -29139,7 +29998,7 @@
           "price": 800000,
           "code": "PDR",
           "name": "파워도어",
-          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만",
+          "note": "패신저·프라임는 PDR +120만, 패신저는 PDR +80만, 도너는 PDR +76만",
           "includes": []
         },
         "W1PACVC32|pdr1": {
@@ -29200,6 +30059,14 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "W1RA4VC32|6sp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "6스피커",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
