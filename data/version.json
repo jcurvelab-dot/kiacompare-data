@@ -1,7 +1,7 @@
 {
   "version": "2026-09",
-  "updatedAt": "2026-09-20T19:04:01+09:00",
-  "sha256": "4a8aeb0371918e0564a1bbf679775a28f52042cfd637a324eb5328ac9f4932d0",
+  "updatedAt": "2026-09-20T19:08:00+09:00",
+  "sha256": "9df1694c3ff4081ab6c50d680b169c1ea07a8e4fc14535202430b2887bc18059",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
   "pdfFeatures": {
@@ -93,13 +93,13 @@
     },
     {
       "name": "카니발",
-      "trims": 20,
-      "options": 13
+      "trims": 24,
+      "options": 15
     },
     {
       "name": "카니발 하이리무진",
-      "trims": 11,
-      "options": 8
+      "trims": 7,
+      "options": 3
     },
     {
       "name": "타스만",

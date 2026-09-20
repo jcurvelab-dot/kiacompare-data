@@ -44659,6 +44659,42 @@
           "deltaFromMin": 13610000,
           "includedOptions": [],
           "grade": "블랙에디션"
+        },
+        {
+          "id": "KPHG9AH38",
+          "name": "하이루프 노블레스 · 가솔린 9인승",
+          "code": "KPHG9AH38",
+          "basePrice": 52110000,
+          "deltaFromMin": 15250000,
+          "includedOptions": [],
+          "grade": "하이루프 노블레스"
+        },
+        {
+          "id": "KPHG9AI38",
+          "name": "하이루프 시그니처 · 가솔린 9인승",
+          "code": "KPHG9AI38",
+          "basePrice": 55660000,
+          "deltaFromMin": 18800000,
+          "includedOptions": [],
+          "grade": "하이루프 시그니처"
+        },
+        {
+          "id": "KPHG99H38",
+          "name": "하이루프 노블레스 · HEV 9인승",
+          "code": "KPHG99H38",
+          "basePrice": 56660000,
+          "deltaFromMin": 19800000,
+          "includedOptions": [],
+          "grade": "하이루프 노블레스"
+        },
+        {
+          "id": "KPHG99I38",
+          "name": "하이루프 시그니처 · HEV 9인승",
+          "code": "KPHG99I38",
+          "basePrice": 60210000,
+          "deltaFromMin": 23350000,
+          "includedOptions": [],
+          "grade": "하이루프 시그니처"
         }
       ],
       "options": [
@@ -44679,7 +44715,11 @@
             "KPJG79E39": "STY",
             "KPJG99B39": "STY",
             "KPJG99C39": "STY",
-            "KPJG99D39": "STY"
+            "KPJG99D39": "STY",
+            "KPHG9AH38": "STY",
+            "KPHG9AI38": "STY",
+            "KPHG99H38": "STY",
+            "KPHG99I38": "STY"
           },
           "pricesByTrim": {
             "KPJG7AC39": 700000,
@@ -44693,9 +44733,13 @@
             "KPJG79E39": 470000,
             "KPJG99B39": 700000,
             "KPJG99C39": 700000,
-            "KPJG99D39": 700000
+            "KPJG99D39": 700000,
+            "KPHG9AH38": 1000000,
+            "KPHG9AI38": 700000,
+            "KPHG99H38": 1000000,
+            "KPHG99I38": 700000
           },
-          "trimDiff": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "trimDiff": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -44774,7 +44818,11 @@
             "KPJG99C39": "CPT",
             "KPJG99D39": "CPT",
             "KPJG99G39": "CPT",
-            "KPJG99K39": "CPT"
+            "KPJG99K39": "CPT",
+            "KPHG9AH38": "CPT",
+            "KPHG9AI38": "CPT",
+            "KPHG99H38": "CPT",
+            "KPHG99I38": "CPT"
           },
           "pricesByTrim": {
             "KPJG7AC39": 1460000,
@@ -44792,9 +44840,13 @@
             "KPJG99C39": 1460000,
             "KPJG99D39": 1460000,
             "KPJG99G39": 1460000,
-            "KPJG99K39": 1460000
+            "KPJG99K39": 1460000,
+            "KPHG9AH38": 1400000,
+            "KPHG9AI38": 1400000,
+            "KPHG99H38": 1400000,
+            "KPHG99I38": 1400000
           },
-          "trimDiff": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "trimDiff": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -45001,6 +45053,46 @@
           "includes": []
         },
         {
+          "id": "dwpm",
+          "label": "드라이브와이즈+모니터링",
+          "sublabel": "DWPM",
+          "headerPrice": 1950000,
+          "codesByTrim": {
+            "KPHG9AH38": "DWPM",
+            "KPHG9AI38": "DWPM",
+            "KPHG99H38": "DWPM",
+            "KPHG99I38": "DWPM"
+          },
+          "pricesByTrim": {
+            "KPHG9AH38": 1950000,
+            "KPHG9AI38": 1950000,
+            "KPHG99H38": 1950000,
+            "KPHG99I38": 1950000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
+          "id": "smt2",
+          "label": "스마트커넥트팩",
+          "sublabel": "SMT2",
+          "headerPrice": 1950000,
+          "codesByTrim": {
+            "KPHG9AH38": "SMT2",
+            "KPHG9AI38": "SMT2",
+            "KPHG99H38": "SMT2",
+            "KPHG99I38": "SMT2"
+          },
+          "pricesByTrim": {
+            "KPHG9AH38": 1950000,
+            "KPHG9AI38": 1950000,
+            "KPHG99H38": 1950000,
+            "KPHG99I38": 1950000
+          },
+          "trimDiff": null,
+          "includes": []
+        },
+        {
           "id": "bos",
           "label": "BOSE사운드",
           "sublabel": "BOS",
@@ -45017,7 +45109,9 @@
             "KPJG79K39": "BOS",
             "KPJG99D39": "BOS",
             "KPJG99G39": "BOS",
-            "KPJG99K39": "BOS"
+            "KPJG99K39": "BOS",
+            "KPHG9AI38": "BOS",
+            "KPHG99I38": "BOS"
           },
           "pricesByTrim": {
             "KPJG7AD39": 950000,
@@ -45031,7 +45125,9 @@
             "KPJG79K39": 950000,
             "KPJG99D39": 900000,
             "KPJG99G39": 900000,
-            "KPJG99K39": 900000
+            "KPJG99K39": 900000,
+            "KPHG9AI38": 900000,
+            "KPHG99I38": 900000
           },
           "trimDiff": "시그니처·X-Line는 BOS +95만, 시그니처·X-Line는 BOS +90만",
           "includes": []
@@ -45155,7 +45251,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45203,6 +45299,22 @@
           "note": null,
           "includes": []
         },
+        "KPJG9AB39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG9AB39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG9AB39|bos": {
           "state": "적용불가",
           "price": null,
@@ -45240,7 +45352,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45263,7 +45375,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45299,6 +45411,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG9AC39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG9AC39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -45339,7 +45467,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45387,6 +45515,22 @@
           "note": null,
           "includes": []
         },
+        "KPJG99B39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG99B39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG99B39|bos": {
           "state": "적용불가",
           "price": null,
@@ -45424,7 +45568,7 @@
           "price": 470000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45482,6 +45626,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG7AE39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG7AE39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG7AE39|bos": {
           "state": "적용불가",
           "price": null,
@@ -45519,7 +45679,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45542,7 +45702,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45578,6 +45738,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG7AC39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG7AC39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -45618,7 +45794,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45641,7 +45817,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45687,6 +45863,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG9AD39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG9AD39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -45745,7 +45937,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -45787,6 +45979,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG9AG39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG9AG39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG9AG39|bos": {
           "state": "선택",
           "price": 900000,
@@ -45824,7 +46032,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45847,7 +46055,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -45883,6 +46091,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG99C39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG99C39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -45941,7 +46165,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -45983,6 +46207,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG9AK39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG9AK39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG9AK39|bos": {
           "state": "선택",
           "price": 900000,
@@ -46020,7 +46260,7 @@
           "price": 470000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46078,6 +46318,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG79E39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG79E39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG79E39|bos": {
           "state": "적용불가",
           "price": null,
@@ -46115,7 +46371,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46138,7 +46394,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46184,6 +46440,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG7AD39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG7AD39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -46242,7 +46514,7 @@
           "price": 1190000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -46284,6 +46556,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG7AG39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG7AG39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG7AG39|bos": {
           "state": "선택",
           "price": 950000,
@@ -46321,7 +46609,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46344,7 +46632,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46380,6 +46668,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG79C39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG79C39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -46438,7 +46742,7 @@
           "price": 1190000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -46480,6 +46784,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG7AK39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG7AK39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG7AK39|bos": {
           "state": "선택",
           "price": 950000,
@@ -46517,7 +46837,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46540,7 +46860,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46586,6 +46906,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG99D39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG99D39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -46644,7 +46980,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -46683,6 +47019,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG99G39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG99G39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -46741,7 +47093,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -46783,6 +47135,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG99K39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG99K39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG99K39|bos": {
           "state": "선택",
           "price": 900000,
@@ -46820,7 +47188,7 @@
           "price": 700000,
           "code": "STY",
           "name": "스타일",
-          "note": "프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46843,7 +47211,7 @@
           "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "프로젝션 LED 헤드램프",
             "LED 포그램프",
@@ -46892,6 +47260,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG79D39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG79D39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG79D39|bos": {
           "state": "선택",
           "price": 950000,
@@ -46924,6 +47308,114 @@
           "note": "노블레스·시그니처는 DSRF +84만, 노블레스·시그니처는 DSRF +80만",
           "includes": []
         },
+        "KPHG9AH38|sty": {
+          "state": "선택",
+          "price": 1000000,
+          "code": "STY",
+          "name": "스타일",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "KPHG9AH38|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AH38|cpt": {
+          "state": "선택",
+          "price": 1400000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "KPHG9AH38|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AH38|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AH38|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AH38|dwpm": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": null,
+          "includes": []
+        },
+        "KPHG9AH38|smt2": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": null,
+          "includes": []
+        },
+        "KPHG9AH38|bos": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "BOSE사운드",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AH38|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AH38|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AH38|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG79G39|sty": {
           "state": "적용불가",
           "price": null,
@@ -46947,7 +47439,7 @@
           "price": 1190000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -46986,6 +47478,22 @@
           "price": null,
           "code": null,
           "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG79G39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG79G39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
@@ -47044,7 +47552,7 @@
           "price": 1190000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 노블레스·시그니처는 CPT +119만",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -47086,6 +47594,22 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
+        "KPJG79K39|dwpm": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈+모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPJG79K39|smt2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트팩",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
         "KPJG79K39|bos": {
           "state": "선택",
           "price": 950000,
@@ -47116,6 +47640,330 @@
           "code": "DSRF",
           "name": "듀얼선루프",
           "note": "노블레스·시그니처는 DSRF +84만, 노블레스·시그니처는 DSRF +80만",
+          "includes": []
+        },
+        "KPHG9AI38|sty": {
+          "state": "선택",
+          "price": 700000,
+          "code": "STY",
+          "name": "스타일",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "KPHG9AI38|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AI38|cpt": {
+          "state": "선택",
+          "price": 1400000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "KPHG9AI38|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AI38|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AI38|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AI38|dwpm": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": null,
+          "includes": []
+        },
+        "KPHG9AI38|smt2": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": null,
+          "includes": []
+        },
+        "KPHG9AI38|bos": {
+          "state": "선택",
+          "price": 900000,
+          "code": "BOS",
+          "name": "BOSE사운드",
+          "note": "시그니처·X-Line는 BOS +95만, 시그니처·X-Line는 BOS +90만",
+          "includes": []
+        },
+        "KPHG9AI38|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AI38|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG9AI38|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99H38|sty": {
+          "state": "선택",
+          "price": 1000000,
+          "code": "STY",
+          "name": "스타일",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "KPHG99H38|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99H38|cpt": {
+          "state": "선택",
+          "price": 1400000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "KPHG99H38|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99H38|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99H38|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99H38|dwpm": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": null,
+          "includes": []
+        },
+        "KPHG99H38|smt2": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": null,
+          "includes": []
+        },
+        "KPHG99H38|bos": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "BOSE사운드",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99H38|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99H38|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99H38|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99I38|sty": {
+          "state": "선택",
+          "price": 700000,
+          "code": "STY",
+          "name": "스타일",
+          "note": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "KPHG99I38|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99I38|cpt": {
+          "state": "선택",
+          "price": 1400000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "KPHG99I38|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99I38|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99I38|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99I38|dwpm": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": null,
+          "includes": []
+        },
+        "KPHG99I38|smt2": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": null,
+          "includes": []
+        },
+        "KPHG99I38|bos": {
+          "state": "선택",
+          "price": 900000,
+          "code": "BOS",
+          "name": "BOSE사운드",
+          "note": "시그니처·X-Line는 BOS +95만, 시그니처·X-Line는 BOS +90만",
+          "includes": []
+        },
+        "KPHG99I38|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99I38|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "KPHG99I38|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "KPJG7AC39|hud": {
@@ -47355,7 +48203,7 @@
           "name": "시그니처 · 하이리무진 가솔린 4인승",
           "code": "KPHG4AD38",
           "basePrice": 94610000,
-          "deltaFromMin": 42500000,
+          "deltaFromMin": 27940000,
           "includedOptions": [
             {
               "id": "smt1",
@@ -47379,7 +48227,7 @@
           "name": "시그니처 · 하이리무진 가솔린 7인승",
           "code": "KPHG7AD38",
           "basePrice": 69880000,
-          "deltaFromMin": 17770000,
+          "deltaFromMin": 3210000,
           "includedOptions": [],
           "grade": "시그니처"
         },
@@ -47388,34 +48236,16 @@
           "name": "시그니처 · 하이리무진 가솔린 9인승",
           "code": "KPHG9AD38",
           "basePrice": 66670000,
-          "deltaFromMin": 14560000,
-          "includedOptions": [],
-          "grade": "시그니처"
-        },
-        {
-          "id": "KPHG9AH38",
-          "name": "하이루프 노블레스 · 하이리무진 가솔린 9인승",
-          "code": "KPHG9AH38",
-          "basePrice": 52110000,
           "deltaFromMin": 0,
           "includedOptions": [],
-          "grade": "하이루프 노블레스"
-        },
-        {
-          "id": "KPHG9AI38",
-          "name": "하이루프 시그니처 · 하이리무진 가솔린 9인승",
-          "code": "KPHG9AI38",
-          "basePrice": 55660000,
-          "deltaFromMin": 3550000,
-          "includedOptions": [],
-          "grade": "하이루프 시그니처"
+          "grade": "시그니처"
         },
         {
           "id": "KPHG49D38",
           "name": "시그니처 · 하이리무진 HEV 4인승",
           "code": "KPHG49D38",
           "basePrice": 99110000,
-          "deltaFromMin": 47000000,
+          "deltaFromMin": 32440000,
           "includedOptions": [
             {
               "id": "smt1",
@@ -47439,7 +48269,7 @@
           "name": "시그니처 · 하이리무진 HEV 7인승",
           "code": "KPHG79D38",
           "basePrice": 74380000,
-          "deltaFromMin": 22270000,
+          "deltaFromMin": 7710000,
           "includedOptions": [],
           "grade": "시그니처"
         },
@@ -47448,7 +48278,7 @@
           "name": "노블레스 · 하이리무진 HEV 9인승",
           "code": "KPHG99C38",
           "basePrice": 67820000,
-          "deltaFromMin": 15710000,
+          "deltaFromMin": 1150000,
           "includedOptions": [],
           "grade": "노블레스"
         },
@@ -47457,90 +48287,12 @@
           "name": "시그니처 · 하이리무진 HEV 9인승",
           "code": "KPHG99D38",
           "basePrice": 71220000,
-          "deltaFromMin": 19110000,
-          "includedOptions": [],
-          "grade": "시그니처"
-        },
-        {
-          "id": "KPHG99H38",
-          "name": "하이루프 노블레스 · 하이리무진 HEV 9인승",
-          "code": "KPHG99H38",
-          "basePrice": 56660000,
           "deltaFromMin": 4550000,
           "includedOptions": [],
-          "grade": "하이루프 노블레스"
-        },
-        {
-          "id": "KPHG99I38",
-          "name": "하이루프 시그니처 · 하이리무진 HEV 9인승",
-          "code": "KPHG99I38",
-          "basePrice": 60210000,
-          "deltaFromMin": 8100000,
-          "includedOptions": [],
-          "grade": "하이루프 시그니처"
+          "grade": "시그니처"
         }
       ],
       "options": [
-        {
-          "id": "sty",
-          "label": "스타일",
-          "sublabel": "STY",
-          "headerPrice": null,
-          "codesByTrim": {
-            "KPHG9AH38": "STY",
-            "KPHG9AI38": "STY",
-            "KPHG99H38": "STY",
-            "KPHG99I38": "STY"
-          },
-          "pricesByTrim": {
-            "KPHG9AH38": 1000000,
-            "KPHG9AI38": 700000,
-            "KPHG99H38": 1000000,
-            "KPHG99I38": 700000
-          },
-          "trimDiff": "하이루프는 STY +100만, 하이루프는 STY +70만",
-          "includes": []
-        },
-        {
-          "id": "cpt",
-          "label": "컴포트",
-          "sublabel": "CPT",
-          "headerPrice": 1400000,
-          "codesByTrim": {
-            "KPHG9AH38": "CPT",
-            "KPHG9AI38": "CPT",
-            "KPHG99H38": "CPT",
-            "KPHG99I38": "CPT"
-          },
-          "pricesByTrim": {
-            "KPHG9AH38": 1400000,
-            "KPHG9AI38": 1400000,
-            "KPHG99H38": 1400000,
-            "KPHG99I38": 1400000
-          },
-          "trimDiff": null,
-          "includes": []
-        },
-        {
-          "id": "dwpm",
-          "label": "드라이브와이즈+모니터링",
-          "sublabel": "DWPM",
-          "headerPrice": 1950000,
-          "codesByTrim": {
-            "KPHG9AH38": "DWPM",
-            "KPHG9AI38": "DWPM",
-            "KPHG99H38": "DWPM",
-            "KPHG99I38": "DWPM"
-          },
-          "pricesByTrim": {
-            "KPHG9AH38": 1950000,
-            "KPHG9AI38": 1950000,
-            "KPHG99H38": 1950000,
-            "KPHG99I38": 1950000
-          },
-          "trimDiff": null,
-          "includes": []
-        },
         {
           "id": "smt1",
           "label": "스마트커넥트팩",
@@ -47561,26 +48313,6 @@
             "KPHG99D38": 2850000
           },
           "trimDiff": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
-          "includes": []
-        },
-        {
-          "id": "smt2",
-          "label": "스마트커넥트팩",
-          "sublabel": "SMT2",
-          "headerPrice": 1950000,
-          "codesByTrim": {
-            "KPHG9AH38": "SMT2",
-            "KPHG9AI38": "SMT2",
-            "KPHG99H38": "SMT2",
-            "KPHG99I38": "SMT2"
-          },
-          "pricesByTrim": {
-            "KPHG9AH38": 1950000,
-            "KPHG9AI38": 1950000,
-            "KPHG99H38": 1950000,
-            "KPHG99I38": 1950000
-          },
-          "trimDiff": null,
           "includes": []
         },
         {
@@ -47614,319 +48346,15 @@
           },
           "trimDiff": null,
           "includes": []
-        },
-        {
-          "id": "bos",
-          "label": "BOSE사운드",
-          "sublabel": "BOS",
-          "headerPrice": 900000,
-          "codesByTrim": {
-            "KPHG9AI38": "BOS",
-            "KPHG99I38": "BOS"
-          },
-          "pricesByTrim": {
-            "KPHG9AI38": 900000,
-            "KPHG99I38": 900000
-          },
-          "trimDiff": null,
-          "includes": []
         }
       ],
       "cells": {
-        "KPHG9AH38|sty": {
-          "state": "선택",
-          "price": 1000000,
-          "code": "STY",
-          "name": "스타일",
-          "note": "하이루프는 STY +100만, 하이루프는 STY +70만",
-          "includes": []
-        },
-        "KPHG9AH38|cpt": {
-          "state": "선택",
-          "price": 1400000,
-          "code": "CPT",
-          "name": "컴포트",
-          "note": null,
-          "includes": []
-        },
-        "KPHG9AH38|dwpm": {
-          "state": "선택",
-          "price": 1950000,
-          "code": "DWPM",
-          "name": "드라이브와이즈+모니터링",
-          "note": null,
-          "includes": []
-        },
-        "KPHG9AH38|smt1": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AH38|smt2": {
-          "state": "선택",
-          "price": 1950000,
-          "code": "SMT2",
-          "name": "스마트커넥트+HUD+빌트인캠2",
-          "note": null,
-          "includes": []
-        },
-        "KPHG9AH38|hlp1": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "프리미엄팩1",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AH38|hlp2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "프리미엄팩2",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AH38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AI38|sty": {
-          "state": "선택",
-          "price": 700000,
-          "code": "STY",
-          "name": "스타일",
-          "note": "하이루프는 STY +100만, 하이루프는 STY +70만",
-          "includes": []
-        },
-        "KPHG9AI38|cpt": {
-          "state": "선택",
-          "price": 1400000,
-          "code": "CPT",
-          "name": "컴포트",
-          "note": null,
-          "includes": []
-        },
-        "KPHG9AI38|dwpm": {
-          "state": "선택",
-          "price": 1950000,
-          "code": "DWPM",
-          "name": "드라이브와이즈+모니터링",
-          "note": null,
-          "includes": []
-        },
-        "KPHG9AI38|smt1": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AI38|smt2": {
-          "state": "선택",
-          "price": 1950000,
-          "code": "SMT2",
-          "name": "스마트커넥트+HUD+빌트인캠2",
-          "note": null,
-          "includes": []
-        },
-        "KPHG9AI38|hlp1": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "프리미엄팩1",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AI38|hlp2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "프리미엄팩2",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AI38|bos": {
-          "state": "선택",
-          "price": 900000,
-          "code": "BOS",
-          "name": "BOSE사운드",
-          "note": null,
-          "includes": []
-        },
-        "KPHG99H38|sty": {
-          "state": "선택",
-          "price": 1000000,
-          "code": "STY",
-          "name": "스타일",
-          "note": "하이루프는 STY +100만, 하이루프는 STY +70만",
-          "includes": []
-        },
-        "KPHG99H38|cpt": {
-          "state": "선택",
-          "price": 1400000,
-          "code": "CPT",
-          "name": "컴포트",
-          "note": null,
-          "includes": []
-        },
-        "KPHG99H38|dwpm": {
-          "state": "선택",
-          "price": 1950000,
-          "code": "DWPM",
-          "name": "드라이브와이즈+모니터링",
-          "note": null,
-          "includes": []
-        },
-        "KPHG99H38|smt1": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99H38|smt2": {
-          "state": "선택",
-          "price": 1950000,
-          "code": "SMT2",
-          "name": "스마트커넥트+HUD+빌트인캠2",
-          "note": null,
-          "includes": []
-        },
-        "KPHG99H38|hlp1": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "프리미엄팩1",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99H38|hlp2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "프리미엄팩2",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99H38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99I38|sty": {
-          "state": "선택",
-          "price": 700000,
-          "code": "STY",
-          "name": "스타일",
-          "note": "하이루프는 STY +100만, 하이루프는 STY +70만",
-          "includes": []
-        },
-        "KPHG99I38|cpt": {
-          "state": "선택",
-          "price": 1400000,
-          "code": "CPT",
-          "name": "컴포트",
-          "note": null,
-          "includes": []
-        },
-        "KPHG99I38|dwpm": {
-          "state": "선택",
-          "price": 1950000,
-          "code": "DWPM",
-          "name": "드라이브와이즈+모니터링",
-          "note": null,
-          "includes": []
-        },
-        "KPHG99I38|smt1": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99I38|smt2": {
-          "state": "선택",
-          "price": 1950000,
-          "code": "SMT2",
-          "name": "스마트커넥트+HUD+빌트인캠2",
-          "note": null,
-          "includes": []
-        },
-        "KPHG99I38|hlp1": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "프리미엄팩1",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99I38|hlp2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "프리미엄팩2",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99I38|bos": {
-          "state": "선택",
-          "price": 900000,
-          "code": "BOS",
-          "name": "BOSE사운드",
-          "note": null,
-          "includes": []
-        },
-        "KPHG9AD38|sty": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스타일",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AD38|cpt": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "컴포트",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG9AD38|dwpm": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "드라이브와이즈+모니터링",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
         "KPHG9AD38|smt1": {
           "state": "선택",
           "price": 2850000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
           "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
-          "includes": []
-        },
-        "KPHG9AD38|smt2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "KPHG9AD38|hlp1": {
@@ -47945,52 +48373,12 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
-        "KPHG9AD38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99C38|sty": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스타일",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99C38|cpt": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "컴포트",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99C38|dwpm": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "드라이브와이즈+모니터링",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
         "KPHG99C38|smt1": {
           "state": "선택",
           "price": 2850000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
           "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
-          "includes": []
-        },
-        "KPHG99C38|smt2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "KPHG99C38|hlp1": {
@@ -48009,52 +48397,12 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
-        "KPHG99C38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG7AD38|sty": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스타일",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG7AD38|cpt": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "컴포트",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG7AD38|dwpm": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "드라이브와이즈+모니터링",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
         "KPHG7AD38|smt1": {
           "state": "선택",
           "price": 3010000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
           "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
-          "includes": []
-        },
-        "KPHG7AD38|smt2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "KPHG7AD38|hlp1": {
@@ -48073,52 +48421,12 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
-        "KPHG7AD38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99D38|sty": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스타일",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99D38|cpt": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "컴포트",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG99D38|dwpm": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "드라이브와이즈+모니터링",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
         "KPHG99D38|smt1": {
           "state": "선택",
           "price": 2850000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
           "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
-          "includes": []
-        },
-        "KPHG99D38|smt2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "KPHG99D38|hlp1": {
@@ -48137,52 +48445,12 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
-        "KPHG99D38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG79D38|sty": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스타일",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG79D38|cpt": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "컴포트",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG79D38|dwpm": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "드라이브와이즈+모니터링",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
         "KPHG79D38|smt1": {
           "state": "선택",
           "price": 3010000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
           "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
-          "includes": []
-        },
-        "KPHG79D38|smt2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "KPHG79D38|hlp1": {
@@ -48201,52 +48469,12 @@
           "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
-        "KPHG79D38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG4AD38|sty": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스타일",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG4AD38|cpt": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "컴포트",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG4AD38|dwpm": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "드라이브와이즈+모니터링",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
         "KPHG4AD38|smt1": {
           "state": "포함",
           "price": null,
           "code": "SMT1",
           "name": "스마트커넥트팩",
           "note": "시그니처 · 하이리무진 가솔린 9인승에서는 SMT1 선택(+비용) → 이 트림 기본가에 포함",
-          "includes": []
-        },
-        "KPHG4AD38|smt2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "KPHG4AD38|hlp1": {
@@ -48265,52 +48493,12 @@
           "note": null,
           "includes": []
         },
-        "KPHG4AD38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG49D38|sty": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스타일",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG49D38|cpt": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "컴포트",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
-        "KPHG49D38|dwpm": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "드라이브와이즈+모니터링",
-          "note": "이 트림에서는 제공되지 않음",
-          "includes": []
-        },
         "KPHG49D38|smt1": {
           "state": "포함",
           "price": null,
           "code": "SMT1",
           "name": "스마트커넥트팩",
           "note": "시그니처 · 하이리무진 가솔린 9인승에서는 SMT1 선택(+비용) → 이 트림 기본가에 포함",
-          "includes": []
-        },
-        "KPHG49D38|smt2": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "스마트커넥트팩",
-          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         },
         "KPHG49D38|hlp1": {
@@ -48327,14 +48515,6 @@
           "code": "HLP2",
           "name": "프리미엄팩2",
           "note": null,
-          "includes": []
-        },
-        "KPHG49D38|bos": {
-          "state": "적용불가",
-          "price": null,
-          "code": null,
-          "name": "BOSE사운드",
-          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         }
       }
