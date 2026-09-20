@@ -1,7 +1,7 @@
 {
   "version": "2026-09",
-  "updatedAt": "2026-09-20T12:57:08+09:00",
-  "sha256": "0b48678a1ed34536815593fab924cf59668f7cbe4511b9c1070937b54e80536d",
+  "updatedAt": "2026-09-20T18:49:00+09:00",
+  "sha256": "ee7bce49c5580bdded355b20dcf5d016ca6775d1dd22396ecfdd84b63ae85275",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
   "pdfFeatures": {
@@ -13,12 +13,12 @@
   "carLines": [
     {
       "name": "EV3",
-      "trims": 4,
-      "options": 15
+      "trims": 10,
+      "options": 13
     },
     {
       "name": "EV4",
-      "trims": 8,
+      "trims": 10,
       "options": 15
     },
     {
@@ -28,12 +28,12 @@
     },
     {
       "name": "EV9",
-      "trims": 17,
-      "options": 14
+      "trims": 21,
+      "options": 16
     },
     {
       "name": "셀토스",
-      "trims": 11,
+      "trims": 12,
       "options": 15
     },
     {
@@ -49,16 +49,16 @@
     {
       "name": "EV6",
       "trims": 12,
-      "options": 17
+      "options": 18
     },
     {
       "name": "K5",
       "trims": 18,
-      "options": 15
+      "options": 16
     },
     {
       "name": "K8",
-      "trims": 19,
+      "trims": 23,
       "options": 19
     },
     {
@@ -84,17 +84,17 @@
     {
       "name": "스포티지",
       "trims": 22,
-      "options": 13
+      "options": 14
     },
     {
       "name": "쏘렌토",
       "trims": 60,
-      "options": 10
+      "options": 11
     },
     {
       "name": "카니발",
       "trims": 20,
-      "options": 11
+      "options": 13
     },
     {
       "name": "타스만",
@@ -104,7 +104,7 @@
     {
       "name": "니로",
       "trims": 3,
-      "options": 15
+      "options": 14
     }
   ]
 }
