@@ -1,33 +1,40 @@
 {
   "version": "2026-09",
-  "updatedAt": "2026-09-18T23:32:09+00:00",
-  "sha256": "20cdbc446e8fef33d9deb180927225df3baaca9e81b9d7790ef176ae60ac060d",
+  "updatedAt": "2026-09-20T12:32:25+09:00",
+  "sha256": "33a3b2bd773de651e930b8d8e792be1c662e94842b89837b82ac89db51e9a31d",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
+  "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
+  "pdfFeatures": {
+    "sha256": "41678c69234e19c19c4e0792ff88806def60266056f820b1e20bd46012ef1255",
+    "bytes": 654942,
+    "cars": 19,
+    "url": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json"
+  },
   "carLines": [
     {
       "name": "EV3",
       "trims": 4,
-      "options": 12
+      "options": 15
     },
     {
       "name": "EV4",
       "trims": 8,
-      "options": 13
+      "options": 15
     },
     {
       "name": "EV5",
       "trims": 10,
-      "options": 10
+      "options": 13
     },
     {
       "name": "EV9",
       "trims": 17,
-      "options": 10
+      "options": 14
     },
     {
       "name": "셀토스",
       "trims": 11,
-      "options": 13
+      "options": 15
     },
     {
       "name": "봉고1.2톤",
@@ -42,17 +49,17 @@
     {
       "name": "EV6",
       "trims": 12,
-      "options": 13
+      "options": 17
     },
     {
       "name": "K5",
       "trims": 18,
-      "options": 14
+      "options": 15
     },
     {
       "name": "K8",
       "trims": 19,
-      "options": 18
+      "options": 19
     },
     {
       "name": "PV5(상용)",
@@ -67,27 +74,27 @@
     {
       "name": "레이",
       "trims": 16,
-      "options": 7
+      "options": 10
     },
     {
       "name": "모닝",
       "trims": 6,
-      "options": 10
+      "options": 11
     },
     {
       "name": "스포티지",
       "trims": 22,
-      "options": 10
+      "options": 13
     },
     {
       "name": "쏘렌토",
       "trims": 60,
-      "options": 8
+      "options": 10
     },
     {
       "name": "카니발",
       "trims": 20,
-      "options": 10
+      "options": 11
     },
     {
       "name": "타스만",
@@ -97,7 +104,7 @@
     {
       "name": "니로",
       "trims": 3,
-      "options": 12
+      "options": 15
     }
   ]
 }
