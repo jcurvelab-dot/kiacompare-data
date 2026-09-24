@@ -1,15 +1,17 @@
 {
-  "version": "2026-09",
-  "updatedAt": "2026-09-20T19:08:00+09:00",
-  "sha256": "9df1694c3ff4081ab6c50d680b169c1ea07a8e4fc14535202430b2887bc18059",
+  "version": "2026-09-24",
+  "updatedAt": "2026-09-24T16:30:34+09:00",
+  "sha256": "054a7d401d11e30ab43c11d07da589de2e682978b82a1a659228d8fcaa1152f4",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
   "pdfFeatures": {
-    "sha256": "f4479feecc067ac1743f8a4debf95c3ef510c59876091eaf9ae47ba75a33b80f",
-    "bytes": 562768,
+    "sha256": "7a14f78b66af91993a3ebb341552f177c77172cfcd89ad450f24ff00eaf159d0",
+    "bytes": 564513,
     "cars": 19,
     "url": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json"
   },
+  "optionInclusionDbUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/option_inclusion_db.json",
+  "notes": "Fix EV5 모니터링 false 포함(pdf_features); MNT full includes; option_inclusion_db; package-feature reconcile",
   "carLines": [
     {
       "name": "EV3",

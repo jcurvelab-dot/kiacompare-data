@@ -1,0 +1,7755 @@
+{
+  "updatedAt": "2026-09-20T18:48:38+09:00",
+  "cars": [
+    {
+      "id": "carnival",
+      "name": "카니발",
+      "grid": {
+        "grades": [
+          "노블레스",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 700000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 700000
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1460000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1460000
+              }
+            }
+          },
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1460000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1460000
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1950000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1950000
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1950000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1950000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1950000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1950000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1950000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1950000
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "노블레스": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 900000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 5,
+        "nOpts": 8
+      }
+    },
+    {
+      "id": "ev3",
+      "name": "EV3",
+      "grid": {
+        "grades": [
+          "에어",
+          "어스",
+          "GT-Line"
+        ],
+        "options": [
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 940000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트1",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 490000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT2",
+            "label": "컴포트2",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1290000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1290000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "R19",
+            "label": "19인치휠",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 490000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 490000
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 1040000
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 640000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 640000
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "에어": {
+                "state": "적용불가"
+              },
+              "어스": {
+                "state": "선택",
+                "price": 590000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "에어": {
+                "state": "적용불가"
+              },
+              "어스": {
+                "state": "선택",
+                "price": 450000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 450000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 590000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "AMP",
+            "label": "애프터마켓용 컬렉션",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 590000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 150000
+              },
+              "GT-Line": {
+                "state": "적용불가"
+              }
+            }
+          },
+          {
+            "code": "AWD",
+            "label": "듀얼모터4WD",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 590000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 2270000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 2270000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 11,
+        "nOpts": 13
+      }
+    },
+    {
+      "id": "ev4",
+      "name": "EV4",
+      "grid": {
+        "grades": [
+          "에어",
+          "어스",
+          "GT-Line"
+        ],
+        "options": [
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 740000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 890000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 890000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "R19",
+            "label": "19인치휠",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 490000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 490000
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1280000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1280000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 1280000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 400000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 640000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 640000
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "에어": {
+                "state": "적용불가"
+              },
+              "어스": {
+                "state": "선택",
+                "price": 640000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 640000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 450000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 450000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 450000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 590000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "AWD",
+            "label": "듀얼모터4WD",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 2270000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 590000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "AMP",
+            "label": "애프터마켓용 컬렉션",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 150000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 150000
+              },
+              "GT-Line": {
+                "state": "적용불가"
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 11,
+        "nOpts": 12
+      }
+    },
+    {
+      "id": "ev5",
+      "name": "EV5",
+      "grid": {
+        "grades": [
+          "에어",
+          "어스",
+          "GT-Line"
+        ],
+        "options": [
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 890000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트1",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1380000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT2",
+            "label": "컴포트2",
+            "byGrade": {
+              "에어": {
+                "state": "적용불가"
+              },
+              "어스": {
+                "state": "선택",
+                "price": 690000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 690000
+              }
+            }
+          },
+          {
+            "code": "R19",
+            "label": "19인치휠",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 300000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 300000
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1340000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 740000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 740000
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1380000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1380000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 1380000
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1340000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1340000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 1340000
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "에어": {
+                "state": "적용불가"
+              },
+              "어스": {
+                "state": "선택",
+                "price": 640000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 640000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 590000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 450000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "AWD",
+            "label": "듀얼모터4WD",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 2370000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 2370000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 2370000
+              }
+            }
+          },
+          {
+            "code": "AMP",
+            "label": "애프터마켓용 컬렉션",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 150000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 150000
+              },
+              "GT-Line": {
+                "state": "적용불가"
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "에어": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          },
+          {
+            "code": "TTR",
+            "label": "투톤루프",
+            "byGrade": {
+              "에어": {
+                "state": "적용불가"
+              },
+              "어스": {
+                "state": "적용불가"
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 400000
+              }
+            }
+          }
+        ],
+        "aligned": true,
+        "nCells": 13,
+        "nOpts": 13
+      }
+    },
+    {
+      "id": "ev6",
+      "name": "EV6",
+      "grid": {
+        "grades": [
+          "라이트",
+          "에어",
+          "어스",
+          "GT-Line"
+        ],
+        "options": [
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 400000
+              },
+              "에어": {
+                "state": "포함"
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 400000
+              },
+              "에어": {
+                "state": "포함"
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 1100000
+              },
+              "에어": {
+                "state": "선택",
+                "price": 650000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 650000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 650000
+              }
+            }
+          },
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "라이트": {
+                "state": "적용불가"
+              },
+              "에어": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "라이트": {
+                "state": "적용불가"
+              },
+              "에어": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "라이트": {
+                "state": "적용불가"
+              },
+              "에어": {
+                "state": "적용불가"
+              },
+              "어스": {
+                "state": "선택",
+                "price": 990000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 990000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "라이트": {
+                "state": "적용불가"
+              },
+              "에어": {
+                "state": "적용불가"
+              },
+              "어스": {
+                "state": "선택",
+                "price": 640000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 640000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "라이트": {
+                "state": "적용불가"
+              },
+              "에어": {
+                "state": "선택",
+                "price": 450000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 450000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "AWD",
+            "label": "듀얼모터4WD",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 2470000
+              },
+              "에어": {
+                "state": "선택",
+                "price": 2470000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 2470000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 2470000
+              }
+            }
+          },
+          {
+            "code": "R19",
+            "label": "19인치휠",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 400000
+              },
+              "에어": {
+                "state": "선택",
+                "price": 400000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 400000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 400000
+              }
+            }
+          },
+          {
+            "code": "R20",
+            "label": "20인치휠",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 400000
+              },
+              "에어": {
+                "state": "선택",
+                "price": 400000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 400000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 400000
+              }
+            }
+          },
+          {
+            "code": "AMP",
+            "label": "애프터마켓용 컬렉션",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 400000
+              },
+              "에어": {
+                "state": "선택",
+                "price": 400000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 400000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 400000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 15,
+        "nOpts": 12
+      }
+    },
+    {
+      "id": "ev9",
+      "name": "EV9",
+      "grid": {
+        "grades": [
+          "라이트",
+          "에어",
+          "어스",
+          "GT-Line"
+        ],
+        "options": [
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "라이트": {
+                "state": "적용불가"
+              },
+              "에어": {
+                "state": "선택",
+                "price": 2470000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1980000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 1980000
+              }
+            }
+          },
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "에어": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 590000
+              },
+              "에어": {
+                "state": "선택",
+                "price": 590000
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "라이트": {
+                "state": "적용불가"
+              },
+              "에어": {
+                "state": "선택",
+                "price": 1480000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1480000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 690000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 590000
+              },
+              "에어": {
+                "state": "선택",
+                "price": 590000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 590000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "라이트": {
+                "state": "선택",
+                "price": 1980000
+              },
+              "에어": {
+                "state": "포함"
+              },
+              "어스": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "라이트": {
+                "state": "적용불가"
+              },
+              "에어": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "어스": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 1190000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 11,
+        "nOpts": 7
+      }
+    },
+    {
+      "id": "k5",
+      "name": "K5",
+      "grid": {
+        "grades": [
+          "프레스티지",
+          "노블레스",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 890000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 200000
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 990000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 890000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 400000
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 450000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 450000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "적용불가"
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "적용불가"
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 10,
+        "nOpts": 7
+      }
+    },
+    {
+      "id": "k8",
+      "name": "K8",
+      "grid": {
+        "grades": [
+          "노블레스",
+          "시그니처",
+          "시그니처블랙"
+        ],
+        "options": [
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처블랙": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 840000
+              },
+              "시그니처": {
+                "state": "포함"
+              },
+              "시그니처블랙": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처블랙": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 1980000
+              },
+              "시그니처": {
+                "state": "적용불가"
+              },
+              "시그니처블랙": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "노블레스": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              },
+              "시그니처블랙": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "노블레스": {
+                "state": "선택",
+                "price": 540000
+              },
+              "시그니처": {
+                "state": "포함"
+              },
+              "시그니처블랙": {
+                "state": "포함"
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 8,
+        "nOpts": 6
+      }
+    },
+    {
+      "id": "morning",
+      "name": "모닝",
+      "grid": {
+        "grades": [
+          "트렌디",
+          "프레스티지",
+          "시그니처",
+          "GT-Line"
+        ],
+        "options": [
+          {
+            "code": "BAS",
+            "label": "버튼시동 PACK",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 500000
+              },
+              "프레스티지": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 900000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 850000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 850000
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 300000
+              },
+              "프레스티지": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 150000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 150000
+              },
+              "시그니처": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 150000
+              },
+              "시그니처": {
+                "state": "포함"
+              },
+              "GT-Line": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 400000
+              },
+              "GT-Line": {
+                "state": "선택",
+                "price": 400000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 6,
+        "nOpts": 6
+      }
+    },
+    {
+      "id": "niro",
+      "name": "niro",
+      "grid": {
+        "grades": [
+          "트렌디",
+          "프레스티지",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 650000
+              },
+              "프레스티지": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 970000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 970000
+              }
+            }
+          },
+          {
+            "code": "R18",
+            "label": "18인치휠",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 490000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 490000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 490000
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 420000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 420000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 420000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 590000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 450000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 450000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 750000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 550000
+              }
+            }
+          },
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 850000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 850000
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 450000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 13,
+        "nOpts": 10
+      }
+    },
+    {
+      "id": "ray",
+      "name": "레이",
+      "grid": {
+        "grades": [
+          "트렌디",
+          "프레스티지",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 500000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 500000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 500000
+              }
+            }
+          },
+          {
+            "code": "R15",
+            "label": "15인치휠",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 500000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 400000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트1",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 600000
+              },
+              "프레스티지": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT2",
+            "label": "컴포트2",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 300000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 300000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 300000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 7,
+        "nOpts": 5
+      }
+    },
+    {
+      "id": "seltos",
+      "name": "seltos",
+      "grid": {
+        "grades": [
+          "트렌디",
+          "프레스티지",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "AWD",
+            "label": "듀얼모터4WD",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1980000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1980000
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 890000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 890000
+              }
+            }
+          },
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 640000
+              },
+              "프레스티지": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 450000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 690000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 690000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 790000
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1040000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 590000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 890000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          },
+          {
+            "code": "TTR",
+            "label": "투톤루프",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 300000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 11,
+        "nOpts": 12
+      }
+    },
+    {
+      "id": "sorento",
+      "name": "쏘렌토",
+      "grid": {
+        "grades": [
+          "프레스티지",
+          "노블레스",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "AWD",
+            "label": "듀얼모터4WD",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 2320000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 2320000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 2320000
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1240000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1140000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 600000
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1290000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1290000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1290000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1190000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1190000
+              }
+            }
+          },
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 600000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 500000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 11,
+        "nOpts": 8
+      }
+    },
+    {
+      "id": "sportage",
+      "name": "스포티지",
+      "grid": {
+        "grades": [
+          "프레스티지",
+          "노블레스",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "AWD",
+            "label": "듀얼모터4WD",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 2230000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 2230000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 2230000
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 690000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 890000
+              },
+              "시그니처": {
+                "state": "적용불가"
+              }
+            }
+          },
+          {
+            "code": "R19",
+            "label": "19인치휠",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 250000
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트1",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "노블레스": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "CPT2",
+            "label": "컴포트2",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 590000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 910000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 910000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 450000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 450000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1140000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1140000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 590000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "프레스티지": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "노블레스": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 12,
+        "nOpts": 10
+      }
+    },
+    {
+      "id": "니로",
+      "name": "니로",
+      "grid": {
+        "grades": [
+          "트렌디",
+          "프레스티지",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 650000
+              },
+              "프레스티지": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 970000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 970000
+              }
+            }
+          },
+          {
+            "code": "R18",
+            "label": "18인치휠",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 490000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 490000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 490000
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 420000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 420000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 420000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 590000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 450000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 450000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 750000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 550000
+              }
+            }
+          },
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 850000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 850000
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 450000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 13,
+        "nOpts": 10
+      }
+    },
+    {
+      "id": "셀토스",
+      "name": "셀토스",
+      "grid": {
+        "grades": [
+          "트렌디",
+          "프레스티지",
+          "시그니처"
+        ],
+        "options": [
+          {
+            "code": "AWD",
+            "label": "듀얼모터4WD",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1980000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1980000
+              }
+            }
+          },
+          {
+            "code": "STY",
+            "label": "스타일",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 890000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 890000
+              }
+            }
+          },
+          {
+            "code": "CNV",
+            "label": "컨비니언스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 640000
+              },
+              "프레스티지": {
+                "state": "포함"
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "B2P",
+            "label": "빌트인캠2 플러스",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 450000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "SCT",
+            "label": "스마트커넥트",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 690000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 690000
+              },
+              "시그니처": {
+                "state": "포함"
+              }
+            }
+          },
+          {
+            "code": "DWP",
+            "label": "드라이브와이즈",
+            "byGrade": {
+              "트렌디": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1190000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 790000
+              }
+            }
+          },
+          {
+            "code": "MNT",
+            "label": "모니터링",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1040000
+              }
+            }
+          },
+          {
+            "code": "HUD",
+            "label": "HUD",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 590000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 590000
+              }
+            }
+          },
+          {
+            "code": "CPT",
+            "label": "컴포트",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1040000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 450000
+              }
+            }
+          },
+          {
+            "code": "PRS",
+            "label": "프리미엄사운드",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 890000
+              }
+            }
+          },
+          {
+            "code": "SRF",
+            "label": "파노라마선루프",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "선택",
+                "price": 1090000
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 1090000
+              }
+            }
+          },
+          {
+            "code": "TTR",
+            "label": "투톤루프",
+            "byGrade": {
+              "트렌디": {
+                "state": "적용불가"
+              },
+              "프레스티지": {
+                "state": "적용불가"
+              },
+              "시그니처": {
+                "state": "선택",
+                "price": 300000
+              }
+            }
+          }
+        ],
+        "aligned": false,
+        "nCells": 11,
+        "nOpts": 12
+      }
+    }
+  ],
+  "byKey": {
+    "carnival": {
+      "grades": [
+        "노블레스",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 700000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 700000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1460000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1460000
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1460000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1460000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1950000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1950000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1950000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1950000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1950000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1950000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1950000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1950000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 900000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 5,
+      "nOpts": 8
+    },
+    "카니발": {
+      "grades": [
+        "노블레스",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 700000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 700000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1460000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1460000
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1460000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1460000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1950000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1950000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1950000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1950000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1950000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1950000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1950000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1950000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 900000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 5,
+      "nOpts": 8
+    },
+    "ev3": {
+      "grades": [
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 940000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트1",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 490000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT2",
+          "label": "컴포트2",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1290000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1290000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 490000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 490000
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1040000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 450000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "AMP",
+          "label": "애프터마켓용 컬렉션",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 150000
+            },
+            "GT-Line": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 2270000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 2270000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 13
+    },
+    "EV3": {
+      "grades": [
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 940000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트1",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 490000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT2",
+          "label": "컴포트2",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1290000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1290000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 490000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 490000
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1040000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 450000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "AMP",
+          "label": "애프터마켓용 컬렉션",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 150000
+            },
+            "GT-Line": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 2270000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 2270000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 13
+    },
+    "ev4": {
+      "grades": [
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 740000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 890000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 890000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 490000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 490000
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1280000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1280000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1280000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 400000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 450000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 450000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 2270000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "AMP",
+          "label": "애프터마켓용 컬렉션",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 150000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 150000
+            },
+            "GT-Line": {
+              "state": "적용불가"
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 12
+    },
+    "EV4": {
+      "grades": [
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 740000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 890000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 890000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 490000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 490000
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1280000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1280000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1280000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 400000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 450000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 450000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 2270000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "AMP",
+          "label": "애프터마켓용 컬렉션",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 150000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 150000
+            },
+            "GT-Line": {
+              "state": "적용불가"
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 12
+    },
+    "ev5": {
+      "grades": [
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 890000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트1",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1380000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT2",
+          "label": "컴포트2",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 690000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 690000
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 300000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 300000
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1340000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 740000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 740000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1380000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1380000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1380000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1340000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1340000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1340000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 2370000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 2370000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 2370000
+            }
+          }
+        },
+        {
+          "code": "AMP",
+          "label": "애프터마켓용 컬렉션",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 150000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 150000
+            },
+            "GT-Line": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "TTR",
+          "label": "투톤루프",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "적용불가"
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        }
+      ],
+      "aligned": true,
+      "nCells": 13,
+      "nOpts": 13
+    },
+    "EV5": {
+      "grades": [
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 890000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트1",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1380000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT2",
+          "label": "컴포트2",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 690000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 690000
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 300000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 300000
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1340000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 740000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 740000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1380000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1380000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1380000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1340000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1340000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1340000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 2370000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 2370000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 2370000
+            }
+          }
+        },
+        {
+          "code": "AMP",
+          "label": "애프터마켓용 컬렉션",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 150000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 150000
+            },
+            "GT-Line": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "에어": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "TTR",
+          "label": "투톤루프",
+          "byGrade": {
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "적용불가"
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        }
+      ],
+      "aligned": true,
+      "nCells": 13,
+      "nOpts": 13
+    },
+    "ev6": {
+      "grades": [
+        "라이트",
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "포함"
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "포함"
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 1100000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 650000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 650000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 650000
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 990000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 990000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 450000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 2470000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 2470000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 2470000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 2470000
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 400000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 400000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        },
+        {
+          "code": "R20",
+          "label": "20인치휠",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 400000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 400000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        },
+        {
+          "code": "AMP",
+          "label": "애프터마켓용 컬렉션",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 400000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 400000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 15,
+      "nOpts": 12
+    },
+    "EV6": {
+      "grades": [
+        "라이트",
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "포함"
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "포함"
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 1100000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 650000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 650000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 650000
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 990000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 990000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "적용불가"
+            },
+            "어스": {
+              "state": "선택",
+              "price": 640000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 640000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 450000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 2470000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 2470000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 2470000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 2470000
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 400000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 400000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        },
+        {
+          "code": "R20",
+          "label": "20인치휠",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 400000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 400000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        },
+        {
+          "code": "AMP",
+          "label": "애프터마켓용 컬렉션",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 400000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 400000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 400000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 15,
+      "nOpts": 12
+    },
+    "ev9": {
+      "grades": [
+        "라이트",
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 2470000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1980000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1980000
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 590000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1480000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1480000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 690000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 590000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 1980000
+            },
+            "에어": {
+              "state": "포함"
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1190000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 7
+    },
+    "EV9": {
+      "grades": [
+        "라이트",
+        "에어",
+        "어스",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 2470000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1980000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1980000
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 590000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1480000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1480000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 690000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 590000
+            },
+            "에어": {
+              "state": "선택",
+              "price": 590000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "라이트": {
+              "state": "선택",
+              "price": 1980000
+            },
+            "에어": {
+              "state": "포함"
+            },
+            "어스": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "라이트": {
+              "state": "적용불가"
+            },
+            "에어": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "어스": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 1190000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 7
+    },
+    "k5": {
+      "grades": [
+        "프레스티지",
+        "노블레스",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 890000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 200000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 990000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 890000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 10,
+      "nOpts": 7
+    },
+    "K5": {
+      "grades": [
+        "프레스티지",
+        "노블레스",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 890000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 200000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 990000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 890000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 10,
+      "nOpts": 7
+    },
+    "k8": {
+      "grades": [
+        "노블레스",
+        "시그니처",
+        "시그니처블랙"
+      ],
+      "options": [
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처블랙": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 840000
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "시그니처블랙": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처블랙": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1980000
+            },
+            "시그니처": {
+              "state": "적용불가"
+            },
+            "시그니처블랙": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "노블레스": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "시그니처블랙": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 540000
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "시그니처블랙": {
+              "state": "포함"
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 8,
+      "nOpts": 6
+    },
+    "K8": {
+      "grades": [
+        "노블레스",
+        "시그니처",
+        "시그니처블랙"
+      ],
+      "options": [
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처블랙": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 840000
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "시그니처블랙": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처블랙": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 1980000
+            },
+            "시그니처": {
+              "state": "적용불가"
+            },
+            "시그니처블랙": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "노블레스": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "시그니처블랙": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "노블레스": {
+              "state": "선택",
+              "price": 540000
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "시그니처블랙": {
+              "state": "포함"
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 8,
+      "nOpts": 6
+    },
+    "morning": {
+      "grades": [
+        "트렌디",
+        "프레스티지",
+        "시그니처",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "BAS",
+          "label": "버튼시동 PACK",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 500000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 900000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 850000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 850000
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 300000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 150000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 150000
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 150000
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 400000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 6,
+      "nOpts": 6
+    },
+    "모닝": {
+      "grades": [
+        "트렌디",
+        "프레스티지",
+        "시그니처",
+        "GT-Line"
+      ],
+      "options": [
+        {
+          "code": "BAS",
+          "label": "버튼시동 PACK",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 500000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 900000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 850000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 850000
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 300000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 150000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 150000
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 150000
+            },
+            "시그니처": {
+              "state": "포함"
+            },
+            "GT-Line": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 400000
+            },
+            "GT-Line": {
+              "state": "선택",
+              "price": 400000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 6,
+      "nOpts": 6
+    },
+    "niro": {
+      "grades": [
+        "트렌디",
+        "프레스티지",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 650000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 970000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 970000
+            }
+          }
+        },
+        {
+          "code": "R18",
+          "label": "18인치휠",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 490000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 490000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 490000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 420000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 420000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 420000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 590000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 450000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 750000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 550000
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 850000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 850000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 13,
+      "nOpts": 10
+    },
+    "ray": {
+      "grades": [
+        "트렌디",
+        "프레스티지",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 500000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 500000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 500000
+            }
+          }
+        },
+        {
+          "code": "R15",
+          "label": "15인치휠",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 500000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 400000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트1",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 600000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT2",
+          "label": "컴포트2",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 300000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 300000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 300000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 7,
+      "nOpts": 5
+    },
+    "레이": {
+      "grades": [
+        "트렌디",
+        "프레스티지",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 500000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 500000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 500000
+            }
+          }
+        },
+        {
+          "code": "R15",
+          "label": "15인치휠",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 500000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 400000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트1",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 600000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT2",
+          "label": "컴포트2",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 300000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 300000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 300000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 7,
+      "nOpts": 5
+    },
+    "seltos": {
+      "grades": [
+        "트렌디",
+        "프레스티지",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1980000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1980000
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 890000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 890000
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 640000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 690000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 690000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 790000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1040000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 590000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 890000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "TTR",
+          "label": "투톤루프",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 300000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 12
+    },
+    "sorento": {
+      "grades": [
+        "프레스티지",
+        "노블레스",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 2320000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 2320000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 2320000
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1240000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1140000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 600000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1290000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1290000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1290000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1190000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1190000
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 600000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 500000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 8
+    },
+    "쏘렌토": {
+      "grades": [
+        "프레스티지",
+        "노블레스",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 2320000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 2320000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 2320000
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1240000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1140000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 600000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1290000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1290000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1290000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1190000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1190000
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 600000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 500000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 8
+    },
+    "sportage": {
+      "grades": [
+        "프레스티지",
+        "노블레스",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 2230000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 2230000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 2230000
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 690000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 890000
+            },
+            "시그니처": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 250000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트1",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "노블레스": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT2",
+          "label": "컴포트2",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 910000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 910000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1140000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1140000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 12,
+      "nOpts": 10
+    },
+    "스포티지": {
+      "grades": [
+        "프레스티지",
+        "노블레스",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 2230000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 2230000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 2230000
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 690000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 890000
+            },
+            "시그니처": {
+              "state": "적용불가"
+            }
+          }
+        },
+        {
+          "code": "R19",
+          "label": "19인치휠",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 250000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트1",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "노블레스": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "CPT2",
+          "label": "컴포트2",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 910000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 910000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1140000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1140000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 590000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "프레스티지": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "노블레스": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 12,
+      "nOpts": 10
+    },
+    "니로": {
+      "grades": [
+        "트렌디",
+        "프레스티지",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 650000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 970000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 970000
+            }
+          }
+        },
+        {
+          "code": "R18",
+          "label": "18인치휠",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 490000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 490000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 490000
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 420000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 420000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 420000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 590000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 450000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 750000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 550000
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 850000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 850000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 13,
+      "nOpts": 10
+    },
+    "셀토스": {
+      "grades": [
+        "트렌디",
+        "프레스티지",
+        "시그니처"
+      ],
+      "options": [
+        {
+          "code": "AWD",
+          "label": "듀얼모터4WD",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1980000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1980000
+            }
+          }
+        },
+        {
+          "code": "STY",
+          "label": "스타일",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 890000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 890000
+            }
+          }
+        },
+        {
+          "code": "CNV",
+          "label": "컨비니언스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 640000
+            },
+            "프레스티지": {
+              "state": "포함"
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "B2P",
+          "label": "빌트인캠2 플러스",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 450000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "SCT",
+          "label": "스마트커넥트",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 690000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 690000
+            },
+            "시그니처": {
+              "state": "포함"
+            }
+          }
+        },
+        {
+          "code": "DWP",
+          "label": "드라이브와이즈",
+          "byGrade": {
+            "트렌디": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1190000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 790000
+            }
+          }
+        },
+        {
+          "code": "MNT",
+          "label": "모니터링",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1040000
+            }
+          }
+        },
+        {
+          "code": "HUD",
+          "label": "HUD",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 590000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 590000
+            }
+          }
+        },
+        {
+          "code": "CPT",
+          "label": "컴포트",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1040000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 450000
+            }
+          }
+        },
+        {
+          "code": "PRS",
+          "label": "프리미엄사운드",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 890000
+            }
+          }
+        },
+        {
+          "code": "SRF",
+          "label": "파노라마선루프",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "선택",
+              "price": 1090000
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 1090000
+            }
+          }
+        },
+        {
+          "code": "TTR",
+          "label": "투톤루프",
+          "byGrade": {
+            "트렌디": {
+              "state": "적용불가"
+            },
+            "프레스티지": {
+              "state": "적용불가"
+            },
+            "시그니처": {
+              "state": "선택",
+              "price": 300000
+            }
+          }
+        }
+      ],
+      "aligned": false,
+      "nCells": 11,
+      "nOpts": 12
+    }
+  }
+}
