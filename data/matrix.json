@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-24",
+  "updated": "2026-10-31",
   "carLines": [
     {
       "id": "ev3",
@@ -10591,14 +10591,14 @@
     {
       "id": "셀토스",
       "name": "셀토스",
-      "month": "2026-09",
-      "source": "26my The all new 셀토스.xlsx",
+      "month": "2026-10",
+      "source": "26my The all new 셀토스.xlsx + 공식 가격표 PDF 2026-10-31 검증 반영",
       "trims": [
         {
           "id": "STJJ5AAD1",
           "name": "트렌디 · 가솔린 2WD",
           "code": "STJJ5AAD1",
-          "basePrice": 25120000,
+          "basePrice": 25750000,
           "deltaFromMin": 0,
           "includedOptions": [],
           "grade": "트렌디"
@@ -10607,7 +10607,7 @@
           "id": "STJJ5AAG1",
           "name": "트렌디 · 가솔린 4WD",
           "code": "STJJ5AAG1",
-          "basePrice": 27100000,
+          "basePrice": 27730000,
           "deltaFromMin": 1980000,
           "includedOptions": [],
           "grade": "트렌디"
@@ -10616,8 +10616,8 @@
           "id": "STJJ5ABD1",
           "name": "프레스티지 · 가솔린 2WD",
           "code": "STJJ5ABD1",
-          "basePrice": 28800000,
-          "deltaFromMin": 3680000,
+          "basePrice": 29380000,
+          "deltaFromMin": 3630000,
           "includedOptions": [
             {
               "id": "cnv",
@@ -10638,8 +10638,8 @@
           "id": "STJJ5ABG1",
           "name": "프레스티지 · 가솔린 4WD",
           "code": "STJJ5ABG1",
-          "basePrice": 30780000,
-          "deltaFromMin": 5660000,
+          "basePrice": 31360000,
+          "deltaFromMin": 5610000,
           "includedOptions": [
             {
               "id": "cnv",
@@ -10660,8 +10660,8 @@
           "id": "STJJ5ACD1",
           "name": "시그니처 · 가솔린 2WD",
           "code": "STJJ5ACD1",
-          "basePrice": 31450000,
-          "deltaFromMin": 6330000,
+          "basePrice": 31750000,
+          "deltaFromMin": 6000000,
           "includedOptions": [
             {
               "id": "sct",
@@ -10694,8 +10694,8 @@
           "id": "STJJ5ACG1",
           "name": "시그니처 · 가솔린 4WD",
           "code": "STJJ5ACG1",
-          "basePrice": 33430000,
-          "deltaFromMin": 8310000,
+          "basePrice": 33730000,
+          "deltaFromMin": 7980000,
           "includedOptions": [
             {
               "id": "sct",
@@ -10728,8 +10728,8 @@
           "id": "STJJ5ADD1",
           "name": "X-Line · 가솔린 2WD",
           "code": "STJJ5ADD1",
-          "basePrice": 32630000,
-          "deltaFromMin": 7510000,
+          "basePrice": 32930000,
+          "deltaFromMin": 7180000,
           "includedOptions": [],
           "grade": "X-Line"
         },
@@ -10737,8 +10737,8 @@
           "id": "STJJ5ADG1",
           "name": "X-Line · 가솔린 4WD",
           "code": "STJJ5ADG1",
-          "basePrice": 34610000,
-          "deltaFromMin": 9490000,
+          "basePrice": 34910000,
+          "deltaFromMin": 9160000,
           "includedOptions": [],
           "grade": "X-Line"
         },
@@ -10746,8 +10746,8 @@
           "id": "STJJ59AD1",
           "name": "트렌디 · HEV 2WD",
           "code": "STJJ59AD1",
-          "basePrice": 30400000,
-          "deltaFromMin": 5280000,
+          "basePrice": 30730000,
+          "deltaFromMin": 4980000,
           "includedOptions": [],
           "grade": "트렌디"
         },
@@ -10755,8 +10755,8 @@
           "id": "STJJ59BD1",
           "name": "프레스티지 · HEV 2WD",
           "code": "STJJ59BD1",
-          "basePrice": 33550000,
-          "deltaFromMin": 8430000,
+          "basePrice": 34130000,
+          "deltaFromMin": 8380000,
           "includedOptions": [
             {
               "id": "cnv",
@@ -10777,8 +10777,8 @@
           "id": "STJJ59CD1",
           "name": "시그니처 · HEV 2WD",
           "code": "STJJ59CD1",
-          "basePrice": 36200000,
-          "deltaFromMin": 11080000,
+          "basePrice": 36500000,
+          "deltaFromMin": 10750000,
           "includedOptions": [
             {
               "id": "sct",
@@ -10811,8 +10811,8 @@
           "id": "STJJ59DD1",
           "name": "X-Line · HEV 2WD",
           "code": "STJJ59DD1",
-          "basePrice": 37360000,
-          "deltaFromMin": 12240000,
+          "basePrice": 37660000,
+          "deltaFromMin": 11910000,
           "includedOptions": [],
           "grade": "X-Line"
         }
@@ -11138,11 +11138,7 @@
             "STJJ5AAG1": "CVN",
             "STJJ59AD1": "CVN"
           },
-          "pricesByTrim": {
-            "STJJ5AAD1": 640000,
-            "STJJ59AD1": 640000,
-            "STJJ5AAG1": 640000
-          },
+          "pricesByTrim": {},
           "trimDiff": null,
           "includes": []
         },
@@ -11342,10 +11338,10 @@
         },
         "STJJ5AAD1|cnv": {
           "state": "선택",
-          "price": 640000,
+          "price": null,
           "code": "CVN",
           "name": "컨비니언스",
-          "note": null,
+          "note": "확인 필요(공식 가격표 컨비니언스 열 대응 미확인)",
           "includes": [
             "12.3인치 내비게이션(기아 커넥트",
             "폰 프로젝션",
@@ -11471,10 +11467,10 @@
         },
         "STJJ5AAG1|cnv": {
           "state": "선택",
-          "price": 640000,
+          "price": null,
           "code": "CVN",
           "name": "컨비니언스",
-          "note": null,
+          "note": "확인 필요(공식 가격표 컨비니언스 열 대응 미확인)",
           "includes": [
             "12.3인치 내비게이션(기아 커넥트",
             "폰 프로젝션",
@@ -11746,10 +11742,10 @@
         },
         "STJJ59AD1|cnv": {
           "state": "선택",
-          "price": 640000,
+          "price": null,
           "code": "CVN",
           "name": "컨비니언스",
-          "note": null,
+          "note": "확인 필요(공식 가격표 컨비니언스 열 대응 미확인)",
           "includes": [
             "12.3인치 내비게이션(기아 커넥트",
             "폰 프로젝션",
@@ -44543,8 +44539,8 @@
     {
       "id": "carnival",
       "name": "카니발",
-      "month": "2026-09",
-      "source": "27my 카니발.xlsx",
+      "month": "2026-10",
+      "source": "27my 카니발.xlsx + 공식 가격표 PDF 2026-10-31 검증 반영",
       "trims": [
         {
           "id": "KPJG7AC39",
@@ -44730,8 +44726,8 @@
           "id": "KPHG9AH38",
           "name": "하이루프 노블레스 · 가솔린 9인승",
           "code": "KPHG9AH38",
-          "basePrice": 52110000,
-          "deltaFromMin": 15250000,
+          "basePrice": 52610000,
+          "deltaFromMin": 15750000,
           "includedOptions": [],
           "grade": "하이루프 노블레스"
         },
@@ -44739,8 +44735,8 @@
           "id": "KPHG9AI38",
           "name": "하이루프 시그니처 · 가솔린 9인승",
           "code": "KPHG9AI38",
-          "basePrice": 55660000,
-          "deltaFromMin": 18800000,
+          "basePrice": 55960000,
+          "deltaFromMin": 19100000,
           "includedOptions": [],
           "grade": "하이루프 시그니처"
         },
@@ -44748,8 +44744,8 @@
           "id": "KPHG99H38",
           "name": "하이루프 노블레스 · HEV 9인승",
           "code": "KPHG99H38",
-          "basePrice": 56660000,
-          "deltaFromMin": 19800000,
+          "basePrice": 57160000,
+          "deltaFromMin": 20300000,
           "includedOptions": [],
           "grade": "하이루프 노블레스"
         },
@@ -44757,10 +44753,82 @@
           "id": "KPHG99I38",
           "name": "하이루프 시그니처 · HEV 9인승",
           "code": "KPHG99I38",
-          "basePrice": 60210000,
-          "deltaFromMin": 23350000,
+          "basePrice": 60510000,
+          "deltaFromMin": 23650000,
           "includedOptions": [],
           "grade": "하이루프 시그니처"
+        },
+        {
+          "id": "X-HR7노블레스G",
+          "name": "하이루프 노블레스 · 가솔린 7인승",
+          "code": "",
+          "basePrice": 55220000,
+          "deltaFromMin": 18360000,
+          "includedOptions": [],
+          "grade": "하이루프 노블레스"
+        },
+        {
+          "id": "X-HR7노블레스H",
+          "name": "하이루프 노블레스 · HEV 7인승",
+          "code": "",
+          "basePrice": 59720000,
+          "deltaFromMin": 22860000,
+          "includedOptions": [],
+          "grade": "하이루프 노블레스"
+        },
+        {
+          "id": "X-HR7시그니처G",
+          "name": "하이루프 시그니처 · 가솔린 7인승",
+          "code": "",
+          "basePrice": 58780000,
+          "deltaFromMin": 21920000,
+          "includedOptions": [],
+          "grade": "하이루프 시그니처"
+        },
+        {
+          "id": "X-HR7시그니처H",
+          "name": "하이루프 시그니처 · HEV 7인승",
+          "code": "",
+          "basePrice": 63280000,
+          "deltaFromMin": 26420000,
+          "includedOptions": [],
+          "grade": "하이루프 시그니처"
+        },
+        {
+          "id": "X-HRBE9G",
+          "name": "하이루프 블랙에디션 · 가솔린 9인승",
+          "code": "",
+          "basePrice": 57320000,
+          "deltaFromMin": 20460000,
+          "includedOptions": [],
+          "grade": "하이루프 블랙에디션"
+        },
+        {
+          "id": "X-HRBE9H",
+          "name": "하이루프 블랙에디션 · HEV 9인승",
+          "code": "",
+          "basePrice": 61870000,
+          "deltaFromMin": 25010000,
+          "includedOptions": [],
+          "grade": "하이루프 블랙에디션"
+        },
+        {
+          "id": "X-HRBE7G",
+          "name": "하이루프 블랙에디션 · 가솔린 7인승",
+          "code": "",
+          "basePrice": 59910000,
+          "deltaFromMin": 23050000,
+          "includedOptions": [],
+          "grade": "하이루프 블랙에디션"
+        },
+        {
+          "id": "X-HRBE7H",
+          "name": "하이루프 블랙에디션 · HEV 7인승",
+          "code": "",
+          "basePrice": 64410000,
+          "deltaFromMin": 27550000,
+          "includedOptions": [],
+          "grade": "하이루프 블랙에디션"
         }
       ],
       "options": [
@@ -44785,7 +44853,15 @@
             "KPHG9AH38": "STY",
             "KPHG9AI38": "STY",
             "KPHG99H38": "STY",
-            "KPHG99I38": "STY"
+            "KPHG99I38": "STY",
+            "X-HR7노블레스G": "STY",
+            "X-HR7노블레스H": "STY",
+            "X-HR7시그니처G": "STY",
+            "X-HR7시그니처H": "STY",
+            "X-HRBE9G": "STY",
+            "X-HRBE9H": "STY",
+            "X-HRBE7G": "STY",
+            "X-HRBE7H": "STY"
           },
           "pricesByTrim": {
             "KPJG7AC39": 700000,
@@ -44803,7 +44879,11 @@
             "KPHG9AH38": 1000000,
             "KPHG9AI38": 700000,
             "KPHG99H38": 1000000,
-            "KPHG99I38": 700000
+            "KPHG99I38": 700000,
+            "X-HR7노블레스G": 470000,
+            "X-HR7노블레스H": 470000,
+            "X-HR7시그니처G": 470000,
+            "X-HR7시그니처H": 470000
           },
           "trimDiff": "하이루프는 STY +100만, 프레스티지·노블레스는 STY +70만, 노블레스·시그니처는 STY +47만",
           "includes": [
@@ -44888,7 +44968,15 @@
             "KPHG9AH38": "CPT",
             "KPHG9AI38": "CPT",
             "KPHG99H38": "CPT",
-            "KPHG99I38": "CPT"
+            "KPHG99I38": "CPT",
+            "X-HR7노블레스G": "CPT",
+            "X-HR7노블레스H": "CPT",
+            "X-HR7시그니처G": "CPT",
+            "X-HR7시그니처H": "CPT",
+            "X-HRBE9G": "CPT",
+            "X-HRBE9H": "CPT",
+            "X-HRBE7G": "CPT",
+            "X-HRBE7H": "CPT"
           },
           "pricesByTrim": {
             "KPJG7AC39": 1460000,
@@ -44907,10 +44995,18 @@
             "KPJG99D39": 1460000,
             "KPJG99G39": 1460000,
             "KPJG99K39": 1460000,
-            "KPHG9AH38": 1400000,
-            "KPHG9AI38": 1400000,
-            "KPHG99H38": 1400000,
-            "KPHG99I38": 1400000
+            "KPHG9AH38": 1460000,
+            "KPHG9AI38": 1460000,
+            "KPHG99H38": 1460000,
+            "KPHG99I38": 1460000,
+            "X-HR7노블레스G": 1190000,
+            "X-HR7노블레스H": 1190000,
+            "X-HR7시그니처G": 1190000,
+            "X-HR7시그니처H": 1190000,
+            "X-HRBE9G": 1460000,
+            "X-HRBE9H": 1460000,
+            "X-HRBE7G": 1190000,
+            "X-HRBE7H": 1190000
           },
           "trimDiff": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
           "includes": [
@@ -45127,13 +45223,29 @@
             "KPHG9AH38": "DWPM",
             "KPHG9AI38": "DWPM",
             "KPHG99H38": "DWPM",
-            "KPHG99I38": "DWPM"
+            "KPHG99I38": "DWPM",
+            "X-HR7노블레스G": "DWPM",
+            "X-HR7노블레스H": "DWPM",
+            "X-HR7시그니처G": "DWPM",
+            "X-HR7시그니처H": "DWPM",
+            "X-HRBE9G": "DWPM",
+            "X-HRBE9H": "DWPM",
+            "X-HRBE7G": "DWPM",
+            "X-HRBE7H": "DWPM"
           },
           "pricesByTrim": {
             "KPHG9AH38": 1950000,
             "KPHG9AI38": 1950000,
             "KPHG99H38": 1950000,
-            "KPHG99I38": 1950000
+            "KPHG99I38": 1950000,
+            "X-HR7노블레스G": 2060000,
+            "X-HR7노블레스H": 2060000,
+            "X-HR7시그니처G": 2060000,
+            "X-HR7시그니처H": 2060000,
+            "X-HRBE9G": 1950000,
+            "X-HRBE9H": 1950000,
+            "X-HRBE7G": 2060000,
+            "X-HRBE7H": 2060000
           },
           "trimDiff": null,
           "includes": []
@@ -45147,13 +45259,29 @@
             "KPHG9AH38": "SMT2",
             "KPHG9AI38": "SMT2",
             "KPHG99H38": "SMT2",
-            "KPHG99I38": "SMT2"
+            "KPHG99I38": "SMT2",
+            "X-HR7노블레스G": "SMT2",
+            "X-HR7노블레스H": "SMT2",
+            "X-HR7시그니처G": "SMT2",
+            "X-HR7시그니처H": "SMT2",
+            "X-HRBE9G": "SMT2",
+            "X-HRBE9H": "SMT2",
+            "X-HRBE7G": "SMT2",
+            "X-HRBE7H": "SMT2"
           },
           "pricesByTrim": {
             "KPHG9AH38": 1950000,
             "KPHG9AI38": 1950000,
             "KPHG99H38": 1950000,
-            "KPHG99I38": 1950000
+            "KPHG99I38": 1950000,
+            "X-HR7노블레스G": 2060000,
+            "X-HR7노블레스H": 2060000,
+            "X-HR7시그니처G": 2060000,
+            "X-HR7시그니처H": 2060000,
+            "X-HRBE9G": 1950000,
+            "X-HRBE9H": 1950000,
+            "X-HRBE7G": 2060000,
+            "X-HRBE7H": 2060000
           },
           "trimDiff": null,
           "includes": []
@@ -45177,7 +45305,13 @@
             "KPJG99G39": "BOS",
             "KPJG99K39": "BOS",
             "KPHG9AI38": "BOS",
-            "KPHG99I38": "BOS"
+            "KPHG99I38": "BOS",
+            "X-HR7시그니처G": "BOS",
+            "X-HR7시그니처H": "BOS",
+            "X-HRBE9G": "BOS",
+            "X-HRBE9H": "BOS",
+            "X-HRBE7G": "BOS",
+            "X-HRBE7H": "BOS"
           },
           "pricesByTrim": {
             "KPJG7AD39": 950000,
@@ -45193,7 +45327,13 @@
             "KPJG99G39": 900000,
             "KPJG99K39": 900000,
             "KPHG9AI38": 900000,
-            "KPHG99I38": 900000
+            "KPHG99I38": 900000,
+            "X-HR7시그니처G": 950000,
+            "X-HR7시그니처H": 950000,
+            "X-HRBE9G": 900000,
+            "X-HRBE9H": 900000,
+            "X-HRBE7G": 950000,
+            "X-HRBE7H": 950000
           },
           "trimDiff": "시그니처·X-Line는 BOS +95만, 시그니처·X-Line는 BOS +90만",
           "includes": []
@@ -47397,10 +47537,10 @@
         },
         "KPHG9AH38|cpt": {
           "state": "선택",
-          "price": 1400000,
+          "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
+          "note": "공식 가격표 2026-10-31",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -47731,10 +47871,10 @@
         },
         "KPHG9AI38|cpt": {
           "state": "선택",
-          "price": 1400000,
+          "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
+          "note": "공식 가격표 2026-10-31",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -47839,10 +47979,10 @@
         },
         "KPHG99H38|cpt": {
           "state": "선택",
-          "price": 1400000,
+          "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
+          "note": "공식 가격표 2026-10-31",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -47947,10 +48087,10 @@
         },
         "KPHG99I38|cpt": {
           "state": "선택",
-          "price": 1400000,
+          "price": 1460000,
           "code": "CPT",
           "name": "컴포트",
-          "note": "노블레스·시그니처는 CPT +146만, 하이루프는 CPT +140만, 노블레스·시그니처는 CPT +119만",
+          "note": "공식 가격표 2026-10-31",
           "includes": [
             "2열 통풍시트",
             "2열 파워 리클라이닝시트(풀플랫 포함",
@@ -48255,20 +48395,884 @@
           "name": "프리미엄사운드",
           "note": null,
           "includes": []
+        },
+        "X-HR7노블레스G|sty": {
+          "state": "선택",
+          "price": 470000,
+          "code": "STY",
+          "name": "스타일",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "X-HR7노블레스G|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스G|cpt": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "X-HR7노블레스G|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스G|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스G|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스G|dwpm": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7노블레스G|smt2": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7노블레스G|bos": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "BOSE사운드",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7노블레스G|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스G|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스G|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스H|sty": {
+          "state": "선택",
+          "price": 470000,
+          "code": "STY",
+          "name": "스타일",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "X-HR7노블레스H|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스H|cpt": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "X-HR7노블레스H|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스H|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스H|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스H|dwpm": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7노블레스H|smt2": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7노블레스H|bos": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "BOSE사운드",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7노블레스H|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스H|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7노블레스H|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처G|sty": {
+          "state": "선택",
+          "price": 470000,
+          "code": "STY",
+          "name": "스타일",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "X-HR7시그니처G|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처G|cpt": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "X-HR7시그니처G|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처G|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처G|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처G|dwpm": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7시그니처G|smt2": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7시그니처G|bos": {
+          "state": "선택",
+          "price": 950000,
+          "code": "BOS",
+          "name": "BOSE사운드",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7시그니처G|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처G|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처G|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처H|sty": {
+          "state": "선택",
+          "price": 470000,
+          "code": "STY",
+          "name": "스타일",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "X-HR7시그니처H|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처H|cpt": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "X-HR7시그니처H|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처H|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처H|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처H|dwpm": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7시그니처H|smt2": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7시그니처H|bos": {
+          "state": "선택",
+          "price": 950000,
+          "code": "BOS",
+          "name": "BOSE사운드",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HR7시그니처H|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처H|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HR7시그니처H|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9G|sty": {
+          "state": "포함",
+          "price": null,
+          "code": "STY",
+          "name": "스타일",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "X-HRBE9G|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9G|cpt": {
+          "state": "선택",
+          "price": 1460000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "X-HRBE9G|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9G|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9G|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9G|dwpm": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE9G|smt2": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE9G|bos": {
+          "state": "선택",
+          "price": 900000,
+          "code": "BOS",
+          "name": "BOSE사운드",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE9G|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9G|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9G|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9H|sty": {
+          "state": "포함",
+          "price": null,
+          "code": "STY",
+          "name": "스타일",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "X-HRBE9H|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9H|cpt": {
+          "state": "선택",
+          "price": 1460000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "X-HRBE9H|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9H|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9H|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9H|dwpm": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE9H|smt2": {
+          "state": "선택",
+          "price": 1950000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE9H|bos": {
+          "state": "선택",
+          "price": 900000,
+          "code": "BOS",
+          "name": "BOSE사운드",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE9H|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9H|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE9H|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7G|sty": {
+          "state": "포함",
+          "price": null,
+          "code": "STY",
+          "name": "스타일",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "X-HRBE7G|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7G|cpt": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "X-HRBE7G|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7G|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7G|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7G|dwpm": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE7G|smt2": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE7G|bos": {
+          "state": "선택",
+          "price": 950000,
+          "code": "BOS",
+          "name": "BOSE사운드",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE7G|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7G|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7G|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7H|sty": {
+          "state": "포함",
+          "price": null,
+          "code": "STY",
+          "name": "스타일",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "프로젝션 LED 헤드램프",
+            "LED 포그램프",
+            "프론트 LED 턴시그널램프",
+            "235/55 R19 외산 타이어 & 전면가공 휠"
+          ]
+        },
+        "X-HRBE7H|dwp": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "드라이브와이즈",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7H|cpt": {
+          "state": "선택",
+          "price": 1190000,
+          "code": "CPT",
+          "name": "컴포트",
+          "note": "공식 가격표 2026-10-31",
+          "includes": [
+            "2열 통풍시트",
+            "2열 파워 리클라이닝시트(풀플랫 포함",
+            "워크인 기능 미적용)",
+            "확장형 센터콘솔",
+            "3열 100W C타입 USB 단자(충전용",
+            "2개)"
+          ]
+        },
+        "X-HRBE7H|mnt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "모니터링",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7H|sct": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "스마트커넥트",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7H|cnv": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "컨비니언스",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7H|dwpm": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "DWPM",
+          "name": "드라이브와이즈+모니터링",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE7H|smt2": {
+          "state": "선택",
+          "price": 2060000,
+          "code": "SMT2",
+          "name": "스마트커넥트+HUD+빌트인캠2",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE7H|bos": {
+          "state": "선택",
+          "price": 950000,
+          "code": "BOS",
+          "name": "BOSE사운드",
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HRBE7H|clt": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "12.3인치 클러스터",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7H|hudb": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "HUD+빌트인캠2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HRBE7H|dsrf": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "듀얼선루프",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
         }
       }
     },
     {
       "id": "carnival_hi_limousine",
       "name": "카니발 하이리무진",
-      "month": "2026-09",
-      "source": "26my 카니발.xlsx#하이리무진",
+      "month": "2026-10",
+      "source": "26my 카니발.xlsx#하이리무진 + 공식 가격표 PDF 2026-10-31 검증 반영",
       "trims": [
         {
           "id": "KPHG4AD38",
           "name": "시그니처 · 하이리무진 가솔린 4인승",
           "code": "KPHG4AD38",
-          "basePrice": 94610000,
+          "basePrice": 95180000,
           "deltaFromMin": 27940000,
           "includedOptions": [
             {
@@ -48292,7 +49296,7 @@
           "id": "KPHG7AD38",
           "name": "시그니처 · 하이리무진 가솔린 7인승",
           "code": "KPHG7AD38",
-          "basePrice": 69880000,
+          "basePrice": 70450000,
           "deltaFromMin": 3210000,
           "includedOptions": [],
           "grade": "시그니처"
@@ -48301,7 +49305,7 @@
           "id": "KPHG9AD38",
           "name": "시그니처 · 하이리무진 가솔린 9인승",
           "code": "KPHG9AD38",
-          "basePrice": 66670000,
+          "basePrice": 67240000,
           "deltaFromMin": 0,
           "includedOptions": [],
           "grade": "시그니처"
@@ -48310,7 +49314,7 @@
           "id": "KPHG49D38",
           "name": "시그니처 · 하이리무진 HEV 4인승",
           "code": "KPHG49D38",
-          "basePrice": 99110000,
+          "basePrice": 99680000,
           "deltaFromMin": 32440000,
           "includedOptions": [
             {
@@ -48334,7 +49338,7 @@
           "id": "KPHG79D38",
           "name": "시그니처 · 하이리무진 HEV 7인승",
           "code": "KPHG79D38",
-          "basePrice": 74380000,
+          "basePrice": 74950000,
           "deltaFromMin": 7710000,
           "includedOptions": [],
           "grade": "시그니처"
@@ -48344,7 +49348,7 @@
           "name": "노블레스 · 하이리무진 HEV 9인승",
           "code": "KPHG99C38",
           "basePrice": 67820000,
-          "deltaFromMin": 1150000,
+          "deltaFromMin": 580000,
           "includedOptions": [],
           "grade": "노블레스"
         },
@@ -48352,10 +49356,46 @@
           "id": "KPHG99D38",
           "name": "시그니처 · 하이리무진 HEV 9인승",
           "code": "KPHG99D38",
-          "basePrice": 71220000,
+          "basePrice": 71790000,
           "deltaFromMin": 4550000,
           "includedOptions": [],
           "grade": "시그니처"
+        },
+        {
+          "id": "X-HLBE9G",
+          "name": "블랙에디션 · 하이리무진 가솔린 9인승",
+          "code": "",
+          "basePrice": 68410000,
+          "deltaFromMin": 1170000,
+          "includedOptions": [],
+          "grade": "블랙에디션"
+        },
+        {
+          "id": "X-HLBE9H",
+          "name": "블랙에디션 · 하이리무진 HEV 9인승",
+          "code": "",
+          "basePrice": 72960000,
+          "deltaFromMin": 5720000,
+          "includedOptions": [],
+          "grade": "블랙에디션"
+        },
+        {
+          "id": "X-HLBE7G",
+          "name": "블랙에디션 · 하이리무진 가솔린 7인승",
+          "code": "",
+          "basePrice": 71680000,
+          "deltaFromMin": 4440000,
+          "includedOptions": [],
+          "grade": "블랙에디션"
+        },
+        {
+          "id": "X-HLBE7H",
+          "name": "블랙에디션 · 하이리무진 HEV 7인승",
+          "code": "",
+          "basePrice": 76180000,
+          "deltaFromMin": 8940000,
+          "includedOptions": [],
+          "grade": "블랙에디션"
         }
       ],
       "options": [
@@ -48369,13 +49409,16 @@
             "KPHG9AD38": "SMT1",
             "KPHG79D38": "SMT1",
             "KPHG99C38": "SMT1",
-            "KPHG99D38": "SMT1"
+            "KPHG99D38": "SMT1",
+            "X-HLBE9G": "SMT1",
+            "X-HLBE9H": "SMT1",
+            "X-HLBE7G": "SMT1",
+            "X-HLBE7H": "SMT1"
           },
           "pricesByTrim": {
             "KPHG7AD38": 3010000,
             "KPHG9AD38": 2850000,
             "KPHG79D38": 3010000,
-            "KPHG99C38": 2850000,
             "KPHG99D38": 2850000
           },
           "trimDiff": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
@@ -48391,9 +49434,18 @@
             "KPHG9AD38": "HLP1",
             "KPHG79D38": "HLP1",
             "KPHG99C38": "HLP1",
-            "KPHG99D38": "HLP1"
+            "KPHG99D38": "HLP1",
+            "X-HLBE9G": "HLP1",
+            "X-HLBE9H": "HLP1",
+            "X-HLBE7G": "HLP1",
+            "X-HLBE7H": "HLP1"
           },
-          "pricesByTrim": {},
+          "pricesByTrim": {
+            "KPHG7AD38": 3550000,
+            "KPHG79D38": 3550000,
+            "KPHG9AD38": 3450000,
+            "KPHG99D38": 3450000
+          },
           "trimDiff": null,
           "includes": []
         },
@@ -48401,14 +49453,14 @@
           "id": "hlp2",
           "label": "프리미엄팩2",
           "sublabel": "HLP2",
-          "headerPrice": 6990000,
+          "headerPrice": 7190000,
           "codesByTrim": {
             "KPHG4AD38": "HLP2",
             "KPHG49D38": "HLP2"
           },
           "pricesByTrim": {
-            "KPHG4AD38": 6990000,
-            "KPHG49D38": 6990000
+            "KPHG4AD38": 7190000,
+            "KPHG49D38": 7190000
           },
           "trimDiff": null,
           "includes": []
@@ -48420,15 +49472,15 @@
           "price": 2850000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
-          "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
+          "note": "공식 가격표 2026-10-31",
           "includes": []
         },
         "KPHG9AD38|hlp1": {
           "state": "선택",
-          "price": null,
+          "price": 3450000,
           "code": "HLP1",
           "name": "프리미엄팩1",
-          "note": null,
+          "note": "공식 가격표 2026-10-31(프리미엄 팩)",
           "includes": []
         },
         "KPHG9AD38|hlp2": {
@@ -48441,10 +49493,10 @@
         },
         "KPHG99C38|smt1": {
           "state": "선택",
-          "price": 2850000,
+          "price": null,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
-          "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
+          "note": "확인 필요(2026-10-31 가격표에 노블레스 하이리무진 없음)",
           "includes": []
         },
         "KPHG99C38|hlp1": {
@@ -48452,7 +49504,7 @@
           "price": null,
           "code": "HLP1",
           "name": "프리미엄팩1",
-          "note": null,
+          "note": "확인 필요",
           "includes": []
         },
         "KPHG99C38|hlp2": {
@@ -48468,15 +49520,15 @@
           "price": 3010000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
-          "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
+          "note": "공식 가격표 2026-10-31",
           "includes": []
         },
         "KPHG7AD38|hlp1": {
           "state": "선택",
-          "price": null,
+          "price": 3550000,
           "code": "HLP1",
           "name": "프리미엄팩1",
-          "note": null,
+          "note": "공식 가격표 2026-10-31(프리미엄 팩)",
           "includes": []
         },
         "KPHG7AD38|hlp2": {
@@ -48492,15 +49544,15 @@
           "price": 2850000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
-          "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
+          "note": "공식 가격표 2026-10-31",
           "includes": []
         },
         "KPHG99D38|hlp1": {
           "state": "선택",
-          "price": null,
+          "price": 3450000,
           "code": "HLP1",
           "name": "프리미엄팩1",
-          "note": null,
+          "note": "공식 가격표 2026-10-31(프리미엄 팩)",
           "includes": []
         },
         "KPHG99D38|hlp2": {
@@ -48516,15 +49568,15 @@
           "price": 3010000,
           "code": "SMT1",
           "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
-          "note": "시그니처는 SMT1 +301만, 시그니처·노블레스는 SMT1 +285만",
+          "note": "공식 가격표 2026-10-31",
           "includes": []
         },
         "KPHG79D38|hlp1": {
           "state": "선택",
-          "price": null,
+          "price": 3550000,
           "code": "HLP1",
           "name": "프리미엄팩1",
-          "note": null,
+          "note": "공식 가격표 2026-10-31(프리미엄 팩)",
           "includes": []
         },
         "KPHG79D38|hlp2": {
@@ -48553,10 +49605,10 @@
         },
         "KPHG4AD38|hlp2": {
           "state": "선택",
-          "price": 6990000,
+          "price": 7190000,
           "code": "HLP2",
           "name": "프리미엄팩2",
-          "note": null,
+          "note": "공식 가격표 2026-10-31",
           "includes": []
         },
         "KPHG49D38|smt1": {
@@ -48577,10 +49629,106 @@
         },
         "KPHG49D38|hlp2": {
           "state": "선택",
-          "price": 6990000,
+          "price": 7190000,
           "code": "HLP2",
           "name": "프리미엄팩2",
-          "note": null,
+          "note": "공식 가격표 2026-10-31",
+          "includes": []
+        },
+        "X-HLBE9G|smt1": {
+          "state": "선택",
+          "price": null,
+          "code": "SMT1",
+          "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
+          "note": "확인 필요(공식 가격표에서 이 트림 값 미확인)",
+          "includes": []
+        },
+        "X-HLBE9G|hlp1": {
+          "state": "선택",
+          "price": null,
+          "code": "HLP1",
+          "name": "프리미엄팩1",
+          "note": "확인 필요(공식 가격표에서 이 트림 값 미확인)",
+          "includes": []
+        },
+        "X-HLBE9G|hlp2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄팩2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HLBE9H|smt1": {
+          "state": "선택",
+          "price": null,
+          "code": "SMT1",
+          "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
+          "note": "확인 필요(공식 가격표에서 이 트림 값 미확인)",
+          "includes": []
+        },
+        "X-HLBE9H|hlp1": {
+          "state": "선택",
+          "price": null,
+          "code": "HLP1",
+          "name": "프리미엄팩1",
+          "note": "확인 필요(공식 가격표에서 이 트림 값 미확인)",
+          "includes": []
+        },
+        "X-HLBE9H|hlp2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄팩2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HLBE7G|smt1": {
+          "state": "선택",
+          "price": null,
+          "code": "SMT1",
+          "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
+          "note": "확인 필요(공식 가격표에서 이 트림 값 미확인)",
+          "includes": []
+        },
+        "X-HLBE7G|hlp1": {
+          "state": "선택",
+          "price": null,
+          "code": "HLP1",
+          "name": "프리미엄팩1",
+          "note": "확인 필요(공식 가격표에서 이 트림 값 미확인)",
+          "includes": []
+        },
+        "X-HLBE7G|hlp2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄팩2",
+          "note": "이 트림에서는 제공되지 않음",
+          "includes": []
+        },
+        "X-HLBE7H|smt1": {
+          "state": "선택",
+          "price": null,
+          "code": "SMT1",
+          "name": "스마트커넥트&HUD+빌트인캠2&BOSE사운드",
+          "note": "확인 필요(공식 가격표에서 이 트림 값 미확인)",
+          "includes": []
+        },
+        "X-HLBE7H|hlp1": {
+          "state": "선택",
+          "price": null,
+          "code": "HLP1",
+          "name": "프리미엄팩1",
+          "note": "확인 필요(공식 가격표에서 이 트림 값 미확인)",
+          "includes": []
+        },
+        "X-HLBE7H|hlp2": {
+          "state": "적용불가",
+          "price": null,
+          "code": null,
+          "name": "프리미엄팩2",
+          "note": "이 트림에서는 제공되지 않음",
           "includes": []
         }
       }

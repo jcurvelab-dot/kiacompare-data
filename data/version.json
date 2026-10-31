@@ -1,7 +1,7 @@
 {
-  "version": "2026-09-24",
-  "updatedAt": "2026-09-24T16:30:34+09:00",
-  "sha256": "054a7d401d11e30ab43c11d07da589de2e682978b82a1a659228d8fcaa1152f4",
+  "version": "2026-10-31",
+  "updatedAt": "2026-10-31T11:02:49+09:00",
+  "sha256": "12f4406f2fe99689d7402560b6c235e8920048f150a00208047d6a0145a71c3c",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
   "pdfFeatures": {
@@ -10,8 +10,6 @@
     "cars": 19,
     "url": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json"
   },
-  "optionInclusionDbUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/option_inclusion_db.json",
-  "notes": "Fix EV5 모니터링 false 포함(pdf_features); MNT full includes; option_inclusion_db; package-feature reconcile",
   "carLines": [
     {
       "name": "EV3",
@@ -95,12 +93,12 @@
     },
     {
       "name": "카니발",
-      "trims": 24,
+      "trims": 32,
       "options": 15
     },
     {
       "name": "카니발 하이리무진",
-      "trims": 7,
+      "trims": 11,
       "options": 3
     },
     {
