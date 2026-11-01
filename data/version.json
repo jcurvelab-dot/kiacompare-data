@@ -1,7 +1,7 @@
 {
-  "version": "2026-10-31",
-  "updatedAt": "2026-10-31T11:02:49+09:00",
-  "sha256": "12f4406f2fe99689d7402560b6c235e8920048f150a00208047d6a0145a71c3c",
+  "version": "2026-11-01",
+  "updatedAt": "2026-11-01T13:50:00+09:00",
+  "sha256": "66ec73d65294e555db1dc06ece1ed267c1b6a0bb82e91bc29584cf0a2f437017",
   "matrixUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/matrix.json",
   "pdfFeaturesUrl": "https://raw.githubusercontent.com/jcurvelab-dot/kiacompare-data/main/data/pdf_features.json",
   "pdfFeatures": {
@@ -109,7 +109,7 @@
     {
       "name": "니로",
       "trims": 3,
-      "options": 14
+      "options": 15
     }
   ]
 }
