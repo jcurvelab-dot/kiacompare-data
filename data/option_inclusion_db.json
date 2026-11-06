@@ -1651,7 +1651,7 @@
       "name": "EV4",
       "trims": {
         "CTJS4VA32": {
-          "name": "에어 · 2WD",
+          "name": "에어 스탠다드 · 2WD",
           "gradeFamily": "에어",
           "options": {
             "sty": {
@@ -1810,7 +1810,7 @@
           }
         },
         "CTJS4VB32": {
-          "name": "에어 · 2WD",
+          "name": "에어 롱레인지 · 2WD",
           "gradeFamily": "에어",
           "options": {
             "sty": {
@@ -1969,7 +1969,7 @@
           }
         },
         "CTJS4VBA2": {
-          "name": "에어 · 4WD",
+          "name": "에어 롱레인지 · 4WD",
           "gradeFamily": "에어",
           "options": {
             "sty": {
@@ -2128,7 +2128,7 @@
           }
         },
         "CTJS4VC32": {
-          "name": "어스 · 2WD",
+          "name": "어스 스탠다드 · 2WD",
           "gradeFamily": "어스",
           "options": {
             "sty": {
@@ -2287,7 +2287,7 @@
           }
         },
         "CTJS4VD32": {
-          "name": "어스 · 2WD",
+          "name": "어스 롱레인지 · 2WD",
           "gradeFamily": "어스",
           "options": {
             "sty": {
@@ -2446,7 +2446,7 @@
           }
         },
         "CTJS4VDA2": {
-          "name": "어스 · 4WD",
+          "name": "어스 롱레인지 · 4WD",
           "gradeFamily": "어스",
           "options": {
             "sty": {
@@ -3437,7 +3437,7 @@
             "sct": {
               "included": false,
               "state": "선택",
-              "price": 1340000,
+              "price": 1280000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -3600,7 +3600,7 @@
             "sct": {
               "included": false,
               "state": "선택",
-              "price": 1340000,
+              "price": 1280000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -3763,7 +3763,7 @@
             "sct": {
               "included": false,
               "state": "선택",
-              "price": 1340000,
+              "price": 1280000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -3884,7 +3884,7 @@
             "cpt2": {
               "included": false,
               "state": "선택",
-              "price": 690000,
+              "price": 640000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -4043,7 +4043,7 @@
             "cpt2": {
               "included": false,
               "state": "선택",
-              "price": 690000,
+              "price": 640000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -4202,7 +4202,7 @@
             "cpt2": {
               "included": false,
               "state": "선택",
-              "price": 690000,
+              "price": 640000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -4361,7 +4361,7 @@
             "cpt2": {
               "included": false,
               "state": "선택",
-              "price": 690000,
+              "price": 640000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -4520,7 +4520,7 @@
             "cpt2": {
               "included": false,
               "state": "선택",
-              "price": 690000,
+              "price": 640000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -4679,7 +4679,7 @@
             "cpt2": {
               "included": false,
               "state": "선택",
-              "price": 690000,
+              "price": 640000,
               "source": "matrix.cell",
               "gridState": "선택",
               "includes": [
@@ -10447,7 +10447,7 @@
       "name": "봉고1.2톤",
       "trims": {
         "B2ALS7K0N": {
-          "name": "카고 표준캡 GL",
+          "name": "카고 표준캡 GL · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10467,7 +10467,7 @@
           }
         },
         "B2ALS7K3N": {
-          "name": "카고 표준캡 GL",
+          "name": "카고 표준캡 GL · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10487,7 +10487,7 @@
           }
         },
         "B2ALS7L0N": {
-          "name": "카고 표준캡 GLS",
+          "name": "카고 표준캡 GLS · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10507,7 +10507,7 @@
           }
         },
         "B2ALS7L3N": {
-          "name": "카고 표준캡 GLS",
+          "name": "카고 표준캡 GLS · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10527,7 +10527,7 @@
           }
         },
         "B2ALK7K0N": {
-          "name": "카고 킹캡 GL",
+          "name": "카고 킹캡 GL · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10547,7 +10547,7 @@
           }
         },
         "B2ALK7K3N": {
-          "name": "카고 킹캡 GL",
+          "name": "카고 킹캡 GL · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10567,7 +10567,7 @@
           }
         },
         "B2ALK7L0N": {
-          "name": "카고 킹캡 GLS",
+          "name": "카고 킹캡 GLS · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10587,7 +10587,7 @@
           }
         },
         "B2ALK7L3N": {
-          "name": "카고 킹캡 GLS",
+          "name": "카고 킹캡 GLS · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10614,7 +10614,7 @@
       "name": "봉고1톤",
       "trims": {
         "B1ALS7J0N": {
-          "name": "카고 LPi 2WD 초장축 표준캡 L",
+          "name": "카고 LPi 2WD 초장축 표준캡 L · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10682,7 +10682,7 @@
           }
         },
         "B1ALS7J3N": {
-          "name": "카고 LPi 2WD 초장축 표준캡 L",
+          "name": "카고 LPi 2WD 초장축 표준캡 L · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10750,7 +10750,7 @@
           }
         },
         "B1ALS7K0N": {
-          "name": "카고 LPi 2WD 초장축 표준캡 GL",
+          "name": "카고 LPi 2WD 초장축 표준캡 GL · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10818,7 +10818,7 @@
           }
         },
         "B1ALS7K3N": {
-          "name": "카고 LPi 2WD 초장축 표준캡 GL",
+          "name": "카고 LPi 2WD 초장축 표준캡 GL · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10886,7 +10886,7 @@
           }
         },
         "B1ALS7L0N": {
-          "name": "카고 LPi 2WD 초장축 표준캡 GLS",
+          "name": "카고 LPi 2WD 초장축 표준캡 GLS · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -10954,7 +10954,7 @@
           }
         },
         "B1ALS7L3N": {
-          "name": "카고 LPi 2WD 초장축 표준캡 GLS",
+          "name": "카고 LPi 2WD 초장축 표준캡 GLS · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11022,7 +11022,7 @@
           }
         },
         "B1ALK7J0N": {
-          "name": "카고 LPi 2WD 초장축 킹캡 L",
+          "name": "카고 LPi 2WD 초장축 킹캡 L · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11090,7 +11090,7 @@
           }
         },
         "B1ALK7J3N": {
-          "name": "카고 LPi 2WD 초장축 킹캡 L",
+          "name": "카고 LPi 2WD 초장축 킹캡 L · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11158,7 +11158,7 @@
           }
         },
         "B1ALK7K0N": {
-          "name": "카고 LPi 2WD 초장축 킹캡 GL",
+          "name": "카고 LPi 2WD 초장축 킹캡 GL · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11226,7 +11226,7 @@
           }
         },
         "B1ALK7K3N": {
-          "name": "카고 LPi 2WD 초장축 킹캡 GL",
+          "name": "카고 LPi 2WD 초장축 킹캡 GL · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11294,7 +11294,7 @@
           }
         },
         "B1ALK7L0N": {
-          "name": "카고 LPi 2WD 초장축 킹캡 GLS",
+          "name": "카고 LPi 2WD 초장축 킹캡 GLS · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11362,7 +11362,7 @@
           }
         },
         "B1ALK7L3N": {
-          "name": "카고 LPi 2WD 초장축 킹캡 GLS",
+          "name": "카고 LPi 2WD 초장축 킹캡 GLS · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11430,7 +11430,7 @@
           }
         },
         "B1ALD7J0N": {
-          "name": "카고 LPi 2WD 초장축 더블캡 L",
+          "name": "카고 LPi 2WD 초장축 더블캡 L · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11498,7 +11498,7 @@
           }
         },
         "B1ALD7J3N": {
-          "name": "카고 LPi 2WD 초장축 더블캡 L",
+          "name": "카고 LPi 2WD 초장축 더블캡 L · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11566,7 +11566,7 @@
           }
         },
         "B1ALD7K0N": {
-          "name": "카고 LPi 2WD 초장축 더블캡 GL",
+          "name": "카고 LPi 2WD 초장축 더블캡 GL · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11634,7 +11634,7 @@
           }
         },
         "B1ALD7K3N": {
-          "name": "카고 LPi 2WD 초장축 더블캡 GL",
+          "name": "카고 LPi 2WD 초장축 더블캡 GL · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11702,7 +11702,7 @@
           }
         },
         "B1ALD7L0N": {
-          "name": "카고 LPi 2WD 초장축 더블캡 GLS",
+          "name": "카고 LPi 2WD 초장축 더블캡 GLS · 수동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -11770,7 +11770,7 @@
           }
         },
         "B1ALD7L3N": {
-          "name": "카고 LPi 2WD 초장축 더블캡 GLS",
+          "name": "카고 LPi 2WD 초장축 더블캡 GLS · 자동",
           "gradeFamily": "카고",
           "options": {
             "nav": {
@@ -12382,7 +12382,7 @@
           }
         },
         "B1LLS7J0N": {
-          "name": "운전교습용 LPi 2WD 초장축 표준캡 L",
+          "name": "운전교습용 LPi 2WD 초장축 표준캡 L · 수동",
           "gradeFamily": "운전교습용",
           "options": {
             "nav": {
@@ -12450,7 +12450,7 @@
           }
         },
         "B1LLS7J3N": {
-          "name": "운전교습용 LPi 2WD 초장축 표준캡 L",
+          "name": "운전교습용 LPi 2WD 초장축 표준캡 L · 자동",
           "gradeFamily": "운전교습용",
           "options": {
             "nav": {
@@ -12518,7 +12518,7 @@
           }
         },
         "B1LLD7J0N": {
-          "name": "운전교습용 LPi 2WD 초장축 더블캡 L",
+          "name": "운전교습용 LPi 2WD 초장축 더블캡 L · 수동",
           "gradeFamily": "운전교습용",
           "options": {
             "nav": {
@@ -12586,7 +12586,7 @@
           }
         },
         "B1LLD7J3N": {
-          "name": "운전교습용 LPi 2WD 초장축 더블캡 L",
+          "name": "운전교습용 LPi 2WD 초장축 더블캡 L · 자동",
           "gradeFamily": "운전교습용",
           "options": {
             "nav": {
@@ -12661,7 +12661,7 @@
       "name": "EV6",
       "trims": {
         "CVJJ5VH37": {
-          "name": "라이트 · 2WD",
+          "name": "라이트 스탠다드 · 2WD",
           "gradeFamily": "라이트",
           "options": {
             "dwp": {
@@ -12822,7 +12822,7 @@
           }
         },
         "CVJJ5VB37": {
-          "name": "에어 · 2WD",
+          "name": "에어 스탠다드 · 2WD",
           "gradeFamily": "에어",
           "options": {
             "dwp": {
@@ -12992,7 +12992,7 @@
           }
         },
         "CVJJ5VC37": {
-          "name": "어스 · 2WD",
+          "name": "어스 스탠다드 · 2WD",
           "gradeFamily": "어스",
           "options": {
             "dwp": {
@@ -13162,7 +13162,7 @@
           }
         },
         "CVJJ5VI37": {
-          "name": "라이트 · 2WD",
+          "name": "라이트 롱레인지 · 2WD",
           "gradeFamily": "라이트",
           "options": {
             "dwp": {
@@ -13323,7 +13323,7 @@
           }
         },
         "CVJJ5VD37": {
-          "name": "에어 · 2WD",
+          "name": "에어 롱레인지 · 2WD",
           "gradeFamily": "에어",
           "options": {
             "dwp": {
@@ -13493,7 +13493,7 @@
           }
         },
         "CVJJ5VE37": {
-          "name": "어스 · 2WD",
+          "name": "어스 롱레인지 · 2WD",
           "gradeFamily": "어스",
           "options": {
             "dwp": {
@@ -13663,7 +13663,7 @@
           }
         },
         "CVJJ5VF37": {
-          "name": "GT-Line · 2WD",
+          "name": "GT-Line 롱레인지 · 2WD",
           "gradeFamily": "GT-Line",
           "options": {
             "dwp": {
@@ -13833,7 +13833,7 @@
           }
         },
         "CVJJ5VIA7": {
-          "name": "라이트 · 4WD",
+          "name": "라이트 롱레인지 · 4WD",
           "gradeFamily": "라이트",
           "options": {
             "dwp": {
@@ -13994,7 +13994,7 @@
           }
         },
         "CVJJ5VDA7": {
-          "name": "에어 · 4WD",
+          "name": "에어 롱레인지 · 4WD",
           "gradeFamily": "에어",
           "options": {
             "dwp": {
@@ -14164,7 +14164,7 @@
           }
         },
         "CVJJ5VEA7": {
-          "name": "어스 · 4WD",
+          "name": "어스 롱레인지 · 4WD",
           "gradeFamily": "어스",
           "options": {
             "dwp": {
@@ -14334,7 +14334,7 @@
           }
         },
         "CVJJ5VFA7": {
-          "name": "GT-Line · 4WD",
+          "name": "GT-Line 롱레인지 · 4WD",
           "gradeFamily": "GT-Line",
           "options": {
             "dwp": {
@@ -24462,7 +24462,7 @@
       "name": "레이",
       "trims": {
         "TMJC5AF3I": {
-          "name": "트렌디 · 가솔린 1.0 .",
+          "name": "트렌디 · 가솔린 1.0",
           "gradeFamily": "트렌디",
           "options": {
             "sty": {
@@ -24620,7 +24620,7 @@
           }
         },
         "TMJC5AC3I": {
-          "name": "프레스티지 · 가솔린 1.0 .",
+          "name": "프레스티지 · 가솔린 1.0",
           "gradeFamily": "프레스티지",
           "options": {
             "sty": {
@@ -24784,7 +24784,7 @@
           }
         },
         "TMJC5AH3I": {
-          "name": "시그니처 · 가솔린 1.0 .",
+          "name": "시그니처 · 가솔린 1.0",
           "gradeFamily": "시그니처",
           "options": {
             "sty": {
@@ -24911,7 +24911,7 @@
           }
         },
         "TMJC5AR3I": {
-          "name": "X-Line · 가솔린 1.0 .",
+          "name": "X-Line · 가솔린 1.0",
           "gradeFamily": "X-Line",
           "options": {
             "sty": {
@@ -25024,7 +25024,7 @@
           }
         },
         "TMJV5AY3I": {
-          "name": "트렌디 · 가솔린 1.0 .",
+          "name": "트렌디 · 가솔린 1.0 밴 (2인승)",
           "gradeFamily": "트렌디",
           "options": {
             "sty": {
@@ -25151,7 +25151,7 @@
           }
         },
         "TMJV1AY3I": {
-          "name": "트렌디 · 가솔린 1.0 (1인승)",
+          "name": "트렌디 · 가솔린 1.0 밴 (1인승)",
           "gradeFamily": "트렌디",
           "options": {
             "sty": {
@@ -25278,7 +25278,7 @@
           }
         },
         "TMJV5AK3I": {
-          "name": "프레스티지 · 가솔린 1.0 .",
+          "name": "프레스티지 · 가솔린 1.0 밴 (2인승)",
           "gradeFamily": "프레스티지",
           "options": {
             "sty": {
@@ -25408,7 +25408,7 @@
           }
         },
         "TMJV1AK3I": {
-          "name": "프레스티지 · 가솔린 1.0 (1인승)",
+          "name": "프레스티지 · 가솔린 1.0 밴 (1인승)",
           "gradeFamily": "프레스티지",
           "options": {
             "sty": {
@@ -25538,7 +25538,7 @@
           }
         },
         "TMJV5AL3I": {
-          "name": "프레스티지 · 가솔린 1.0 .",
+          "name": "프레스티지 스페셜 · 가솔린 1.0 밴 (2인승)",
           "gradeFamily": "프레스티지",
           "options": {
             "sty": {
@@ -25668,7 +25668,7 @@
           }
         },
         "TMJV1AL3I": {
-          "name": "프레스티지 · 가솔린 1.0 (1인승)",
+          "name": "프레스티지 스페셜 · 가솔린 1.0 밴 (1인승)",
           "gradeFamily": "프레스티지",
           "options": {
             "sty": {
@@ -25798,7 +25798,7 @@
           }
         },
         "TMJC5VN3I": {
-          "name": "라이트 · 전기차 1.0 .",
+          "name": "라이트 · 전기차 1.0",
           "gradeFamily": "라이트",
           "options": {
             "sty": {
@@ -25911,8 +25911,8 @@
           }
         },
         "TMJC5VO3I": {
-          "name": "라이트 · 전기차 1.0 .",
-          "gradeFamily": "라이트",
+          "name": "에어 · 전기차 1.0",
+          "gradeFamily": "에어",
           "options": {
             "sty": {
               "included": true,
@@ -26024,7 +26024,7 @@
           }
         },
         "TMJV5VP3I": {
-          "name": "라이트 · 전기차 1.0 .",
+          "name": "라이트 · 전기차 1.0 밴 (2인승)",
           "gradeFamily": "라이트",
           "options": {
             "sty": {
@@ -26137,7 +26137,7 @@
           }
         },
         "TMJV1VP3I": {
-          "name": "라이트 · 전기차 1.0 (1인승)",
+          "name": "라이트 · 전기차 1.0 밴 (1인승)",
           "gradeFamily": "라이트",
           "options": {
             "sty": {
@@ -26250,7 +26250,7 @@
           }
         },
         "TMJV5VQ3I": {
-          "name": "에어 · 전기차 1.0 .",
+          "name": "에어 · 전기차 1.0 밴 (2인승)",
           "gradeFamily": "에어",
           "options": {
             "sty": {
@@ -26363,7 +26363,7 @@
           }
         },
         "TMJV1VQ3I": {
-          "name": "에어 · 전기차 1.0 (1인승)",
+          "name": "에어 · 전기차 1.0 밴 (1인승)",
           "gradeFamily": "에어",
           "options": {
             "sty": {
@@ -27046,7 +27046,7 @@
           }
         },
         "JAJV5AT3B": {
-          "name": "트렌디 · 가솔린",
+          "name": "트렌디 · 가솔린 밴",
           "gradeFamily": "트렌디",
           "options": {
             "sty": {
@@ -27177,7 +27177,7 @@
           }
         },
         "JAJV5AU3B": {
-          "name": "프레스티지 · 가솔린",
+          "name": "프레스티지 · 가솔린 밴",
           "gradeFamily": "프레스티지",
           "options": {
             "sty": {
@@ -41615,7 +41615,7 @@
           }
         },
         "PKOS2AAA2": {
-          "name": "가솔린 2.5T 4WD 다이내믹",
+          "name": "가솔린 2.5T 4WD 다이내믹 오픈베드",
           "gradeFamily": "가솔린",
           "options": {
             "sty": {
@@ -42227,7 +42227,7 @@
           }
         },
         "PKOS2AA32": {
-          "name": "가솔린 2.5T 2WD 다이내믹",
+          "name": "가솔린 2.5T 2WD 다이내믹 오픈베드",
           "gradeFamily": "가솔린",
           "options": {
             "sty": {

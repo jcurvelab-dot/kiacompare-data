@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "carLines": [
     {
       "id": "ev3",
@@ -2235,34 +2235,34 @@
       "trims": [
         {
           "id": "CTJS4VA32",
-          "name": "에어 · 2WD",
+          "name": "에어 스탠다드 · 2WD",
           "code": "CTJS4VA32",
           "basePrice": 42520000,
           "deltaFromMin": 0,
           "includedOptions": [],
-          "grade": "에어"
+          "grade": "에어 스탠다드"
         },
         {
           "id": "CTJS4VB32",
-          "name": "에어 · 2WD",
+          "name": "에어 롱레인지 · 2WD",
           "code": "CTJS4VB32",
           "basePrice": 46940000,
           "deltaFromMin": 4420000,
           "includedOptions": [],
-          "grade": "에어"
+          "grade": "에어 롱레인지"
         },
         {
           "id": "CTJS4VBA2",
-          "name": "에어 · 4WD",
+          "name": "에어 롱레인지 · 4WD",
           "code": "CTJS4VBA2",
           "basePrice": 49210000,
           "deltaFromMin": 6690000,
           "includedOptions": [],
-          "grade": "에어"
+          "grade": "에어 롱레인지"
         },
         {
           "id": "CTJS4VC32",
-          "name": "어스 · 2WD",
+          "name": "어스 스탠다드 · 2WD",
           "code": "CTJS4VC32",
           "basePrice": 47350000,
           "deltaFromMin": 4830000,
@@ -2313,11 +2313,11 @@
               ]
             }
           ],
-          "grade": "어스"
+          "grade": "어스 스탠다드"
         },
         {
           "id": "CTJS4VD32",
-          "name": "어스 · 2WD",
+          "name": "어스 롱레인지 · 2WD",
           "code": "CTJS4VD32",
           "basePrice": 51770000,
           "deltaFromMin": 9250000,
@@ -2368,11 +2368,11 @@
               ]
             }
           ],
-          "grade": "어스"
+          "grade": "어스 롱레인지"
         },
         {
           "id": "CTJS4VDA2",
-          "name": "어스 · 4WD",
+          "name": "어스 롱레인지 · 4WD",
           "code": "CTJS4VDA2",
           "basePrice": 54040000,
           "deltaFromMin": 11520000,
@@ -2423,7 +2423,7 @@
               ]
             }
           ],
-          "grade": "어스"
+          "grade": "어스 롱레인지"
         },
         {
           "id": "CTJS4VE32",
@@ -4480,13 +4480,13 @@
       "id": "ev5",
       "name": "EV5",
       "month": "2026-09",
-      "source": "26my EV5.xlsx",
+      "source": "26my EV5.xlsx + 공식 가격표 PDF 2026-11-02 반영",
       "trims": [
         {
           "id": "OVJJ5VE31",
           "name": "에어 스탠다드 · 전기차 2WD",
           "code": "OVJJ5VE31",
-          "basePrice": 43710000,
+          "basePrice": 44010000,
           "deltaFromMin": 0,
           "includedOptions": [],
           "grade": "에어 스탠다드"
@@ -4495,8 +4495,8 @@
           "id": "OVJJ5VA31",
           "name": "에어 롱레인지 · 전기차 2WD",
           "code": "OVJJ5VA31",
-          "basePrice": 48130000,
-          "deltaFromMin": 4420000,
+          "basePrice": 48420000,
+          "deltaFromMin": 4410000,
           "includedOptions": [],
           "grade": "에어 롱레인지"
         },
@@ -4504,8 +4504,8 @@
           "id": "OVJJ5VAA1",
           "name": "에어 롱레인지 · 전기차 4WD",
           "code": "OVJJ5VAA1",
-          "basePrice": 50500000,
-          "deltaFromMin": 6790000,
+          "basePrice": 50790000,
+          "deltaFromMin": 6780000,
           "includedOptions": [],
           "grade": "에어 롱레인지"
         },
@@ -4513,8 +4513,8 @@
           "id": "OVJJ5VF31",
           "name": "어스 스탠다드 · 전기차 2WD",
           "code": "OVJJ5VF31",
-          "basePrice": 47660000,
-          "deltaFromMin": 3950000,
+          "basePrice": 47950000,
+          "deltaFromMin": 3940000,
           "includedOptions": [
             {
               "id": "sty",
@@ -4548,7 +4548,7 @@
           "id": "OVJJ5VB31",
           "name": "어스 롱레인지 · 전기차 2WD",
           "code": "OVJJ5VB31",
-          "basePrice": 52070000,
+          "basePrice": 52370000,
           "deltaFromMin": 8360000,
           "includedOptions": [
             {
@@ -4583,7 +4583,7 @@
           "id": "OVJJ5VBA1",
           "name": "어스 롱레인지 · 전기차 4WD",
           "code": "OVJJ5VBA1",
-          "basePrice": 54440000,
+          "basePrice": 54740000,
           "deltaFromMin": 10730000,
           "includedOptions": [
             {
@@ -4618,7 +4618,7 @@
           "id": "OVJJ5VG31",
           "name": "GT-Line 스탠다드 · 전기차 2WD",
           "code": "OVJJ5VG31",
-          "basePrice": 48810000,
+          "basePrice": 49110000,
           "deltaFromMin": 5100000,
           "includedOptions": [
             {
@@ -4662,7 +4662,7 @@
           "id": "OVJJ5VC31",
           "name": "GT-Line 롱레인지 · 전기차 2WD",
           "code": "OVJJ5VC31",
-          "basePrice": 53230000,
+          "basePrice": 53530000,
           "deltaFromMin": 9520000,
           "includedOptions": [
             {
@@ -4706,7 +4706,7 @@
           "id": "OVJJ5VCA1",
           "name": "GT-Line 롱레인지 · 전기차 4WD",
           "code": "OVJJ5VCA1",
-          "basePrice": 55600000,
+          "basePrice": 55900000,
           "deltaFromMin": 11890000,
           "includedOptions": [
             {
@@ -4750,8 +4750,8 @@
           "id": "OVJJ5VDA1",
           "name": "GT · 전기차 4WD",
           "code": "OVJJ5VDA1",
-          "basePrice": 59540000,
-          "deltaFromMin": 15830000,
+          "basePrice": 59800000,
+          "deltaFromMin": 15790000,
           "includedOptions": [],
           "grade": "GT"
         }
@@ -4842,7 +4842,7 @@
           "id": "cpt2",
           "label": "컴포트2",
           "sublabel": "CPT2",
-          "headerPrice": 690000,
+          "headerPrice": 640000,
           "codesByTrim": {
             "OVJJ5VF31": "CPT2",
             "OVJJ5VB31": "CPT2",
@@ -4852,20 +4852,18 @@
             "OVJJ5VCA1": "CPT2"
           },
           "pricesByTrim": {
-            "OVJJ5VF31": 690000,
-            "OVJJ5VB31": 690000,
-            "OVJJ5VBA1": 690000,
-            "OVJJ5VG31": 690000,
-            "OVJJ5VC31": 690000,
-            "OVJJ5VCA1": 690000
+            "OVJJ5VF31": 640000,
+            "OVJJ5VB31": 640000,
+            "OVJJ5VBA1": 640000,
+            "OVJJ5VG31": 640000,
+            "OVJJ5VC31": 640000,
+            "OVJJ5VCA1": 640000
           },
           "trimDiff": null,
           "includes": [
-            "2열 이중접합 차음 글라스",
             "동승석 릴렉션 컴포트시트",
             "동승석 워크인 디바이스",
-            "운전석 에르고 모션 시트(볼스터 전동조절",
-            "컴포트 스트레칭 포함)",
+            "운전석 에르고 모션 시트(볼스터 전동조절, 컴포트 스트레칭 포함)",
             "동승석 이지 억세스"
           ]
         },
@@ -4961,9 +4959,9 @@
             "OVJJ5VDA1": "SCT"
           },
           "pricesByTrim": {
-            "OVJJ5VE31": 1340000,
-            "OVJJ5VA31": 1340000,
-            "OVJJ5VAA1": 1340000,
+            "OVJJ5VE31": 1280000,
+            "OVJJ5VA31": 1280000,
+            "OVJJ5VAA1": 1280000,
             "OVJJ5VF31": 740000,
             "OVJJ5VB31": 740000,
             "OVJJ5VBA1": 740000,
@@ -4972,7 +4970,7 @@
             "OVJJ5VCA1": 740000,
             "OVJJ5VDA1": 740000
           },
-          "trimDiff": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "trimDiff": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": []
         },
         {
@@ -5218,10 +5216,10 @@
         },
         "OVJJ5VE31|sct": {
           "state": "선택",
-          "price": 1340000,
+          "price": 1280000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템",
@@ -5313,16 +5311,14 @@
         },
         "OVJJ5VF31|cpt2": {
           "state": "선택",
-          "price": 690000,
+          "price": 640000,
           "code": "CPT2",
           "name": "컴포트2",
           "note": null,
           "includes": [
-            "2열 이중접합 차음 글라스",
             "동승석 릴렉션 컴포트시트",
             "동승석 워크인 디바이스",
-            "운전석 에르고 모션 시트(볼스터 전동조절",
-            "컴포트 스트레칭 포함)",
+            "운전석 에르고 모션 시트(볼스터 전동조절, 컴포트 스트레칭 포함)",
             "동승석 이지 억세스"
           ]
         },
@@ -5357,7 +5353,7 @@
           "price": 740000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템"
@@ -5485,10 +5481,10 @@
         },
         "OVJJ5VA31|sct": {
           "state": "선택",
-          "price": 1340000,
+          "price": 1280000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템",
@@ -5580,16 +5576,14 @@
         },
         "OVJJ5VG31|cpt2": {
           "state": "선택",
-          "price": 690000,
+          "price": 640000,
           "code": "CPT2",
           "name": "컴포트2",
           "note": null,
           "includes": [
-            "2열 이중접합 차음 글라스",
             "동승석 릴렉션 컴포트시트",
             "동승석 워크인 디바이스",
-            "운전석 에르고 모션 시트(볼스터 전동조절",
-            "컴포트 스트레칭 포함)",
+            "운전석 에르고 모션 시트(볼스터 전동조절, 컴포트 스트레칭 포함)",
             "동승석 이지 억세스"
           ]
         },
@@ -5624,7 +5618,7 @@
           "price": 740000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템"
@@ -5747,10 +5741,10 @@
         },
         "OVJJ5VAA1|sct": {
           "state": "선택",
-          "price": 1340000,
+          "price": 1280000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템",
@@ -5842,16 +5836,14 @@
         },
         "OVJJ5VB31|cpt2": {
           "state": "선택",
-          "price": 690000,
+          "price": 640000,
           "code": "CPT2",
           "name": "컴포트2",
           "note": null,
           "includes": [
-            "2열 이중접합 차음 글라스",
             "동승석 릴렉션 컴포트시트",
             "동승석 워크인 디바이스",
-            "운전석 에르고 모션 시트(볼스터 전동조절",
-            "컴포트 스트레칭 포함)",
+            "운전석 에르고 모션 시트(볼스터 전동조절, 컴포트 스트레칭 포함)",
             "동승석 이지 억세스"
           ]
         },
@@ -5886,7 +5878,7 @@
           "price": 740000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템"
@@ -5979,16 +5971,14 @@
         },
         "OVJJ5VC31|cpt2": {
           "state": "선택",
-          "price": 690000,
+          "price": 640000,
           "code": "CPT2",
           "name": "컴포트2",
           "note": null,
           "includes": [
-            "2열 이중접합 차음 글라스",
             "동승석 릴렉션 컴포트시트",
             "동승석 워크인 디바이스",
-            "운전석 에르고 모션 시트(볼스터 전동조절",
-            "컴포트 스트레칭 포함)",
+            "운전석 에르고 모션 시트(볼스터 전동조절, 컴포트 스트레칭 포함)",
             "동승석 이지 억세스"
           ]
         },
@@ -6023,7 +6013,7 @@
           "price": 740000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템"
@@ -6111,16 +6101,14 @@
         },
         "OVJJ5VBA1|cpt2": {
           "state": "선택",
-          "price": 690000,
+          "price": 640000,
           "code": "CPT2",
           "name": "컴포트2",
           "note": null,
           "includes": [
-            "2열 이중접합 차음 글라스",
             "동승석 릴렉션 컴포트시트",
             "동승석 워크인 디바이스",
-            "운전석 에르고 모션 시트(볼스터 전동조절",
-            "컴포트 스트레칭 포함)",
+            "운전석 에르고 모션 시트(볼스터 전동조절, 컴포트 스트레칭 포함)",
             "동승석 이지 억세스"
           ]
         },
@@ -6155,7 +6143,7 @@
           "price": 740000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템"
@@ -6248,16 +6236,14 @@
         },
         "OVJJ5VCA1|cpt2": {
           "state": "선택",
-          "price": 690000,
+          "price": 640000,
           "code": "CPT2",
           "name": "컴포트2",
           "note": null,
           "includes": [
-            "2열 이중접합 차음 글라스",
             "동승석 릴렉션 컴포트시트",
             "동승석 워크인 디바이스",
-            "운전석 에르고 모션 시트(볼스터 전동조절",
-            "컴포트 스트레칭 포함)",
+            "운전석 에르고 모션 시트(볼스터 전동조절, 컴포트 스트레칭 포함)",
             "동승석 이지 억세스"
           ]
         },
@@ -6292,7 +6278,7 @@
           "price": 740000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": [
             "헤드업 디스플레이",
             "지문 인증 시스템"
@@ -6402,7 +6388,7 @@
           "price": 740000,
           "code": "SCT",
           "name": "스마트커넥트",
-          "note": "에어는 SCT +134만, 어스·GT-Line는 SCT +74만",
+          "note": "에어는 SCT +128만, 어스·GT-Line는 SCT +74만",
           "includes": []
         },
         "OVJJ5VDA1|b2p": {
@@ -13057,7 +13043,7 @@
       "trims": [
         {
           "id": "B2ALS7K0N",
-          "name": "카고 표준캡 GL",
+          "name": "카고 표준캡 GL · 수동",
           "code": "B2ALS7K0N",
           "basePrice": 24550000,
           "deltaFromMin": 0,
@@ -13065,7 +13051,7 @@
         },
         {
           "id": "B2ALS7K3N",
-          "name": "카고 표준캡 GL",
+          "name": "카고 표준캡 GL · 자동",
           "code": "B2ALS7K3N",
           "basePrice": 25620000,
           "deltaFromMin": 1070000,
@@ -13073,7 +13059,7 @@
         },
         {
           "id": "B2ALS7L0N",
-          "name": "카고 표준캡 GLS",
+          "name": "카고 표준캡 GLS · 수동",
           "code": "B2ALS7L0N",
           "basePrice": 25600000,
           "deltaFromMin": 1050000,
@@ -13081,7 +13067,7 @@
         },
         {
           "id": "B2ALS7L3N",
-          "name": "카고 표준캡 GLS",
+          "name": "카고 표준캡 GLS · 자동",
           "code": "B2ALS7L3N",
           "basePrice": 26670000,
           "deltaFromMin": 2120000,
@@ -13089,7 +13075,7 @@
         },
         {
           "id": "B2ALK7K0N",
-          "name": "카고 킹캡 GL",
+          "name": "카고 킹캡 GL · 수동",
           "code": "B2ALK7K0N",
           "basePrice": 24650000,
           "deltaFromMin": 100000,
@@ -13097,7 +13083,7 @@
         },
         {
           "id": "B2ALK7K3N",
-          "name": "카고 킹캡 GL",
+          "name": "카고 킹캡 GL · 자동",
           "code": "B2ALK7K3N",
           "basePrice": 25720000,
           "deltaFromMin": 1170000,
@@ -13105,7 +13091,7 @@
         },
         {
           "id": "B2ALK7L0N",
-          "name": "카고 킹캡 GLS",
+          "name": "카고 킹캡 GLS · 수동",
           "code": "B2ALK7L0N",
           "basePrice": 25700000,
           "deltaFromMin": 1150000,
@@ -13113,7 +13099,7 @@
         },
         {
           "id": "B2ALK7L3N",
-          "name": "카고 킹캡 GLS",
+          "name": "카고 킹캡 GLS · 자동",
           "code": "B2ALK7L3N",
           "basePrice": 26770000,
           "deltaFromMin": 2220000,
@@ -13279,7 +13265,7 @@
       "trims": [
         {
           "id": "B1ALS7J0N",
-          "name": "카고 LPi 2WD 초장축 표준캡 L",
+          "name": "카고 LPi 2WD 초장축 표준캡 L · 수동",
           "code": "B1ALS7J0N",
           "basePrice": 21100000,
           "deltaFromMin": 1020000,
@@ -13287,7 +13273,7 @@
         },
         {
           "id": "B1ALS7J3N",
-          "name": "카고 LPi 2WD 초장축 표준캡 L",
+          "name": "카고 LPi 2WD 초장축 표준캡 L · 자동",
           "code": "B1ALS7J3N",
           "basePrice": 22230000,
           "deltaFromMin": 2150000,
@@ -13317,7 +13303,7 @@
         },
         {
           "id": "B1ALS7K0N",
-          "name": "카고 LPi 2WD 초장축 표준캡 GL",
+          "name": "카고 LPi 2WD 초장축 표준캡 GL · 수동",
           "code": "B1ALS7K0N",
           "basePrice": 21850000,
           "deltaFromMin": 1770000,
@@ -13333,7 +13319,7 @@
         },
         {
           "id": "B1ALS7K3N",
-          "name": "카고 LPi 2WD 초장축 표준캡 GL",
+          "name": "카고 LPi 2WD 초장축 표준캡 GL · 자동",
           "code": "B1ALS7K3N",
           "basePrice": 22980000,
           "deltaFromMin": 2900000,
@@ -13370,7 +13356,7 @@
         },
         {
           "id": "B1ALS7L0N",
-          "name": "카고 LPi 2WD 초장축 표준캡 GLS",
+          "name": "카고 LPi 2WD 초장축 표준캡 GLS · 수동",
           "code": "B1ALS7L0N",
           "basePrice": 23050000,
           "deltaFromMin": 2970000,
@@ -13393,7 +13379,7 @@
         },
         {
           "id": "B1ALS7L3N",
-          "name": "카고 LPi 2WD 초장축 표준캡 GLS",
+          "name": "카고 LPi 2WD 초장축 표준캡 GLS · 자동",
           "code": "B1ALS7L3N",
           "basePrice": 24180000,
           "deltaFromMin": 4100000,
@@ -13430,7 +13416,7 @@
         },
         {
           "id": "B1ALK7J0N",
-          "name": "카고 LPi 2WD 초장축 킹캡 L",
+          "name": "카고 LPi 2WD 초장축 킹캡 L · 수동",
           "code": "B1ALK7J0N",
           "basePrice": 21250000,
           "deltaFromMin": 1170000,
@@ -13438,7 +13424,7 @@
         },
         {
           "id": "B1ALK7J3N",
-          "name": "카고 LPi 2WD 초장축 킹캡 L",
+          "name": "카고 LPi 2WD 초장축 킹캡 L · 자동",
           "code": "B1ALK7J3N",
           "basePrice": 22380000,
           "deltaFromMin": 2300000,
@@ -13468,7 +13454,7 @@
         },
         {
           "id": "B1ALK7K0N",
-          "name": "카고 LPi 2WD 초장축 킹캡 GL",
+          "name": "카고 LPi 2WD 초장축 킹캡 GL · 수동",
           "code": "B1ALK7K0N",
           "basePrice": 22000000,
           "deltaFromMin": 1920000,
@@ -13491,7 +13477,7 @@
         },
         {
           "id": "B1ALK7K3N",
-          "name": "카고 LPi 2WD 초장축 킹캡 GL",
+          "name": "카고 LPi 2WD 초장축 킹캡 GL · 자동",
           "code": "B1ALK7K3N",
           "basePrice": 23130000,
           "deltaFromMin": 3050000,
@@ -13528,7 +13514,7 @@
         },
         {
           "id": "B1ALK7L0N",
-          "name": "카고 LPi 2WD 초장축 킹캡 GLS",
+          "name": "카고 LPi 2WD 초장축 킹캡 GLS · 수동",
           "code": "B1ALK7L0N",
           "basePrice": 23200000,
           "deltaFromMin": 3120000,
@@ -13551,7 +13537,7 @@
         },
         {
           "id": "B1ALK7L3N",
-          "name": "카고 LPi 2WD 초장축 킹캡 GLS",
+          "name": "카고 LPi 2WD 초장축 킹캡 GLS · 자동",
           "code": "B1ALK7L3N",
           "basePrice": 24330000,
           "deltaFromMin": 4250000,
@@ -13588,7 +13574,7 @@
         },
         {
           "id": "B1ALD7J0N",
-          "name": "카고 LPi 2WD 초장축 더블캡 L",
+          "name": "카고 LPi 2WD 초장축 더블캡 L · 수동",
           "code": "B1ALD7J0N",
           "basePrice": 22500000,
           "deltaFromMin": 2420000,
@@ -13611,7 +13597,7 @@
         },
         {
           "id": "B1ALD7J3N",
-          "name": "카고 LPi 2WD 초장축 더블캡 L",
+          "name": "카고 LPi 2WD 초장축 더블캡 L · 자동",
           "code": "B1ALD7J3N",
           "basePrice": 23630000,
           "deltaFromMin": 3550000,
@@ -13641,7 +13627,7 @@
         },
         {
           "id": "B1ALD7K0N",
-          "name": "카고 LPi 2WD 초장축 더블캡 GL",
+          "name": "카고 LPi 2WD 초장축 더블캡 GL · 수동",
           "code": "B1ALD7K0N",
           "basePrice": 23250000,
           "deltaFromMin": 3170000,
@@ -13671,7 +13657,7 @@
         },
         {
           "id": "B1ALD7K3N",
-          "name": "카고 LPi 2WD 초장축 더블캡 GL",
+          "name": "카고 LPi 2WD 초장축 더블캡 GL · 자동",
           "code": "B1ALD7K3N",
           "basePrice": 24380000,
           "deltaFromMin": 4300000,
@@ -13708,7 +13694,7 @@
         },
         {
           "id": "B1ALD7L0N",
-          "name": "카고 LPi 2WD 초장축 더블캡 GLS",
+          "name": "카고 LPi 2WD 초장축 더블캡 GLS · 수동",
           "code": "B1ALD7L0N",
           "basePrice": 24500000,
           "deltaFromMin": 4420000,
@@ -13738,7 +13724,7 @@
         },
         {
           "id": "B1ALD7L3N",
-          "name": "카고 LPi 2WD 초장축 더블캡 GLS",
+          "name": "카고 LPi 2WD 초장축 더블캡 GLS · 자동",
           "code": "B1ALD7L3N",
           "basePrice": 25630000,
           "deltaFromMin": 5550000,
@@ -14027,7 +14013,7 @@
         },
         {
           "id": "B1LLS7J0N",
-          "name": "운전교습용 LPi 2WD 초장축 표준캡 L",
+          "name": "운전교습용 LPi 2WD 초장축 표준캡 L · 수동",
           "code": "B1LLS7J0N",
           "basePrice": 20080000,
           "deltaFromMin": 0,
@@ -14035,7 +14021,7 @@
         },
         {
           "id": "B1LLS7J3N",
-          "name": "운전교습용 LPi 2WD 초장축 표준캡 L",
+          "name": "운전교습용 LPi 2WD 초장축 표준캡 L · 자동",
           "code": "B1LLS7J3N",
           "basePrice": 21210000,
           "deltaFromMin": 1130000,
@@ -14043,7 +14029,7 @@
         },
         {
           "id": "B1LLD7J0N",
-          "name": "운전교습용 LPi 2WD 초장축 더블캡 L",
+          "name": "운전교습용 LPi 2WD 초장축 더블캡 L · 수동",
           "code": "B1LLD7J0N",
           "basePrice": 21470000,
           "deltaFromMin": 1390000,
@@ -14051,7 +14037,7 @@
         },
         {
           "id": "B1LLD7J3N",
-          "name": "운전교습용 LPi 2WD 초장축 더블캡 L",
+          "name": "운전교습용 LPi 2WD 초장축 더블캡 L · 자동",
           "code": "B1LLD7J3N",
           "basePrice": 22600000,
           "deltaFromMin": 2520000,
@@ -16153,16 +16139,16 @@
       "trims": [
         {
           "id": "CVJJ5VH37",
-          "name": "라이트 · 2WD",
+          "name": "라이트 스탠다드 · 2WD",
           "code": "CVJJ5VH37",
           "basePrice": 45870000,
           "deltaFromMin": 0,
           "includedOptions": [],
-          "grade": "라이트"
+          "grade": "라이트 스탠다드"
         },
         {
           "id": "CVJJ5VB37",
-          "name": "에어 · 2WD",
+          "name": "에어 스탠다드 · 2WD",
           "code": "CVJJ5VB37",
           "basePrice": 51130000,
           "deltaFromMin": 5260000,
@@ -16189,11 +16175,11 @@
               "includes": []
             }
           ],
-          "grade": "에어"
+          "grade": "에어 스탠다드"
         },
         {
           "id": "CVJJ5VC37",
-          "name": "어스 · 2WD",
+          "name": "어스 스탠다드 · 2WD",
           "code": "CVJJ5VC37",
           "basePrice": 55330000,
           "deltaFromMin": 9460000,
@@ -16266,20 +16252,20 @@
               "includes": []
             }
           ],
-          "grade": "어스"
+          "grade": "어스 스탠다드"
         },
         {
           "id": "CVJJ5VI37",
-          "name": "라이트 · 2WD",
+          "name": "라이트 롱레인지 · 2WD",
           "code": "CVJJ5VI37",
           "basePrice": 50080000,
           "deltaFromMin": 4210000,
           "includedOptions": [],
-          "grade": "라이트"
+          "grade": "라이트 롱레인지"
         },
         {
           "id": "CVJJ5VD37",
-          "name": "에어 · 2WD",
+          "name": "에어 롱레인지 · 2WD",
           "code": "CVJJ5VD37",
           "basePrice": 55330000,
           "deltaFromMin": 9460000,
@@ -16306,11 +16292,11 @@
               "includes": []
             }
           ],
-          "grade": "에어"
+          "grade": "에어 롱레인지"
         },
         {
           "id": "CVJJ5VE37",
-          "name": "어스 · 2WD",
+          "name": "어스 롱레인지 · 2WD",
           "code": "CVJJ5VE37",
           "basePrice": 59540000,
           "deltaFromMin": 13670000,
@@ -16383,11 +16369,11 @@
               "includes": []
             }
           ],
-          "grade": "어스"
+          "grade": "어스 롱레인지"
         },
         {
           "id": "CVJJ5VF37",
-          "name": "GT-Line · 2WD",
+          "name": "GT-Line 롱레인지 · 2WD",
           "code": "CVJJ5VF37",
           "basePrice": 60170000,
           "deltaFromMin": 14300000,
@@ -16460,20 +16446,20 @@
               "includes": []
             }
           ],
-          "grade": "GT-Line"
+          "grade": "GT-Line 롱레인지"
         },
         {
           "id": "CVJJ5VIA7",
-          "name": "라이트 · 4WD",
+          "name": "라이트 롱레인지 · 4WD",
           "code": "CVJJ5VIA7",
           "basePrice": 52550000,
           "deltaFromMin": 6680000,
           "includedOptions": [],
-          "grade": "라이트"
+          "grade": "라이트 롱레인지"
         },
         {
           "id": "CVJJ5VDA7",
-          "name": "에어 · 4WD",
+          "name": "에어 롱레인지 · 4WD",
           "code": "CVJJ5VDA7",
           "basePrice": 57800000,
           "deltaFromMin": 11930000,
@@ -16500,11 +16486,11 @@
               "includes": []
             }
           ],
-          "grade": "에어"
+          "grade": "에어 롱레인지"
         },
         {
           "id": "CVJJ5VEA7",
-          "name": "어스 · 4WD",
+          "name": "어스 롱레인지 · 4WD",
           "code": "CVJJ5VEA7",
           "basePrice": 62010000,
           "deltaFromMin": 16140000,
@@ -16577,11 +16563,11 @@
               "includes": []
             }
           ],
-          "grade": "어스"
+          "grade": "어스 롱레인지"
         },
         {
           "id": "CVJJ5VFA7",
-          "name": "GT-Line · 4WD",
+          "name": "GT-Line 롱레인지 · 4WD",
           "code": "CVJJ5VFA7",
           "basePrice": 62640000,
           "deltaFromMin": 16770000,
@@ -16654,7 +16640,7 @@
               "includes": []
             }
           ],
-          "grade": "GT-Line"
+          "grade": "GT-Line 롱레인지"
         },
         {
           "id": "CVJJ5VGA7",
@@ -30253,7 +30239,7 @@
       "trims": [
         {
           "id": "TMJC5AF3I",
-          "name": "트렌디 · 가솔린 1.0 .",
+          "name": "트렌디 · 가솔린 1.0",
           "code": "TMJC5AF3I",
           "basePrice": 15550000,
           "deltaFromMin": 750000,
@@ -30262,7 +30248,7 @@
         },
         {
           "id": "TMJC5AC3I",
-          "name": "프레스티지 · 가솔린 1.0 .",
+          "name": "프레스티지 · 가솔린 1.0",
           "code": "TMJC5AC3I",
           "basePrice": 18150000,
           "deltaFromMin": 3350000,
@@ -30297,7 +30283,7 @@
         },
         {
           "id": "TMJC5AH3I",
-          "name": "시그니처 · 가솔린 1.0 .",
+          "name": "시그니처 · 가솔린 1.0",
           "code": "TMJC5AH3I",
           "basePrice": 19550000,
           "deltaFromMin": 4750000,
@@ -30359,7 +30345,7 @@
         },
         {
           "id": "TMJC5AR3I",
-          "name": "X-Line · 가솔린 1.0 .",
+          "name": "X-Line · 가솔린 1.0",
           "code": "TMJC5AR3I",
           "basePrice": 20600000,
           "deltaFromMin": 5800000,
@@ -30368,7 +30354,7 @@
         },
         {
           "id": "TMJV5AY3I",
-          "name": "트렌디 · 가솔린 1.0 .",
+          "name": "트렌디 · 가솔린 1.0 밴 (2인승)",
           "code": "TMJV5AY3I",
           "basePrice": 14900000,
           "deltaFromMin": 100000,
@@ -30377,7 +30363,7 @@
         },
         {
           "id": "TMJV1AY3I",
-          "name": "트렌디 · 가솔린 1.0 (1인승)",
+          "name": "트렌디 · 가솔린 1.0 밴 (1인승)",
           "code": "TMJV1AY3I",
           "basePrice": 14800000,
           "deltaFromMin": 0,
@@ -30386,7 +30372,7 @@
         },
         {
           "id": "TMJV5AK3I",
-          "name": "프레스티지 · 가솔린 1.0 .",
+          "name": "프레스티지 · 가솔린 1.0 밴 (2인승)",
           "code": "TMJV5AK3I",
           "basePrice": 15550000,
           "deltaFromMin": 750000,
@@ -30395,7 +30381,7 @@
         },
         {
           "id": "TMJV1AK3I",
-          "name": "프레스티지 · 가솔린 1.0 (1인승)",
+          "name": "프레스티지 · 가솔린 1.0 밴 (1인승)",
           "code": "TMJV1AK3I",
           "basePrice": 15400000,
           "deltaFromMin": 600000,
@@ -30404,7 +30390,7 @@
         },
         {
           "id": "TMJV5AL3I",
-          "name": "프레스티지 · 가솔린 1.0 .",
+          "name": "프레스티지 스페셜 · 가솔린 1.0 밴 (2인승)",
           "code": "TMJV5AL3I",
           "basePrice": 16100000,
           "deltaFromMin": 1300000,
@@ -30413,7 +30399,7 @@
         },
         {
           "id": "TMJV1AL3I",
-          "name": "프레스티지 · 가솔린 1.0 (1인승)",
+          "name": "프레스티지 스페셜 · 가솔린 1.0 밴 (1인승)",
           "code": "TMJV1AL3I",
           "basePrice": 15950000,
           "deltaFromMin": 1150000,
@@ -30422,7 +30408,7 @@
         },
         {
           "id": "TMJC5VN3I",
-          "name": "라이트 · 전기차 1.0 .",
+          "name": "라이트 · 전기차 1.0",
           "code": "TMJC5VN3I",
           "basePrice": 28520000,
           "deltaFromMin": 13720000,
@@ -30431,7 +30417,7 @@
         },
         {
           "id": "TMJC5VO3I",
-          "name": "라이트 · 전기차 1.0 .",
+          "name": "에어 · 전기차 1.0",
           "code": "TMJC5VO3I",
           "basePrice": 30620000,
           "deltaFromMin": 15820000,
@@ -30480,11 +30466,11 @@
               ]
             }
           ],
-          "grade": "라이트"
+          "grade": "에어"
         },
         {
           "id": "TMJV5VP3I",
-          "name": "라이트 · 전기차 1.0 .",
+          "name": "라이트 · 전기차 1.0 밴 (2인승)",
           "code": "TMJV5VP3I",
           "basePrice": 28170000,
           "deltaFromMin": 13370000,
@@ -30493,7 +30479,7 @@
         },
         {
           "id": "TMJV1VP3I",
-          "name": "라이트 · 전기차 1.0 (1인승)",
+          "name": "라이트 · 전기차 1.0 밴 (1인승)",
           "code": "TMJV1VP3I",
           "basePrice": 28070000,
           "deltaFromMin": 13270000,
@@ -30502,7 +30488,7 @@
         },
         {
           "id": "TMJV5VQ3I",
-          "name": "에어 · 전기차 1.0 .",
+          "name": "에어 · 전기차 1.0 밴 (2인승)",
           "code": "TMJV5VQ3I",
           "basePrice": 28770000,
           "deltaFromMin": 13970000,
@@ -30519,7 +30505,7 @@
         },
         {
           "id": "TMJV1VQ3I",
-          "name": "에어 · 전기차 1.0 (1인승)",
+          "name": "에어 · 전기차 1.0 밴 (1인승)",
           "code": "TMJV1VQ3I",
           "basePrice": 28620000,
           "deltaFromMin": 13820000,
@@ -32578,7 +32564,7 @@
         },
         {
           "id": "JAJV5AT3B",
-          "name": "트렌디 · 가솔린",
+          "name": "트렌디 · 가솔린 밴",
           "code": "JAJV5AT3B",
           "basePrice": 13860000,
           "deltaFromMin": 0,
@@ -32587,7 +32573,7 @@
         },
         {
           "id": "JAJV5AU3B",
-          "name": "프레스티지 · 가솔린",
+          "name": "프레스티지 · 가솔린 밴",
           "code": "JAJV5AU3B",
           "basePrice": 14510000,
           "deltaFromMin": 650000,
@@ -50279,7 +50265,7 @@
         },
         {
           "id": "PKOS2AAA2",
-          "name": "가솔린 2.5T 4WD 다이내믹",
+          "name": "가솔린 2.5T 4WD 다이내믹 오픈베드",
           "code": "PKOS2AAA2",
           "basePrice": 36640000,
           "deltaFromMin": 2650000,
@@ -50481,7 +50467,7 @@
         },
         {
           "id": "PKOS2AA32",
-          "name": "가솔린 2.5T 2WD 다이내믹",
+          "name": "가솔린 2.5T 2WD 다이내믹 오픈베드",
           "code": "PKOS2AA32",
           "basePrice": 33990000,
           "deltaFromMin": 0,
